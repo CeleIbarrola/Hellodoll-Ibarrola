@@ -1,0 +1,2404 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0pt;
+    font-family:'Fredoka', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --primary-color:#b0b0af;
+    --red-color:#D68B76;
+    --green-color:#89B1AB;
+    --yellow-color:#F5D767;
+}
+/* Header styles */
+
+header{
+    width: 100vw;
+}
+.headerTopContainer{
+    background-color:white;
+    height: 55px;
+    display: grid; 
+    grid-template-columns: 1fr 2fr;
+}
+.SocialMediaNav{
+  margin-left: 7.5vw;
+  display: flex;
+  align-items: center;
+}
+.socialMediaIcon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.headerTitle{
+    color: var(--primary-color);
+    margin-right: 7.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 2.1rem;
+}
+.mobileMenu{
+    display: none;
+}
+.headerMainContainer{
+    background-color: var(--primary-color);
+    height: 275px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.headerLogo{
+    display: flex;
+    align-items: center;
+}
+.headerLogo img{
+    height: 218px;
+    margin-left: 7.5vw;
+    animation-name: rotation;
+    animation-iteration-count: infinite;
+    animation-duration: 80s;
+}
+@keyframes rotation{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+.rightMenu{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 7.5vw;
+}
+.lenguajes{
+    height: 40px;
+    margin-bottom: 25px;
+}
+.lenguajes a.flag{
+    text-decoration: none;
+}
+.flag img{
+    height: 40px;
+    margin-left: 15px;
+}
+.navShop{
+    height: 70px;
+    display: flex;
+    list-style: none;
+}
+.navIconAccount img, .navIconSearch img, .navIconCart img{
+    height: 70px;
+    margin-left: 3vw;
+}
+.navIconSearch{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.navIconSearch .searchBar{
+    width: 30vw;
+    height: auto;
+    padding: 1vw;
+    background-color: white;
+    color: var(--primary-color);
+    display: none;
+    position: absolute;
+    z-index: 2;
+    margin-top: 80px;
+    list-style: none;
+}
+.searchForm input{
+    background-color:var(--yellow-color);
+    border: none;
+    width: 25vw;
+    height: 2vw;
+    display: block;
+    padding: 1vw;
+}
+.searchForm input::placeholder{
+    color: white;
+    font-size: 2rem;
+}
+.searchText{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    margin-top: 1vw;
+}
+.navShop .navIconSearch:hover{
+    cursor: pointer;
+}
+.navShop .navIconSearch:hover ul{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.headerBottomContainer{
+    background-color: var(--primary-color);
+    height: 6vw;
+}
+.headerNav{
+    width: 100%;
+    font-size: 2.4rem;
+    color: white;
+    display: inline-flex;
+    list-style: none; 
+    text-decoration: none;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    justify-content: space-between;
+}
+.headerNav .shop{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.headerNav img{
+    height: 16px;
+}
+.headerNav a{
+    color: white;
+    text-decoration: none;
+}
+.headerNav .menu:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.shopNav{
+    display: none;
+    background-color: white;
+    list-style: none;
+    font-size: 2.4rem;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;   
+}
+.shopNav a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.shopNav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.shop:hover ul{
+    display: block;
+}
+@media only screen and (max-width:1230px){
+    .navIconSearch .searchBar{
+        width: 40vw;
+        padding: 2vw;
+        margin-top: 80px;
+    }
+    .searchForm input{
+        width: 35vw;
+        height: 3vw;
+        display: block;
+    }    
+}
+@media only screen and (max-width:850px){
+    .headerMainContainer{
+        height: 180px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .headerLogo img{
+        height: 150px;
+        margin-left: 7.5vw;
+    }
+    .rightMenu{
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end;
+        justify-content: center;
+        margin-right: 7.5vw;
+    }
+    .lenguajes{
+        height: 25px;
+        margin-bottom: 15px;
+    }
+    .flag img{
+        height: 25px;
+        margin-left: 5px;
+    }
+    .navShop{
+        height: 50px;
+        display: flex;
+        list-style: none;
+    }
+    .navIconAccount img, .navIconSearch img, .navIconCart img{
+        height: 50px;
+        margin-left: 7px;
+    }
+    .headerNav{
+        font-size: 2rem;
+    } 
+    .navIconSearch .searchBar{
+        width: 35vw;
+        padding: 2vw;
+        margin-top: 60px;
+    }
+    .searchForm input{
+        width: 30vw;
+        height: 3vw;
+        display: block;
+    }    
+} 
+@media only screen and (max-width:600px){
+    .headerTopContainer{
+        width: 100vw;
+        display: grid; 
+        grid-template-columns: 30vw 1fr 15vw;
+        grid-template-areas: 
+        "socialMedia title mobileMenu";
+        align-items: center;
+        justify-items: center;
+    } 
+    .SocialMediaNav{
+        grid-area:socialMedia;
+    }
+    .headerTitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        margin-right: 5px;
+        grid-area: title;
+        padding: 3vw;
+        text-align: center;
+    }
+    .mobileMenu{
+        display: block;
+        margin-right: 7.5vw;
+        grid-area:mobileMenu;
+    } 
+    .mobileMenu img{
+        width: 25px;
+    }
+    .headerMainContainer{
+        height: 137px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .headerLogo img{
+        height: 100px;
+    }
+    .rightMenu{
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-end;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .lenguajes{
+        height: 18px;
+        margin-bottom: 10px;
+    }
+    .flag img{
+        height: 18px;
+        margin-left: 5px;
+    }
+    .navShop{
+        height: 30px;
+        display: flex;
+        list-style: none;
+    }
+    .navIconAccount img, .navIconSearch img, .navIconCart img{
+        height: 30px;
+        margin-left: 5px;
+    }
+    .headerBottomContainer{
+        display: none;
+    }
+    .navIconSearch .searchBar{
+        width: 50vw;
+        padding: 2vw;
+        margin-top: 40px;
+    }
+    .searchForm input{
+        width: 40vw;
+        height: 5vw;
+        display: block;
+    }    
+}
+@media only screen and (max-width:450px) {
+    .headerTopContainer{
+        height: 70px;
+    }
+    .socialMediaIcon{
+        margin:0;
+    }
+    .SocialMediaNav{
+        margin-left: 5vw;
+    } 
+    .SocialMediaNav img{
+        width:80%;
+        margin:auto;
+    }
+    .navIconSearch .searchBar{
+        width: 80vw;
+        padding: 3vw;
+        margin-top: 40px;
+    }
+    .searchForm input{
+        width: 70vw;
+        height: 10vw;
+        display: block;
+    } 
+    .searchForm input::placeholder{
+        font-size: 2.5rem;
+    }   
+}
+/* Main styles */
+.mainPage{
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainVideo video{
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutTitle{
+    color: white;
+    font-size: 4.8rem;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    text-align: center;
+    width: 80vw; 
+}
+.aboutText {
+    color: white;
+    font-size: 3.6rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    text-align: center;
+    width: 80vw;   
+}
+.aboutText p{
+    padding-top: 2.2vw;
+}
+.mainImages{
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+    grid-template-rows: 5fr 4fr 2fr 4fr 3.5fr 4fr 2.5fr;
+    grid-template-areas: 
+        "family family family"
+        "animals animals elephant"
+        "colage colage elephant"
+        "colage colage dolls"
+        "comforter kid kid"
+        "miniDolls kid kid"
+        "babyAnimals babyAnimals babyAnimals"
+    ;
+    gap: 1vw;
+}
+.mainImages img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hellodollFamily{
+    grid-area: family;
+    position: relative;
+    display: inline-block;
+}
+.hellodollFamilyText, .animalsText, .dollsText, .babyComforterText, .miniDollsText{
+    position: absolute;
+    bottom: 1.5vw;
+    right: 1.5vw;
+    color: var(--primary-color);
+    font-size: 3.6rem;
+}
+.animals{
+    grid-area: animals;
+    position: relative;
+    display: inline-block;
+}
+.elephant{
+    grid-area: elephant;
+}
+.animalsColage{
+    grid-area: colage;
+}
+.dolls{
+    grid-area: dolls;
+    position: relative;
+    display: inline-block;
+}
+.babyComforter{
+    grid-area: comforter;
+    position: relative;
+    display: inline-block;
+}
+.miniDolls{
+    grid-area: miniDolls;
+    position: relative;
+    display: inline-block;
+}
+.kid{
+    grid-area: kid;
+}
+.babyAnimals{
+    grid-area:babyAnimals;
+    position: relative;
+    display: inline-block;
+}
+.babyAnimalsText{
+    position: absolute;
+    top: 1.5vw;
+    right: 1.5vw;
+    color: white;
+    font-size: 3.6rem;
+}
+.babyAnimalsMobile{
+    display: none;
+}
+@media only screen and (max-width:800px){
+    .hellodollFamilyText, .animalsText, .dollsText, .babyComforterText, .miniDollsText, .babyAnimals .babyAnimalsText{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .aboutTitle{
+        font-size: 4rem;
+    } 
+    .aboutText {
+        font-size: 2.5rem; 
+    }  
+    .hellodollFamilyText, .animalsText, .dollsText, .babyComforterText, .miniDollsText, .babyAnimals .babyAnimalsText{
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width:450px){
+    .aboutTitle{
+        font-size: 2rem;
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+        width: 300px; 
+    }
+    .aboutText {
+        font-size: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 80vw;   
+    }
+    .aboutText p{
+        padding-top: 15px;
+    }
+    .mainImages{
+        width: 85vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,auto);
+        grid-template-areas:
+        "familyMobile"
+        "animalsMobile"
+        "dollsMobile"
+        "miniDollsMobile"
+        "babyComforterMobile"
+        "babyAnimalsMobile";
+        gap: 1vw;
+    }
+    .mainImages img{
+        width: 100%;
+    }
+    .hellodollFamily{
+        grid-area: familyMobile;
+        position: relative;
+        display: inline-block;
+    }
+    .animals{
+        grid-area: animalsMobile;
+        position: relative;
+        display: inline-block;
+    }
+    .dolls{
+        grid-area: dollsMobile;
+        position: relative;
+        display: inline-block;
+    }
+    .babyComforter{
+        grid-area: babyComforterMobile;
+        position: relative;
+        display: inline-block;
+    }
+    .miniDolls{
+        grid-area: miniDollsMobile;
+        position: relative;
+        display: inline-block;
+    }
+    .babyAnimalsMobile{
+        grid-area: babyAnimalsMobile;
+        position: relative;
+        display: inline-block;
+    }
+    .hellodollFamilyText, .animalsText, .dollsText, .babyComforterText, .miniDollsText, .babyAnimalsMobileText{
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: var(--primary-color);
+        font-size: 1.6rem;
+    }
+    .elephant, .animalsColage, .kid, .babyAnimals{
+        display: none;
+    }
+}
+
+/* Mailing List */
+
+.mailingList{
+    width: 100vw;
+    height: 30vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+}
+.mailingListContent{
+    width: 68vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.mailingList h3{
+    color: var(--primary-color);
+    font-size: 4rem;
+    text-align: center;
+}
+.mailingList p{
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 2vw;
+}
+.mailingList .form{
+    display: flex;
+    align-items: center;
+    padding: 1.5vw;
+    color: white;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.mailingList .form ::placeholder{
+    color: white;
+    font-size: 1.8rem;
+}
+.nameForm input{
+    background-color:var(--red-color);
+    border: none;
+    width: 26vw;
+    height: 4vw;
+    display: block;
+    margin-right: 2vw;
+    padding: 1vw;
+}
+.emailForm input{
+    background-color:var(--yellow-color);
+    border: none;
+    width: 26vw;
+    height: 4vw;
+    display: block;
+    margin-right: 2vw;
+    padding: 1vw;
+}
+.submitButton input {
+    background-color: var(--green-color);
+    border: none;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    display: block;
+    color: white;
+    font-size: 1.8rem;
+}
+.mailingListVideo{
+    display: flex;
+    width: 25vw;
+    height: 25vw;
+    margin-right: 4vw;
+    align-items: center;
+}
+.mailingListVideo video{
+   width: 100%;
+}
+@media only screen and (max-width:850px){
+    .mailingList h3{
+        font-size: 2.8rem;
+    }
+    .mailingList p{
+        font-size: 1.8rem;
+    }
+    .mailingList .form ::placeholder{
+        font-size: 1.6rem;
+    }
+    .submitButton input{
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .mailingList{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+    }
+    .mailingListContent{
+        width: 80vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .mailingList h3{
+        font-size: 3.2rem;
+    }
+    .mailingList p{
+        font-size: 2.1rem;
+        margin-top: 2vw;
+    }
+    .mailingList .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        margin-top: 2vw;
+    }
+    .mailingList .form ::placeholder{
+        color: white;
+        font-size: 2rem;
+    }
+    .nameForm input, .emailForm input{
+        width: 70vw;
+        height: 10vw;
+        display: block;
+        margin-right: 0;
+        padding: 0.5vw;
+        margin-top: 3vw;
+    }
+    .submitButton input {
+        background-color: var(--green-color);
+        border: none;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        display: block;
+        color: white;
+        font-size: 2.4rem;
+        margin-top: 3vw;
+    }
+    .mailingListVideo {
+        width: 85vw;
+        height: 85vw;
+        margin-top: 4vw;
+        margin-bottom: 7.5vw;
+        margin-right: 0;
+        margin-left: 0;  
+    }
+    .mailingListVideo video{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:450px){
+    .mailingList{
+        width: 100vw;
+        height: 180vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+    }
+    .mailingListContent{
+        width: 80vw;
+        margin-left: 0;
+    }
+    .mailingList h3{
+        font-size: 2.4rem;
+    }
+    .mailingList p{
+        font-size: 1.8rem;
+        margin-top: 2vw;
+    }
+    .mailingList .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.75vw;
+        justify-content: center;
+        margin-top: 2vw;
+    }
+    .mailingList .form ::placeholder{
+        color: white;
+        font-size: 1.8rem;
+    }
+    .nameForm input, .emailForm input{
+        width: 70vw;
+        height: 10vw;
+        display: block;
+        margin-right: 0;
+        padding: 0.5vw;
+        margin-top: 3vw;
+    }
+    .submitButton input {
+        background-color: var(--green-color);
+        border: none;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        display: block;
+        color: white;
+        font-size: 2.4rem;
+        margin-top: 3vw;
+    }
+    .mailingListVideo {
+        width: 85vw;
+        height: 85vw; 
+    }
+    .mailingListVideo video{
+        width: 100%;
+    }
+}
+/* Footer style */
+
+footer{
+    background-color: var(--primary-color);
+}
+.topFooter{
+    margin: 0%;
+    width: 100vw;
+    height: 18vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-left: 4vw;
+}
+.info h4, .terms h4{
+    font-size: 2rem;
+}
+.info ul, .terms ul{
+    display: inline-flex;
+    font-size: 1.6rem;
+    list-style: none;
+    padding: 1.5vw;
+}
+.info a, .terms a{
+    color: white;
+    text-decoration: none;
+}
+.info a:hover, .terms a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.info li, .terms li{
+    padding: 2px;
+    text-align: justify;
+}
+.footerLogo img{
+    height: 12vw;
+}
+.terms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-right: 4vw;
+}
+.bottomFooter{
+    width: 100vw;
+    height: 9vw;
+    background-color: var(--primary-color);
+}
+.bottomFooter p{
+    width: 100vw;
+    color: var(--primary-color);
+    background-color: white;
+    font-size: 2.4rem;
+    padding: 2vw;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@media only screen and (max-width:850px){
+    .topFooter{
+        width: 100vw;
+        height: 320px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        "info"
+        "terms"
+        "logo";
+        justify-items: center;
+        align-items: center;
+    }
+    .info{
+        grid-area: info;
+        margin: 0;
+    }
+    .terms{
+        grid-area: terms;
+        margin: 0;
+    }
+    .footerLogo {
+        grid-area: logo;
+        height: 100px;
+        margin-bottom: 4vw;
+    }
+    .footerLogo img{
+        height: 100%;
+    }
+    .bottomFooter{
+        width: 100vw;
+        height: 13vw;
+    }
+    .bottomFooter p{
+        font-size: 1.6rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .topFooter{
+        width: 100vw;
+        height: 320px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        "info"
+        "terms"
+        "logo";
+        justify-items: center;
+        align-items: center;
+    }
+    .info{
+        grid-area: info;
+        margin: 0;
+    }
+    .terms{
+        grid-area: terms;
+        margin: 0;
+    }
+    .footerLogo {
+        grid-area: logo;
+        height: 100px;
+        margin-bottom: 4vw;
+    }
+    .footerLogo img{
+        height: 100%;
+    }
+    .bottomFooter{
+        width: 100vw;
+        height: 13vw;
+    }
+    .bottomFooter p{
+        font-size: 1.6rem;
+    }
+}
+
+/* Blog page styles */
+
+.mainBlogContent{
+    background-color: var(--primary-color);
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "mainBlog blogSidebar";
+}
+.mainBlog{
+    grid-area: mainBlog;
+    display: flex;
+    flex-direction: column;
+}
+.blogPost{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vw;
+}
+.postTitle{
+    display: flex;
+    align-items: center;
+    font-size: 2.8rem;
+    margin-bottom: 2vw;  
+}
+.postDate{
+    color: white;
+}
+.postTitle img{
+    margin-right: 1vw;
+    margin-left: 2vw;
+    height: 3vw;
+}
+.postTitleText{
+    color: var(--yellow-color);
+}
+.blogPostImage{
+    width: auto;
+}
+.blogPostImage img{
+    width: 100%;
+}
+.nextPages{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw;
+}
+.nextPages img{
+    height: 50px;
+    margin:10px;
+}
+.blogComments{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4vw;
+}
+.blogComments h2{
+    color: white;
+    font-size: 4.8rem;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+}
+.commentsForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    justify-content: center;
+}
+.commentsFormLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22vw;
+}
+.commentsNameForm{
+    width: 22vw;
+}
+.commentsNameForm input{
+    background-color:var(--red-color);
+    border: none;
+    width: 22vw;
+    height: 2.5vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+.commentsNameForm ::placeholder{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+.commentsEmailForm{
+    width: 22vw;
+}
+.commentsEmailForm input{
+    background-color:var(--yellow-color);
+    border: none;
+    width: 22vw;
+    height: 2.5vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+.commentsEmailForm ::placeholder{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+.commentsSubmitButton input {
+    background-color: var(--green-color);
+    border: none;
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 50%;
+    display: block;
+    color: white;
+    font-size: 1.6rem;
+}
+.commentsMessage input{
+    background-color: white;
+    width: 22vw;
+    height: 14vw;
+    border: none;
+    margin-left: 2vw;
+}
+.commentsMessage ::placeholder{
+    color:var(--primary-color);
+    font-size: 1.6rem;
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+}
+.blogSidebar{
+    grid-area: blogSidebar;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+.searchBar{
+    width: 100%;
+    height: 4vw;
+    background-color:var(--green-color) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blogSearch{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+.blogSearch img{
+    height: 16px;
+}
+.blogNav{
+    display: none;
+    background-color: white;
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+}
+.blogNav a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.blogNav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.blogSearch:hover ul{
+    display: block;
+    position: absolute;
+}
+.aboutMe {
+    width: auto;
+    margin-top: 4vw;
+    position: relative;
+    display: inline-block;
+}
+.aboutMe img{
+    width: 100%;
+}
+.aboutMe a{
+    position: absolute;
+    color: var(--primary-color);
+    font-size: 4.8rem;
+    text-decoration: none;
+    top: 3vw;
+    left: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+.blogMailingList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 4vw;
+    align-items: center;
+    padding: 2vw 2vw;
+}
+.blogMailingList h4{
+    color: var(--primary-color);
+    font-size: 1.9rem;
+    text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+.blogMailingList p{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    text-align: center;
+}
+.blogMailingListForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 21vw;
+    margin-top: 2vw;
+}
+.blogMailingListForm ::placeholder{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+.blogMailingListFormNameForm{
+    width: 21vw;
+}
+.blogMailingListFormNameForm input{
+    background-color:var(--red-color);
+    border: none;
+    width: 21vw;
+    height: 2.5vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+.blogMailingListFormEmailForm{
+    width: 21vw;
+}
+.blogMailingListFormEmailForm input{
+    background-color:var(--yellow-color);
+    border: none;
+    width: 21vw;
+    height: 2.5vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+.blogMailingListFormSubmitButton input {
+    background-color: var(--green-color);
+    border: none;
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 50%;
+    display: block;
+    color: white;
+    font-size: 1.6rem;
+}
+@media only screen and (max-width:850px){
+    .postTitle{
+        display: flex;
+        font-size: 2rem;
+        margin-bottom: 2vw;  
+    }
+    .nextPages img{
+        height: 40px;
+        margin:10px;
+    }
+    .blogComments h2{
+        font-size: 2.5rem;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+    .commentsForm{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vw 30vw;
+        justify-items: center;
+    }
+    .commentsFormLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50vw;
+    }
+    .commentsNameForm{
+        width: 50vw;
+    }
+    .commentsNameForm input{
+        width: 50vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .commentsNameForm ::placeholder{
+        font-size: 1.6rem;
+        padding-left: 1vw;
+    }
+    .commentsEmailForm{
+        width: 50vw;
+    }
+    .commentsEmailForm input{
+        width: 50vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .commentsEmailForm ::placeholder{
+        font-size: 1.6rem;
+        padding-left: 1vw;
+    }
+    .commentsSubmitButton input {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        font-size: 1.6rem;
+    }
+    .commentsMessage input{
+        width: 50vw;
+        height: 30vw;
+        margin-left: 0;
+    }
+    .commentsMessage ::placeholder{
+        font-size: 1.6rem;
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+    }
+    .aboutMe a{
+        font-size: 3.6rem;
+    } 
+    .blogMailingListFormNameForm input{
+        height: 3.5vw;
+    }
+    .blogMailingListFormEmailForm input{
+        height: 3.5vw;
+    }
+    .blogMailingListFormSubmitButton input {
+        width: 6vw;
+        height: 6vw;
+    }
+} 
+@media only screen and (max-width:600px){
+    .mainBlogContent{
+        width: 100vw;
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vw auto;
+        grid-template-areas:
+        "search"
+        "blog";
+    }
+    .blogSidebar{
+        grid-area: search;
+        margin: 0;
+    }
+    .searchBar{
+        height: 6vw;
+    }
+    .aboutMe{
+        display: none;
+    }
+    .blogMailingList{
+        display: none;
+    }
+    .mainBlog{
+        width: auto;
+        grid-area: blog;
+        display: flex;
+        flex-direction: column;
+    }
+    .blogPostImage{
+        width: auto;
+    }
+    .blogPostImage img{
+        width: 100%;
+    }
+    .postTitle{
+        font-size: 1.6rem;
+    }
+    .nextPages img{
+        height: 40px;
+        margin: 5px;
+    }
+    .blogComments h2{
+        font-size: 2.5rem;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+    .commentsForm{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vw 30vw;
+        justify-items: center;
+    }
+    .commentsFormLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+    }
+    .commentsNameForm{
+        width: 60vw;
+    }
+    .commentsNameForm input{
+        width: 60vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .commentsNameForm ::placeholder{
+        font-size: 1.6rem;
+        padding-left: 1vw;
+    }
+    .commentsEmailForm{
+        width: 60vw;
+    }
+    .commentsEmailForm input{
+        width: 60vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .commentsEmailForm ::placeholder{
+        font-size: 1.6rem;
+        padding-left: 1vw;
+    }
+    .commentsSubmitButton input {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        font-size: 1.6rem;
+    }
+    .commentsMessage input{
+        width: 60vw;
+        height: 30vw;
+        margin-left: 0;
+    }
+    .commentsMessage ::placeholder{
+        font-size: 1.6rem;
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+    }
+}
+
+/* Contact page style */
+
+.mainContact{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mainContactImageMobile{
+    display: none;
+}
+.mainContactImage{
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+}
+.mainContact img{
+    width: 100%;
+}
+.mainContactContent{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-right: 7.5vw;
+    align-items: flex-end;
+}
+.mainContactContent h2{
+    color: var(--primary-color);
+    font-size: 4.8rem;
+    margin-bottom: 2vw;
+}
+.mainContactContent p{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+}
+.infoMail{
+    color:var(--red-color)
+}
+.faqsLink{
+    color: var(--green-color);
+}
+.contactForm{
+    display: grid;
+    grid-template-columns: 18vw 18vw;
+    color: white;
+    justify-content: center;
+    margin-top: 2vw;
+}
+.contactFormLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 18vw;
+}
+.contactNameForm{
+    width: 18vw;
+}
+.contactNameForm input{
+    background-color:var(--red-color);
+    border: none;
+    width: 18vw;
+    height: 2.5vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+.contactNameForm ::placeholder{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+.contactEmailForm{
+    width: 18vw;
+}
+.contactEmailForm input{
+    background-color:var(--yellow-color);
+    border: none;
+    width: 18vw;
+    height: 2.5vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+.contactEmailForm ::placeholder{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+.contactSubmitButton input {
+    background-color: var(--green-color);
+    border: none;
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 50%;
+    display: block;
+    color: white;
+    font-size: 1.6rem;
+}
+.contactMessage input{
+    background-color: white;
+    width: 16vw;
+    height: 14vw;
+    border: none;
+    margin-left: 2vw;
+}
+.contactMessage ::placeholder{
+    color:var(--primary-color);
+    font-size: 1.6rem;
+    position: absolute;
+    top: 1vw;
+    left: 1vw;
+}
+@media only screen and (max-width:1230px){
+    .mainContactContent h2{
+        font-size: 3rem;
+        margin-bottom: 1vw;
+    }
+    .mainContactContent{
+        margin-right: 3vw;
+    }
+    .contactForm{
+        display: grid;
+        grid-template-columns: 25vw 25vw;
+        justify-content: center;
+        margin-right: 3vw;
+    }
+    .contactFormLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25vw;
+    }
+    .contactNameForm{
+        width: 25vw;
+    }
+    .contactNameForm input{
+        width: 25vw;
+        height: 3vw;
+    }
+    .contactEmailForm{
+        width: 25vw;
+    }
+    .contactEmailForm input{
+        width: 25vw;
+        height: 3vw;
+    }
+    .contactMessage input{
+        width: 25vw;
+        height: 14vw;
+    }
+}
+@media only screen and (max-width:850px){
+    .mainContact{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "contactImage"
+        "contactInfo" ;
+        margin: 0%;
+        align-items: start;  
+    }
+    .mainContactImage{
+        display: none;
+    }
+    .mainContactImageMobile{
+        grid-area: contactImage;
+        display: block;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        width: 100vw;
+    }
+    .mainContactImageMobile img{
+        width: 100%;
+    }
+    .mainContactContent{
+        width: auto;
+        grid-area: contactInfo;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    .mainContactContent h2{
+        font-size: 4rem;
+        margin: 0px;
+        color: white;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .mainContactContent p{
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .contactForm{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vw 30vw;
+        justify-items: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .contactFormLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+    }
+    .contactNameForm{
+        width: 60vw;
+    }
+    .contactNameForm input{
+        width: 60vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .contactNameForm ::placeholder{
+        font-size: 2rem;
+        padding-left: 1vw;
+    }
+    .contactEmailForm{
+        width: 60vw;
+    }
+    .contactEmailForm input{
+        width: 60vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .contactEmailForm ::placeholder{
+        font-size: 2rem;
+        padding-left: 1vw;
+    }
+    .contactSubmitButton input {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        font-size:2rem;
+    }
+    .contactMessage input{
+        width: 60vw;
+        height: 30vw;
+        margin-left: 0;
+    }
+    .contactMessage ::placeholder{
+        font-size: 2rem;
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+    }
+}
+@media only screen and (max-width:600px){
+    .mainContact{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "contactImage"
+        "contactInfo" ;
+        margin: 0%;
+        align-items: start;  
+    }
+    .mainContactImage{
+        display: none;
+    }
+    .mainContactImageMobile{
+        grid-area: contactImage;
+        display: block;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        width: 100vw;
+    }
+    .mainContactImageMobile img{
+        width: 100%;
+    }
+    .mainContactContent{
+        width: auto;
+        grid-area: contactInfo;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin-right: 0;
+        margin-left: 0;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    .mainContactContent h2{
+        font-size: 3.6rem;
+        margin: 0px;
+        color: white;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    .mainContactContent p{
+        color: white;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .contactForm{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vw 35vw;
+        grid-template-areas: 
+        "message"
+        "form";
+        justify-items: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .contactFormLeft{
+        grid-area: form;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+    }
+    .contactNameForm{
+        width: 60vw;
+    }
+    .contactNameForm input{
+        width: 60vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .contactNameForm ::placeholder{
+        font-size: 1.6rem;
+        padding-left: 1vw;
+    }
+    .contactEmailForm{
+        width: 60vw;
+    }
+    .contactEmailForm input{
+        width: 60vw;
+        height: 8vw;
+        display: block;
+        margin-bottom: 2vw;
+    }
+    .contactEmailForm ::placeholder{
+        font-size: 1.6rem;
+        padding-left: 1vw;
+    }
+    .contactSubmitButton input {
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        font-size: 1.6rem;
+    }
+    .contactMessage input{
+        grid-area: message;
+        width: 60vw;
+        height: 30vw;
+        margin-left: 0;
+    }
+    .contactMessage ::placeholder{
+        font-size: 1.6rem;
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+    }
+}
+
+
+/* Faqs page style */
+
+.mainFaqsContent{
+    background-color: var(--primary-color); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 7.5vw; 
+    padding-left: 7.5vw;
+}
+.mainFaqsContent h2{
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 3vw;
+}
+.mainFaq{
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mainFaqImage{
+    width: 40vw;
+}
+.mainFaqImage img{
+    width: 100%;
+}
+.mainFaqText{
+    padding: 2vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainFaqText h3{
+    font-size: 2.4rem;
+    color: var(--yellow-color);
+    margin-bottom: 2vw;
+}
+.mainFaqText p{
+    font-size: 2.1rem;
+    color: white;
+}
+@media only screen and (max-width:1230px){
+    .mainFaqText h3{
+        font-size: 2rem;
+    }
+    .mainFaqText p{
+        font-size: 1.6rem;
+    } 
+ }
+@media only screen and (max-width:850px){
+    .mainFaq{
+        margin-bottom: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainFaqImage{
+        width: 100vw;
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+    }
+    .mainFaqText{
+        padding-right: 7.5vw;
+        padding-left: 7.5vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+} 
+@media only screen and (max-width:450px){
+    .mainFaqsContent h2{
+        font-size: 3rem;
+    }
+} 
+
+/* Our Story page styles */
+
+.mainOurStory{
+    width: 100vw;
+    position: relative;
+    display: inline-block;
+}
+.mainOurStory img{
+    width: 100%;
+}
+.OurStoryMobileImage{
+    display: none;
+}
+.mainOurStory h2{
+    width: 30vw;
+    font-size: 6rem;
+    color: var(--primary-color);
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+}
+.mainOurStory h2 span{
+    color: var(--red-color);
+}
+.mainOurStory h3{
+    width: 25vw;
+    font-size: 3.6rem;
+    color: var(--yellow-color);
+    position: absolute;
+    bottom: 3vw;
+    left: 3vw;
+}
+.mainOurStoryText{
+    padding-right: 7.5vw;
+    padding-left: 7.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vw;
+    text-align: justify;
+}
+.welcome {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2vw;
+    color: white;
+}
+.mainText{
+    padding-top: 2vw;
+    color: white;
+    font-size: 2.4rem;
+}
+@media only screen and (max-width:1230px){
+    .mainOurStory h2{
+        width: 30vw;
+        font-size: 4rem;
+    }
+    .mainOurStory h3{
+        width: 30vw;
+        font-size: 2.5rem;
+    }
+    .welcome {
+        font-size: 2.5rem;
+    }
+    .mainText{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:850px){
+    .mainOurStory h2{
+        width: 50vw;
+        font-size: 3rem;
+    }
+    .mainOurStory h3{
+        width: 40vw;
+        font-size: 2rem;
+    }
+    .welcome {
+        font-size: 2rem;
+    }
+    .mainText{
+        font-size: 1.6rem;
+    }   
+}
+@media only screen and (max-width:450px){
+    .OurStoryMobileImage{
+        display: block;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .OurStoryImage{
+        display: none;
+    }
+    .mainOurStory h2{
+        width: 50vw;
+        font-size: 2.1rem;
+        padding-left: 2vw;
+    }
+    .mainOurStory h3{
+        display: none;
+    }
+}
+
+/* Shop page style */
+
+.mainShopPage{
+    background-color: var(--primary-color);
+}
+.mainShopHeader{
+    width: 100vw;
+    height: 12vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7.5vw;
+    justify-content: center;
+}
+.mainShopHeader h2{
+    color: var(--primary-color);
+    font-size: 4rem;
+    margin-bottom: 1vw;
+} 
+.mainShopHeaderBrowser{
+    width: 40vw;
+    height: 4vw;
+    background-color:var(--primary-color) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.shopOrder{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+.shopOrder img{
+    height: 16px;
+}
+.shopOrderList{
+    display: none;
+    background-color: var(--primary-color);
+    list-style: none;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 2;
+}
+.shopOrderList li{
+    color: white;
+    font-size: 1.8rem;
+    padding-top: 1vw;
+}
+.shopOrder li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.shopOrder:hover ul{
+    display: block;
+    position: absolute;
+}
+.mainShop{
+    margin-top: 5vw;
+    margin-right: 7.5vw;
+    margin-left: 7.5vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 40vw;
+    column-gap: 3vw;
+}
+.item{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 28vw 8vw;
+    grid-template-areas: 
+    "productImage"
+    "itemInfo";
+}
+.productImage{
+    grid-area: productImage;
+    position: relative;
+    display: inline-block;
+}
+.productImage img{
+    width: 100%;
+}
+.itemInfo{
+    display: flex;
+    justify-content: space-between;
+    grid-area: itemInfo;
+    align-items: center;
+}
+.itemText{
+    font-size: 2.1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+.itemText h3{
+    margin-bottom: 1vw;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+.cartIcon{
+    width: 3vw;
+    margin-bottom: 0.6vw;
+}
+.moreInfoIcon{
+    width: 3vw;
+}
+@media only screen and (max-width:850px){
+    .mainShop{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 59vw;
+    }
+    .mainShopHeader{
+        height: 15vw;
+    }
+    .itemText{
+        font-size: 1.6rem;
+    }
+    .cartIcon{
+        width: 4vw;
+        margin-bottom: 0.5vw;
+    }
+    .moreInfoIcon{
+        width: 4vw;
+    }
+    .item{
+        width: 100%;
+        display: grid;
+        grid-template-rows: 41vw 15vw;
+        grid-template-areas: 
+        "productImage"
+        "itemInfo";
+    }
+}
+@media only screen and (max-width:600px){
+    .mainShopHeader h2{
+        font-size: 3rem;
+    } 
+    .mainShopHeaderBrowser{
+        width: 50vw;
+    }
+    .mainShopHeader{
+        height: 15vw;
+    }
+    .itemText{
+        font-size: 1.6rem;
+    }
+    .cartIcon{
+        width: 5vw;
+        margin-bottom: 0.7vw;
+    }
+    .moreInfoIcon{
+        width: 5vw;
+    }
+}
+@media only screen and (max-width:450px){
+    .mainShopHeader{
+        width: 100vw;
+        height: 36vw;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainShopHeader h2{
+        color: var(--primary-color);
+        font-size: 4rem;
+        margin-bottom: 1vw;
+        padding: 1vw;
+    } 
+    .mainShopHeaderBrowser{
+        width: 70vw;
+        height: 12.5vw;
+        padding: 1vw;
+    }
+    .mainShop{
+        margin-top: 5vw;
+        margin-right: 7.5vw;
+        margin-left: 7.5vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 115vw;
+        column-gap: 3vw;
+    }
+    .item{
+        width: 100%;
+        display: grid;
+        grid-template-rows: 85vw 20vw;
+        grid-template-areas: 
+        "productImage"
+        "itemInfo";
+    }
+    .cartIcon{
+        width: 7vw;
+        margin-bottom: 1vw;
+    }
+    .moreInfoIcon{
+        width: 7vw;
+    }
+}
+
+/* Account page style */
+
+.mainAccount{
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+   "login register";
+    column-gap: 3vw;
+    justify-items: center;
+    padding-right: 7.5vw;
+    padding-left: 7.5vw;
+    padding-bottom: 3vw;
+
+}
+.loginAccount{
+    grid-area: login;
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+.registerAccount{
+    grid-area: register;
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+.loginAccount h2, .registerAccount h2{
+    color: var(--primary-color);
+    font-size: 3.6rem;
+    text-align: left;
+    margin-bottom: 1vw;
+} 
+.loginAccount label, .registerAccount label{
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    margin-bottom: 0.5vw;
+}
+.usernameForm input, .emailAdressForm input {
+    background-color:var(--red-color);
+    border: none;
+    width: 38vw;
+    height: 3vw;
+    display: block;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+.passwordForm input{
+    background-color:var(--yellow-color);
+    border: none;
+    width: 38vw;
+    height: 3vw;
+    display: block;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+.login, .register{
+    display: flex;
+    justify-content: flex-end;
+}
+.login input, .register input{
+    background-color: var(--green-color);
+    border: none;
+    width: 10vw;
+    height: 4vw;
+    display: block;
+    color: white;
+    font-size: 2.4rem;
+}
+.checkbox{
+    margin-bottom: 1vw;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox a{
+    color: var(--primary-color);
+    text-decoration: none;
+    text-align:end;
+}
+@media only screen and (max-width:1000px){
+    .mainAccount{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+       "login" 
+       "register";
+    }
+    .loginAccount{
+        grid-area:login;
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 3vw;
+    }
+    .registerAccount{
+        grid-area:register;
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .usernameForm, .passwordForm , .emailAdressForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2vw;
+    }
+    .usernameForm label, .passwordForm label, .emailAdressForm label{
+        align-self: flex-start;
+        padding-left: 10vw;
+    }
+    .usernameForm input, .emailAdressForm input, .passwordForm input {
+        width: 60vw;
+        height: 6vw;
+        display: block;
+        margin-bottom: 1vw;
+        margin-right: 0;
+    }
+    .loginAccount h2, .registerAccount h2{
+        font-size: 3rem;
+        text-align: left;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+        padding-left: 10vw;
+    } 
+    .checkbox{
+        margin-bottom: 3vw;
+        font-size: 1.6rem;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .login input, .register input{
+        width: 20vw;
+        height: 7.5vw;
+        font-size: 2rem;
+        margin-right: 10vw;
+        margin-bottom: 3vw;
+    }
+}
+@media only screen and (max-width:450px){
+    .login input, .register input{
+        width: 30vw;
+        height: 9vw;
+        font-size: 2rem;
+    }
+    .usernameForm input, .emailAdressForm input, .passwordForm input {
+        height: 7.5vw;
+    }
+}
+/* Cart page style */
+
+.mainCart{
+    background-color: var(--primary-color);
+}
+.cartHeader{
+    width: 100vw;
+    height: 5vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.cartHeader h2{
+    color: var(--primary-color);
+    font-size: 4.8rem;
+}
+.mainCartInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainCartInfo p{
+    color: white;
+    font-size: 2rem;
+    margin-top: 2vw;
+}
+.mainCartInfo a{
+    color: white;
+}
+@media only screen and (max-width:1230px){
+    .cartHeader h2{
+        font-size: 4rem;
+    }
+    .cartHeader{
+        height: auto;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+}
+/* Payment page style */
+.mainPayments, .mainPrivacy, .mainReturns, .mainSaleTerms, .mainShipping, .mainUseTerms{
+    background-color: var(--primary-color);
+}
+.paymentsHeader, .privacyHeader, .returnsHeader, .saleTermsHeader, .shippingHeader, .useTermsHeader{
+    width: 100vw;
+    height: 5vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.paymentsHeader h2, .privacyHeader h2, .returnsHeader h2, .saleTermsHeader, .shippingHeader h2, .useTermsHeader h2{
+    color: var(--primary-color);
+    font-size: 4.8rem;
+}
+.mainPaymentsInfo, .mainPrivacyInfo, .mainReturnsInfo, .mainSaleTermsInfo, .mainShippingInfo, .useTermsInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+}
+.mainPaymentsInfo h3, .mainPrivacyInfo h3, .mainReturnsInfo h3, .mainSaleTermsInfo h3, .useTermsInfo h3{
+    color: var(--yellow-color);
+    font-size: 2.4rem;
+    margin-top: 4vw;
+}
+.mainPaymentsInfo p, .mainPrivacyInfo p, .mainReturnsInfo p, .mainSaleTermsInfo p, .mainShippingInfo p, .useTermsInfo p{
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 2vw;
+    text-align: justify;
+}
+@media only screen and (max-width:1230px){
+.paymentsHeader, .privacyHeader, .returnsHeader, .saleTermsHeader, .shippingHeader, .useTermsHeader{
+    height: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw;  
+}
+.paymentsHeader h2, .privacyHeader h2, .returnsHeader h2, .saleTermsHeader, .shippingHeader h2, .useTermsHeader h2{
+    font-size: 4rem;
+}
+}
+@media only screen and (max-width:600px){
+    .mainPaymentsInfo h3, .mainPrivacyInfo h3, .mainReturnsInfo h3, .mainSaleTermsInfo h3, .useTermsInfo h3{
+        font-size: 2rem;
+
+    }
+
+}
+
+
+
+
