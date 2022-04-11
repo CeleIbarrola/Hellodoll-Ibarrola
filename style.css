@@ -2308,50 +2308,23 @@ footer{
     }
 }
 /* Cart page style */
-
-.mainCart{
-    background-color: var(--primary-color);
-}
-.cartHeader{
-    width: 100vw;
-    height: 5vw;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-}
-.cartHeader h2{
-    color: var(--primary-color);
-    font-size: 4.8rem;
-}
 .mainCartInfo{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
 }
-.mainCartInfo p{
-    color: white;
-    font-size: 2rem;
-    margin-top: 2vw;
-}
+
 .mainCartInfo a{
     color: white;
 }
-@media only screen and (max-width:1230px){
-    .cartHeader h2{
-        font-size: 4rem;
-    }
-    .cartHeader{
-        height: auto;
-        padding-top: 1vw;
-        padding-bottom: 1vw;
-    }
-}
+
 /* Payment page style */
-.mainPayments, .mainPrivacy, .mainReturns, .mainSaleTerms, .mainShipping, .mainUseTerms{
+.mainPayments, .mainPrivacy, .mainReturns, .mainSaleTerms, .mainShipping, .mainUseTerms, .mainCart{
     background-color: var(--primary-color);
 }
-.paymentsHeader, .privacyHeader, .returnsHeader, .saleTermsHeader, .shippingHeader, .useTermsHeader{
+.paymentsHeader, .privacyHeader, .returnsHeader, .saleTermsHeader, .shippingHeader, .useTermsHeader, .cartHeader{
     width: 100vw;
     height: 5vw;
     background-color: white;
@@ -2359,11 +2332,11 @@ footer{
     align-items: center;
     justify-content: center; 
 }
-.paymentsHeader h2, .privacyHeader h2, .returnsHeader h2, .saleTermsHeader, .shippingHeader h2, .useTermsHeader h2{
+.paymentsHeader h2, .privacyHeader h2, .returnsHeader h2, .saleTermsHeader, .shippingHeader h2, .useTermsHeader h2, .cartHeader h2{
     color: var(--primary-color);
     font-size: 4.8rem;
 }
-.mainPaymentsInfo, .mainPrivacyInfo, .mainReturnsInfo, .mainSaleTermsInfo, .mainShippingInfo, .useTermsInfo{
+.mainPaymentsInfo, .mainPrivacyInfo, .mainReturnsInfo, .mainSaleTermsInfo, .mainShippingInfo, .useTermsInfo, .mainCartInfo{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -2375,19 +2348,19 @@ footer{
     font-size: 2.4rem;
     margin-top: 4vw;
 }
-.mainPaymentsInfo p, .mainPrivacyInfo p, .mainReturnsInfo p, .mainSaleTermsInfo p, .mainShippingInfo p, .useTermsInfo p{
+.mainPaymentsInfo p, .mainPrivacyInfo p, .mainReturnsInfo p, .mainSaleTermsInfo p, .mainShippingInfo p, .useTermsInfo p, .mainCartInfo p{
     color: white;
     font-size: 1.6rem;
     margin-top: 2vw;
     text-align: justify;
 }
 @media only screen and (max-width:1230px){
-.paymentsHeader, .privacyHeader, .returnsHeader, .saleTermsHeader, .shippingHeader, .useTermsHeader{
+.paymentsHeader, .privacyHeader, .returnsHeader, .saleTermsHeader, .shippingHeader, .useTermsHeader, .cartHeader{
     height: auto;
     padding-top: 1vw;
     padding-bottom: 1vw;  
 }
-.paymentsHeader h2, .privacyHeader h2, .returnsHeader h2, .saleTermsHeader, .shippingHeader h2, .useTermsHeader h2{
+.paymentsHeader h2, .privacyHeader h2, .returnsHeader h2, .saleTermsHeader h2, .shippingHeader h2, .useTermsHeader h2, .cartHeader h2{
     font-size: 4rem;
 }
 }
@@ -2396,7 +2369,6 @@ footer{
         font-size: 2rem;
 
     }
-
 }
 
 
