@@ -114,6 +114,7 @@ header{
     background-color:transparent;
     border: none;
     box-shadow: none;
+    padding: 0;
 }
 .btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus{
     box-shadow: none;
@@ -327,11 +328,11 @@ header{
     }
     .searchForm input{
         width: 70vw;
-        height: 10vw;
+        height: 6vw;
         display: block;
     } 
     .searchForm input::placeholder{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }   
 }
 /* Main styles */
@@ -452,6 +453,9 @@ header{
 @media only screen and (max-width:800px){
     .hellodollFamilyText, .animalsText, .dollsText, .babyComforterText, .miniDollsText, .babyAnimals .babyAnimalsText{
         font-size: 2.5rem;
+        position: absolute;
+        bottom: 0.01vw;
+        right: 1vw;
     }
 }
 @media only screen and (max-width:600px){
@@ -549,12 +553,14 @@ header{
 
 .mailingList{
     width: 100vw;
-    height: 30vw;
+    height: auto;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 .mailingListContent{
     width: 68vw;
