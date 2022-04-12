@@ -23,11 +23,20 @@ header{
     height: 55px;
     display: grid; 
     grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "socialMedia  title";
+    align-items: center;
 }
+/* header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  } */
 .SocialMediaNav{
   margin-left: 7.5vw;
   display: flex;
   align-items: center;
+  grid-area:socialMedia
 }
 .socialMediaIcon{
     width: 30px;
@@ -41,8 +50,9 @@ header{
     align-items: center;
     justify-content: flex-end;
     font-size: 2.1rem;
+    grid-area: title;
 }
-.mobileMenu{
+header .mobileMenu{
     display: none;
 }
 .headerMainContainer{
@@ -204,6 +214,33 @@ header{
         display: block;
     }    
 }
+@media only screen and (max-width:980px){
+    .headerTopContainer{ 
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas:
+        "socialMedia  title  mobileMenu";
+    }
+    .headerBottomContainer{
+        display: none;
+    }
+    header .mobileMenu{
+        grid-area: mobileMenu;
+        display: flex;
+        height: 55px;
+        font-size: 2.4rem;
+        color: var(--primary-color);
+    }
+    header .mobileMenu .offcanvas-title{
+        font-size: 2.4rem; 
+        color: var(--primary-color); 
+    }
+    header .mobileMenu .offcanvas-body .dropdown-menu .dropdown-item a{
+        color: white;
+    }
+    .fixed-top{
+        position:initial;
+    }
+}
 @media only screen and (max-width:850px){
     .headerMainContainer{
         height: 180px;
@@ -275,14 +312,6 @@ header{
         padding: 3vw;
         text-align: center;
     }
-    .mobileMenu{
-        display: block;
-        margin-right: 7.5vw;
-        grid-area:mobileMenu;
-    } 
-    .mobileMenu img{
-        width: 25px;
-    }
     .headerMainContainer{
         height: 137px;
         display: grid;
@@ -314,9 +343,6 @@ header{
     .navIconAccount img, .navIconSearch img, .navIconCart img{
         height: 30px;
         margin-left: 5px;
-    }
-    .headerBottomContainer{
-        display: none;
     }
     .navIconSearch .searchBar{
         width: 50vw;
