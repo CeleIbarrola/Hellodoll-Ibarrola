@@ -84,75 +84,102 @@
                   </div>
                 </div>
               </nav>
-            <ul class="navShop">
-                <li class="navIconAccount">
-                    <a href="./pages/account.html">
-                        <img src="./archivos/iconos/client.png" alt="Account icon">
+              </section>
+              <section class="headerMainContainer">
+                <picture class="headerLogo">
+                    <img src="./archivos/iconos/Logo.png" alt="Hellodoll Logo">
+                </picture>
+                <div class="rightMenu">
+                <div class="lenguajes">
+                    <a class="flag" href="">
+                        <img src="./archivos/idiomas/english.png" alt="English flag">
                     </a>
-                </li>
-                <li class="navIconSearch">
-                    <img src="./archivos/iconos/search.png" alt="Search icon">
-                    <ul class="searchBar">
-                        <li class="searchForm">
-                            <label for="search"></label>
-                            <input  type="text" name="search" placeholder="Search">
-                        </li>
-                        <li class="searchText">Press enter to search</li>
-                    </ul>
-                </li>
-                <li class="navIconCart">
-                    <a href="./pages/cart.html">
-                        <img src="./archivos/iconos/cart.png" alt="Cart icon">
+                    <a class="flag" href="">
+                        <img src="./archivos/idiomas/spanish.png" alt="Spanish flag">
                     </a>
-                </li>
-            </ul>
-        </div>
-        </section>
-        <section class="headerBottomContainer">
-            <nav>
-                <ul class="headerNav">
-                    <li>
-                        <ul class="shop">
-                            <li>Shop
-                                <img src="./archivos/iconos/Arrow-down-white.png" alt="">
-                                <ul class="shopNav">
-                                    <li>
-                                        <a href="./pages/shop.html">Hellodoll Family</a>
-                                    </li>
-                                    <li>
-                                        <a href="./pages/shopAnimals.html">Animals</a>
-                                    </li>
-                                    <li>
-                                        <a href="./pages/shopBabyAnimals.html">Baby animals</a>
-                                    </li>
-                                    <li>
-                                        <a href="./pages/shopDolls.html">Dolls</a>
-                                    </li>
-                                    <li>
-                                        <a href="./pages/shopMiniDolls.html">Mini dolls</a>
-                                    </li>
-                                    <li>
-                                        <a href="./pages/shopBabyComforter.html">Baby comforter</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>   
-                    <li class="menu">
-                        <a href="./pages/ourStory.html">Our Story</a>
+                </div>
+                <ul class="navShop">
+                    <li class="navIconAccount">
+                        <a href="./pages/account.html">
+                            <img src="./archivos/iconos/client.png" alt="Account icon">
+                        </a>
                     </li>
-                    <li class="menu">
-                        <a href="./pages/blog.html">Blog</a>
+                    <li class="navIconSearch">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="./archivos/iconos/search.png" alt="Search icon"></button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <div class="offcanvas-body">
+                                    <ul class="searchBar">
+                                        <li class="searchForm">
+                                            <label for="search"></label>
+                                            <input  type="text" name="search" placeholder="Search">
+                                        </li>
+                                        <li class="searchText">Press enter to search</li>
+                                    </ul>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>   
                     </li>
-                    <li class="menu">
-                        <a href="./pages/faqs.html">Faqs</a>
-                    </li>
-                    <li class="menu">
-                        <a href="./pages/contact.html">Get in Contact</a>
+                    <li class="navIconCart">
+                        <a href="./pages/cart.html">
+                            <img src="./archivos/iconos/cart.png" alt="Cart icon">
+                        </a>
                     </li>
                 </ul>
-            </nav>
-        </section>
+            </div>
+            </section>
+            <section class="headerBottomContainer">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Shop
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <li>
+                                      <a class="dropdown-item" href="./pages/shop.html">Hellodoll Family</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./pages/shopAnimals.html">Animals</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./pages/shopBabyAnimals.html">Baby animals</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./pages/shopDolls.html">Dolls</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./pages/shopMiniDolls.html">Mini dolls</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./pages/shopDolls.html">Dolls</a>
+                                  </li>
+                                  <li>
+                                      <a class="dropdown-item" href="./pages/shopBabyComforter.html">Baby comforter</a>
+                                  </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/ourStory.html">Our Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/faqs.html">Faqs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contact.html">Get in Contact</a>
+                            </li> 
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </section>
     </header>
     <main class="mainPage">
        <section class="mainVideo">
@@ -321,6 +348,7 @@
         <section class="bottomFooter">
             <p>2022 © Hellodoll - Web design by Celeste Ibarrola</p>
         </section>
-    </footer>  
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 </body>
 </html>
