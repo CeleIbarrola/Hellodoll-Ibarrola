@@ -1,0 +1,767 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0pt;
+  font-family: 'Fredoka', sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  width: 100vw; }
+  header .headerTopContainer {
+    background-color: white;
+    height: 55px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "socialMedia  title";
+    align-items: center; }
+    header .headerTopContainer .socialMediaNav {
+      margin-left: 7.5vw;
+      display: flex;
+      align-items: center;
+      grid-area: socialMedia; }
+      header .headerTopContainer .socialMediaNav .socialMediaIcon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px; }
+    header .headerTopContainer .headerTitle {
+      color: #b0b0af;
+      margin-right: 7.5vw;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      font-size: 2.1rem;
+      grid-area: title; }
+    header .headerTopContainer .mobileMenu {
+      display: none; }
+  header .headerMainContainer {
+    background-color: #b0b0af;
+    height: 275px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; }
+    header .headerMainContainer .headerLogo {
+      display: flex;
+      align-items: center; }
+      header .headerMainContainer .headerLogo img {
+        height: 218px;
+        margin-left: 7.5vw;
+        animation-name: rotation;
+        animation-iteration-count: infinite;
+        animation-duration: 80s; }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0); }
+  to {
+    transform: rotate(-360deg); } }
+    header .headerMainContainer .rightMenu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      margin-right: 7.5vw; }
+      header .headerMainContainer .rightMenu .lenguajes {
+        height: 40px;
+        margin-bottom: 25px; }
+        header .headerMainContainer .rightMenu .lenguajes a.flag {
+          text-decoration: none; }
+          header .headerMainContainer .rightMenu .lenguajes a.flag img {
+            height: 40px;
+            margin-left: 15px; }
+      header .headerMainContainer .rightMenu .navShop {
+        height: 70px;
+        display: flex;
+        list-style: none; }
+        header .headerMainContainer .rightMenu .navShop .navIconAccount img {
+          height: 70px;
+          margin-left: 3vw; }
+        header .headerMainContainer .rightMenu .navShop .navIconSearch img {
+          height: 70px;
+          margin-left: 3vw; }
+        header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary {
+          background-color: transparent;
+          border: none;
+          box-shadow: none;
+          padding: 0; }
+          header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-check + .btn-primary:active, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-check + .btn-primary:focus, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-check + .btn-primary:checked, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-primary.active:active, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-primary.active:focus, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-primary.active:checked, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-primary:active, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-primary:focus, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .btn-primary:checked, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .show > .btn-primary.dropdown-toggle:active, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .show > .btn-primary.dropdown-toggle:focus, header .headerMainContainer .rightMenu .navShop .navIconSearch .btn-primary .show > .btn-primary.dropdown-toggle:checked {
+            box-shadow: none;
+            border: none;
+            outline: none; }
+        header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body {
+          display: flex;
+          align-items: flex-start; }
+          header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: auto;
+            padding: 1vw;
+            background-color: white;
+            color: #b0b0af;
+            list-style: none; }
+            header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar .searchForm input {
+              background-color: #F5D767;
+              border: none;
+              width: 25vw;
+              height: 3vw;
+              display: block;
+              padding: 1vw; }
+              header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar .searchForm input::placeholder {
+                color: white;
+                font-size: 2rem; }
+            header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar .searchText {
+              color: #b0b0af;
+              font-size: 1.6rem;
+              margin-top: 1vw; }
+          header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .btn-close {
+            height: 3vw;
+            width: 3vw; }
+        header .headerMainContainer .rightMenu .navShop .navIconCart img {
+          height: 70px;
+          margin-left: 3vw; }
+  header .headerBottomContainer {
+    background-color: #b0b0af;
+    height: 6vw; }
+    header .headerBottomContainer .navbar-nav {
+      width: 100%;
+      font-size: 2.4rem;
+      display: inline-flex;
+      list-style: none;
+      text-decoration: none;
+      padding-left: 7.5vw;
+      padding-right: 7.5vw;
+      justify-content: space-between; }
+      header .headerBottomContainer .navbar-nav .nav-item a {
+        color: white; }
+      header .headerBottomContainer .navbar-nav .dropdown-menu {
+        background-color: #b0b0af;
+        font-size: 2.4rem;
+        color: white; }
+
+@media only screen and (max-width: 980px) {
+  header .headerTopContainer {
+    grid-template-columns: 1fr 2fr 0.5fr;
+    grid-template-areas: "socialMedia  title  mobileMenu";
+    justify-items: center; }
+    header .headerTopContainer .SocialMediaNav {
+      grid-area: socialMedia; }
+    header .headerTopContainer .headerTitle {
+      grid-area: title;
+      justify-content: center;
+      margin-right: 0; }
+    header .headerTopContainer .mobileMenu {
+      grid-area: mobileMenu;
+      display: flex;
+      height: 55px;
+      font-size: 2.4rem;
+      position: initial; }
+      header .headerTopContainer .mobileMenu .offcanvas-title {
+        font-size: 2.4rem;
+        color: #b0b0af; }
+      header .headerTopContainer .mobileMenu .offcanvas-body .dropdown-menu .dropdown-item a {
+        color: white; }
+  header .headerBottomContainer {
+    display: none; } }
+
+@media only screen and (max-width: 850px) {
+  header .headerMainContainer {
+    height: 180px;
+    display: grid;
+    grid-template-columns: 1fr 2fr; }
+    header .headerMainContainer .headerLogo img {
+      height: 150px;
+      margin-left: 7.5vw; }
+    header .headerMainContainer .rightMenu .lenguajes {
+      height: 25px;
+      margin-bottom: 15px; }
+      header .headerMainContainer .rightMenu .lenguajes a.flag img {
+        height: 25px;
+        margin-left: 5px; }
+    header .headerMainContainer .rightMenu .navShop {
+      height: 50px; }
+      header .headerMainContainer .rightMenu .navShop .navIconAccount img {
+        height: 50px;
+        margin-left: 7px; }
+      header .headerMainContainer .rightMenu .navShop .navIconSearch img {
+        height: 50px;
+        margin-left: 7px; }
+      header .headerMainContainer .rightMenu .navShop .navIconCart img {
+        height: 50px;
+        margin-left: 7px; } }
+
+@media only screen and (max-width: 600px) {
+  header .headerTopContainer .headerTitle {
+    font-size: 1.6rem;
+    text-align: center; }
+  header .headerMainContainer {
+    height: 137px; }
+    header .headerMainContainer .headerLogo img {
+      height: 100px; }
+    header .headerMainContainer .rightMenu {
+      margin-right: 20px; }
+      header .headerMainContainer .rightMenu .lenguajes {
+        height: 22px;
+        margin-bottom: 10px; }
+        header .headerMainContainer .rightMenu .lenguajes a.flag img {
+          height: 22px;
+          margin-left: 7px; }
+      header .headerMainContainer .rightMenu .navShop {
+        height: 40px; }
+        header .headerMainContainer .rightMenu .navShop .navIconAccount img {
+          height: 40px;
+          margin-left: 5px; }
+        header .headerMainContainer .rightMenu .navShop .navIconSearch img {
+          height: 40px;
+          margin-left: 5px; }
+        header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar {
+          padding: 2vw;
+          margin-top: 40px; }
+          header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar .searchForm input {
+            width: 40vw;
+            height: 5vw;
+            display: block; }
+        header .headerMainContainer .rightMenu .navShop .navIconCart img {
+          height: 40px;
+          margin-left: 5px; } }
+
+@media only screen and (max-width: 450px) {
+  header .headerTopContainer {
+    height: 70px; }
+    header .headerTopContainer .socialMediaNav {
+      margin-left: 5vw; }
+      header .headerTopContainer .socialMediaNav .socialMediaIcon {
+        margin: 0; }
+        header .headerTopContainer .socialMediaNav .socialMediaIcon img {
+          width: 80%; }
+  header .headerMainContainer .rightMenu .lenguajes {
+    height: 18px;
+    margin-bottom: 10px; }
+    header .headerMainContainer .rightMenu .lenguajes a.flag img {
+      height: 18px;
+      margin-left: 5px; }
+  header .headerMainContainer .rightMenu .navShop {
+    height: 30px; }
+    header .headerMainContainer .rightMenu .navShop .navIconAccount img {
+      height: 30px;
+      margin-left: 5px; }
+    header .headerMainContainer .rightMenu .navShop .navIconSearch img {
+      height: 30px;
+      margin-left: 5px; }
+    header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar {
+      padding: 3vw;
+      margin-top: 40px; }
+      header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar .searchForm input {
+        width: 70vw;
+        height: 6vw;
+        display: block; }
+        header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar .searchForm input::placeholder {
+          font-size: 1.8rem; }
+    header .headerMainContainer .rightMenu .navShop .navIconCart img {
+      height: 30px;
+      margin-left: 5px; } }
+
+footer {
+  background-color: #b0b0af; }
+  footer .topFooter {
+    margin: 0%;
+    width: 100vw;
+    height: 18vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    justify-items: center;
+    align-items: center; }
+    footer .topFooter .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      margin-left: 4vw; }
+      footer .topFooter .info h4 {
+        font-size: 2rem; }
+      footer .topFooter .info ul {
+        display: inline-flex;
+        font-size: 1.6rem;
+        list-style: none;
+        padding: 1.5vw; }
+        footer .topFooter .info ul li {
+          padding: 2px;
+          text-align: justify; }
+          footer .topFooter .info ul li a {
+            color: white;
+            text-decoration: none; }
+            footer .topFooter .info ul li a:hover {
+              cursor: pointer;
+              text-decoration: underline; }
+    footer .topFooter .footerLogo img {
+      height: 12vw; }
+    footer .topFooter .terms {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: white;
+      margin-right: 4vw; }
+      footer .topFooter .terms h4 {
+        font-size: 2rem; }
+      footer .topFooter .terms ul {
+        display: inline-flex;
+        font-size: 1.6rem;
+        list-style: none;
+        padding: 1.5vw; }
+        footer .topFooter .terms ul li {
+          padding: 2px;
+          text-align: justify; }
+          footer .topFooter .terms ul li a {
+            color: white;
+            text-decoration: none; }
+            footer .topFooter .terms ul li a:hover {
+              cursor: pointer;
+              text-decoration: underline; }
+  footer .bottomFooter {
+    width: 100vw;
+    height: 9vw;
+    background-color: #b0b0af; }
+    footer .bottomFooter p {
+      width: 100vw;
+      color: #b0b0af;
+      background-color: white;
+      font-size: 2.4rem;
+      padding: 2vw;
+      margin-bottom: 3px;
+      display: flex;
+      justify-content: center;
+      text-align: center; }
+
+@media only screen and (max-width: 850px) {
+  footer .topFooter {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "info" "terms" "logo";
+    justify-items: center;
+    align-items: center; }
+    footer .topFooter .info {
+      grid-area: info;
+      margin: 0; }
+    footer .topFooter .terms {
+      grid-area: terms;
+      margin: 0; }
+    footer .topFooter .footerLogo {
+      grid-area: logo;
+      height: 100px;
+      margin-bottom: 4vw; }
+      footer .topFooter .footerLogo img {
+        height: 100%; }
+  footer .bottomFooter {
+    width: 100vw;
+    height: 13vw; }
+    footer .bottomFooter p {
+      font-size: 1.6rem; } }
+
+.mainPage {
+  background-color: #b0b0af;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .mainPage .mainVideo video {
+    width: 100vw;
+    position: relative;
+    z-index: 1; }
+  .mainPage .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainPage .about .aboutTitle {
+      color: white;
+      font-size: 4.8rem;
+      margin-top: 1.5vw;
+      margin-bottom: 1.5vw;
+      text-align: center;
+      width: 80vw; }
+    .mainPage .about .aboutText {
+      color: white;
+      font-size: 3.6rem;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1.5vw;
+      margin-bottom: 1.5vw;
+      text-align: center;
+      width: 80vw; }
+      .mainPage .about .aboutText p {
+        padding-top: 2.2vw; }
+  .mainPage .mainImages {
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+    grid-template-rows: 5fr 4fr 2fr 4fr 3.5fr 4fr 2.5fr;
+    grid-template-areas: "family family family" "animals animals elephant" "colage colage elephant" "colage colage dolls" "comforter kid kid" "miniDolls kid kid" "babyAnimals babyAnimals babyAnimals";
+    gap: 1vw; }
+    .mainPage .mainImages img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .mainPage .mainImages .hellodollFamily {
+      grid-area: family;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .hellodollFamily .hellodollFamilyText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 3.6rem; }
+    .mainPage .mainImages .animals {
+      grid-area: animals;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .animals .animalsText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 3.6rem; }
+    .mainPage .mainImages .elephant {
+      grid-area: elephant; }
+    .mainPage .mainImages .animalsColage {
+      grid-area: colage; }
+    .mainPage .mainImages .dolls {
+      grid-area: dolls;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .dolls .dollsText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 3.6rem; }
+    .mainPage .mainImages .babyComforter {
+      grid-area: comforter;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .babyComforter .babyComforterText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 3.6rem; }
+    .mainPage .mainImages .miniDolls {
+      grid-area: miniDolls;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .miniDolls .miniDollsText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 3.6rem; }
+    .mainPage .mainImages .kid {
+      grid-area: kid; }
+    .mainPage .mainImages .babyAnimals {
+      grid-area: babyAnimals;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .babyAnimals .babyAnimalsText {
+        position: absolute;
+        top: 1.5vw;
+        right: 1.5vw;
+        color: white;
+        font-size: 3.6rem; }
+    .mainPage .mainImages .babyAnimalsMobile {
+      display: none; }
+  .mainPage .mailingList {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw; }
+    .mainPage .mailingList .mailingListContent {
+      width: 68vw;
+      margin-left: 4vw;
+      margin-right: 4vw; }
+      .mainPage .mailingList .mailingListContent h3 {
+        color: #b0b0af;
+        font-size: 4rem;
+        text-align: center; }
+      .mainPage .mailingList .mailingListContent p {
+        color: #b0b0af;
+        font-size: 2.4rem;
+        text-align: center;
+        margin-top: 2vw; }
+      .mainPage .mailingList .mailingListContent .form {
+        display: flex;
+        align-items: center;
+        padding: 1.5vw;
+        color: white;
+        justify-content: center;
+        margin-top: 2vw; }
+        .mainPage .mailingList .mailingListContent .form .nameForm {
+          display: flex;
+          align-items: center; }
+          .mainPage .mailingList .mailingListContent .form .nameForm input {
+            background-color: #D68B76;
+            border: none;
+            width: 26vw;
+            height: 4vw;
+            margin-right: 2vw;
+            padding: 1vw; }
+            .mainPage .mailingList .mailingListContent .form .nameForm input::placeholder {
+              color: white;
+              font-size: 1.8rem; }
+        .mainPage .mailingList .mailingListContent .form .emailForm {
+          display: flex;
+          align-items: center; }
+          .mainPage .mailingList .mailingListContent .form .emailForm input {
+            background-color: #F5D767;
+            border: none;
+            width: 26vw;
+            height: 4vw;
+            margin-right: 2vw;
+            padding: 1vw; }
+            .mainPage .mailingList .mailingListContent .form .emailForm input::placeholder {
+              color: white;
+              font-size: 1.8rem; }
+        .mainPage .mailingList .mailingListContent .form .submitButton input {
+          background-color: #89B1AB;
+          border: none;
+          width: 6vw;
+          height: 6vw;
+          border-radius: 50%;
+          display: block;
+          color: white;
+          font-size: 1.8rem; }
+    .mainPage .mailingList .mailingListVideo {
+      display: flex;
+      width: 25vw;
+      height: 25vw;
+      margin-right: 4vw;
+      align-items: center; }
+      .mainPage .mailingList .mailingListVideo video {
+        width: 100%; }
+
+@media only screen and (max-width: 850px) {
+  .mainPage .mainImages .hellodollFamily .hellodollFamilyText {
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0.01vw;
+    right: 1vw; }
+  .mainPage .mainImages .animals .animalsText {
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0.01vw;
+    right: 1vw; }
+  .mainPage .mainImages .dolls .dollsText {
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0.01vw;
+    right: 1vw; }
+  .mainPage .mainImages .babyComforter .babyComforterText {
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0.01vw;
+    right: 1vw; }
+  .mainPage .mainImages .miniDolls .miniDollsText {
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0.01vw;
+    right: 1vw; }
+  .mainPage .mainImages .babyAnimals .babyAnimalsText {
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0.01vw;
+    right: 1vw; }
+  .mainPage .mailingList .mailingListContent h3 {
+    font-size: 2.8rem; }
+  .mainPage .mailingList .mailingListContent p {
+    font-size: 1.8rem; }
+  .mainPage .mailingList .mailingListContent .form .nameForm input::placeholder {
+    font-size: 1.6rem; }
+  .mainPage .mailingList .mailingListContent .form .emailForm input::placeholder {
+    font-size: 1.6rem; }
+  .mainPage .mailingList .mailingListContent .form .submitButton input {
+    font-size: 1.6rem; } }
+
+@media only screen and (max-width: 600px) {
+  .mainPage .about .aboutTitle {
+    font-size: 4rem; }
+  .mainPage .about .aboutText {
+    font-size: 2.5rem; }
+  .mainPage .mainImages .hellodollFamily .hellodollFamilyText {
+    font-size: 1.8rem; }
+  .mainPage .mainImages .animals .animalsText {
+    font-size: 1.8rem; }
+  .mainPage .mainImages .dolls .dollsText {
+    font-size: 1.8rem; }
+  .mainPage .mainImages .babyComforter .babyComforterText {
+    font-size: 1.8rem; }
+  .mainPage .mainImages .miniDolls .miniDollsText {
+    font-size: 1.8rem; }
+  .mainPage .mainImages .babyAnimals .babyAnimalsText {
+    font-size: 1.8rem; }
+  .mainPage .mailingList {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw; }
+    .mainPage .mailingList .mailingListContent {
+      width: 80vw;
+      margin-left: 0;
+      margin-right: 0; }
+      .mainPage .mailingList .mailingListContent h3 {
+        font-size: 3.2rem; }
+      .mainPage .mailingList .mailingListContent p {
+        font-size: 2.1rem;
+        margin-top: 2vw; }
+      .mainPage .mailingList .mailingListContent .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        margin-top: 2vw; }
+        .mainPage .mailingList .mailingListContent .form .nameForm input {
+          width: 70vw;
+          height: 10vw;
+          margin-right: 0;
+          padding: 1.5vw;
+          margin-top: 3vw; }
+          .mainPage .mailingList .mailingListContent .form .nameForm input::placeholder {
+            font-size: 2rem; }
+        .mainPage .mailingList .mailingListContent .form .emailForm input {
+          width: 70vw;
+          height: 10vw;
+          margin-right: 0;
+          padding: 1.5vw;
+          margin-top: 3vw; }
+          .mainPage .mailingList .mailingListContent .form .emailForm input::placeholder {
+            font-size: 2rem; }
+        .mainPage .mailingList .mailingListContent .form .submitButton input {
+          width: 15vw;
+          height: 15vw;
+          font-size: 2.4rem;
+          margin-top: 3vw; }
+    .mainPage .mailingList .mailingListVideo {
+      width: 85vw;
+      height: 85vw;
+      margin-top: 4vw;
+      margin-bottom: 7.5vw;
+      margin-right: 0;
+      margin-left: 0; }
+      .mainPage .mailingList .mailingListVideo video {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0; } }
+
+@media only screen and (max-width: 450px) {
+  .mainPage .about .aboutTitle {
+    font-size: 2rem;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 300px; }
+  .mainPage .about .aboutText {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 80vw; }
+    .mainPage .about .aboutText .aboutText p {
+      padding-top: 15px; }
+  .mainPage .mainImages {
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "familyMobile" "animalsMobile" "dollsMobile" "miniDollsMobile" "babyComforterMobile" "babyAnimalsMobile";
+    gap: 1vw; }
+    .mainPage .mainImages img {
+      width: 100%; }
+    .mainPage .mainImages .hellodollFamily {
+      grid-area: familyMobile;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .hellodollFamily .hellodollFamilyText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 1.6rem; }
+    .mainPage .mainImages .animals {
+      grid-area: animalsMobile;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .animals .animalsText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 1.6rem; }
+    .mainPage .mainImages .dolls {
+      grid-area: dollsMobile;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .dolls .dollsText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 1.6rem; }
+    .mainPage .mainImages .babyComforter {
+      grid-area: babyComforterMobile;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .babyComforter .babyComforterText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 1.6rem; }
+    .mainPage .mainImages .miniDolls {
+      grid-area: miniDollsMobile;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .miniDolls .miniDollsText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 1.6rem; }
+    .mainPage .mainImages .babyAnimalsMobile {
+      grid-area: babyAnimalsMobile;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainImages .babyAnimalsMobile .babyAnimalsMobileText {
+        position: absolute;
+        bottom: 1.5vw;
+        right: 1.5vw;
+        color: #b0b0af;
+        font-size: 1.6rem; }
+    .mainPage .mainImages .elephant {
+      display: none; }
+    .mainPage .mainImages .animalsColage {
+      display: none; }
+    .mainPage .mainImages .kid {
+      display: none; }
+    .mainPage .mainImages .babyAnimals {
+      display: none; }
+  .mainPage .mailingList .mailingListContent h3 {
+    font-size: 2.4rem; }
+  .mainPage .mailingList .mailingListContent p {
+    font-size: 1.8rem; }
+  .mainPage .mailingList .mailingListContent .form .nameForm input::placeholder {
+    font-size: 1.8rem; }
+  .mainPage .mailingList .mailingListContent .form .emailForm input::placeholder {
+    font-size: 1.8rem; }
+  .mainPage .mailingList .mailingListContent .form .submitButton input {
+    width: 20vw;
+    height: 20vw; } }

@@ -1,0 +1,609 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0pt;
+    font-family:'Fredoka', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+@import "layout/header";
+@import "layout/footer"; 
+
+$primary-color:#b0b0af;
+$red-color:#D68B76;
+$green-color:#89B1AB;
+$yellow-color:#F5D767;
+
+.mainPage{
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .mainVideo video{
+        width: 100vw;
+        position: relative;
+        z-index: 1;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .aboutTitle{
+            color: white;
+            font-size: 4.8rem;
+            margin-top: 1.5vw;
+            margin-bottom: 1.5vw;
+            text-align: center;
+            width: 80vw; 
+        }
+        .aboutText {
+            color: white;
+            font-size: 3.6rem;
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5vw;
+            margin-bottom: 1.5vw;
+            text-align: center;
+            width: 80vw;
+            p{
+                padding-top: 2.2vw;
+            }   
+        }
+    }
+    .mainImages{
+        width: 85vw;
+        display: grid;
+        grid-template-columns: 4fr 2fr 4fr;
+        grid-template-rows: 5fr 4fr 2fr 4fr 3.5fr 4fr 2.5fr;
+        grid-template-areas: 
+            "family family family"
+            "animals animals elephant"
+            "colage colage elephant"
+            "colage colage dolls"
+            "comforter kid kid"
+            "miniDolls kid kid"
+            "babyAnimals babyAnimals babyAnimals"
+        ;
+        gap: 1vw;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hellodollFamily{
+            grid-area: family;
+            position: relative;
+            display: inline-block;
+            .hellodollFamilyText{
+                position: absolute;
+                bottom: 1.5vw;
+                right: 1.5vw;
+                color: $primary-color;
+                font-size: 3.6rem;
+            }
+        }
+        .animals{
+            grid-area: animals;
+            position: relative;
+            display: inline-block;
+            .animalsText{
+                position: absolute;
+                bottom: 1.5vw;
+                right: 1.5vw;
+                color: $primary-color;
+                font-size: 3.6rem;
+            }
+        }
+        .elephant{
+            grid-area: elephant;
+        }
+        .animalsColage{
+            grid-area: colage;
+        }
+        .dolls{
+            grid-area: dolls;
+            position: relative;
+            display: inline-block;
+            .dollsText{
+                position: absolute;
+                bottom: 1.5vw;
+                right: 1.5vw;
+                color: $primary-color;
+                font-size: 3.6rem;
+            }
+        }
+        .babyComforter{
+            grid-area: comforter;
+            position: relative;
+            display: inline-block;
+            .babyComforterText{
+                position: absolute;
+                bottom: 1.5vw;
+                right: 1.5vw;
+                color: $primary-color;
+                font-size: 3.6rem;
+            }
+        }
+        .miniDolls{
+            grid-area: miniDolls;
+            position: relative;
+            display: inline-block;
+            .miniDollsText{
+                position: absolute;
+                bottom: 1.5vw;
+                right: 1.5vw;
+                color: $primary-color;
+                font-size: 3.6rem; 
+            }
+        }
+        .kid{
+            grid-area: kid;
+        }
+        .babyAnimals{
+            grid-area:babyAnimals;
+            position: relative;
+            display: inline-block;
+            .babyAnimalsText{
+                position: absolute;
+                top: 1.5vw;
+                right: 1.5vw;
+                color: white;
+                font-size: 3.6rem;
+            }
+        }
+        .babyAnimalsMobile{
+            display: none;
+        }
+    }
+    .mailingList{
+        width: 100vw;
+        height: auto;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        .mailingListContent{
+            width: 68vw;
+            margin-left: 4vw;
+            margin-right: 4vw;
+            h3{
+                color: $primary-color;
+                font-size: 4rem;
+                text-align: center;
+            }
+            p{
+                color: $primary-color;
+                font-size: 2.4rem;
+                text-align: center;
+                margin-top: 2vw;
+            }
+            .form{
+                display: flex;
+                align-items: center;
+                padding: 1.5vw;
+                color: white;
+                justify-content: center;
+                margin-top: 2vw;
+                .nameForm{
+                    display:flex;
+                    align-items: center;
+                    input{
+                        background-color:$red-color;
+                        border: none;
+                        width: 26vw;
+                        height: 4vw;
+                        margin-right: 2vw;
+                        padding: 1vw;
+                        &::placeholder{
+                            color: white;
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+                .emailForm {
+                    display:flex;
+                    align-items: center;
+                    input{
+                        background-color:$yellow-color;
+                        border: none;
+                        width: 26vw;
+                        height: 4vw;
+                        margin-right: 2vw;
+                        padding: 1vw;
+                        &::placeholder{
+                            color: white;
+                            font-size: 1.8rem;
+                        }
+                    }
+                }
+                .submitButton{
+                    input {
+                        background-color: $green-color;
+                        border: none;
+                        width: 6vw;
+                        height: 6vw;
+                        border-radius: 50%;
+                        display: block;
+                        color: white;
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+        .mailingListVideo{
+            display: flex;
+            width: 25vw;
+            height: 25vw;
+            margin-right: 4vw;
+            align-items: center;
+            video{
+                width: 100%;
+             }
+        }
+    }
+}
+@media only screen and (max-width:850px){
+    .mainPage{
+        .mainImages{
+            .hellodollFamily{
+                .hellodollFamilyText{
+                    font-size: 2.5rem;
+                    position: absolute;
+                    bottom: 0.01vw;
+                    right: 1vw;
+                }
+            }
+            .animals{
+                .animalsText{
+                    font-size: 2.5rem;
+                    position: absolute;
+                    bottom: 0.01vw;
+                    right: 1vw;
+                }
+            }
+            .dolls{
+                .dollsText{
+                    font-size: 2.5rem;
+                    position: absolute;
+                    bottom: 0.01vw;
+                    right: 1vw;
+                }
+            }
+            .babyComforter{
+                .babyComforterText{
+                    font-size: 2.5rem;
+                    position: absolute;
+                    bottom: 0.01vw;
+                    right: 1vw;
+                }
+            }
+            .miniDolls{
+                .miniDollsText{
+                    font-size: 2.5rem;
+                    position: absolute;
+                    bottom: 0.01vw;
+                    right: 1vw;
+                }
+            }
+            .babyAnimals{
+                .babyAnimalsText{
+                    font-size: 2.5rem;
+                    position: absolute;
+                    bottom: 0.01vw;
+                    right: 1vw;
+                }
+            }
+        }
+        .mailingList{
+            .mailingListContent{
+                h3{
+                    font-size: 2.8rem;
+                }
+                p{
+                    font-size: 1.8rem;
+                }
+                .form{
+                    .nameForm{
+                        input{
+                            &::placeholder{
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                    .emailForm{
+                        input{
+                            &::placeholder{
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                    .submitButton{
+                        input{
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+@media only screen and (max-width:600px){
+    .mainPage{
+        .about{
+            .aboutTitle{
+                font-size: 4rem;
+            } 
+            .aboutText {
+                font-size: 2.5rem; 
+            }
+        } 
+        .mainImages{
+            .hellodollFamily{
+                .hellodollFamilyText{
+                    font-size: 1.8rem;
+                }
+            }
+            .animals{
+                .animalsText{
+                    font-size: 1.8rem;
+                }
+            }
+            .dolls{
+                .dollsText{
+                    font-size: 1.8rem;
+                }
+            }
+            .babyComforter{
+                .babyComforterText{
+                    font-size: 1.8rem;
+                }
+            }
+            .miniDolls{
+                .miniDollsText{
+                    font-size: 1.8rem;
+                }
+            }
+            .babyAnimals{
+                .babyAnimalsText{
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        .mailingList{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 4vw;
+            .mailingListContent{
+                width: 80vw;
+                margin-left: 0;
+                margin-right: 0;
+                h3{
+                    font-size: 3.2rem;
+                }
+                p{
+                    font-size: 2.1rem;
+                    margin-top: 2vw;
+                }
+                .form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 0;
+                    justify-content: center;
+                    margin-top: 2vw;
+                    .nameForm{
+                        input{
+                            width: 70vw;
+                            height: 10vw;
+                            margin-right: 0;
+                            padding: 1.5vw;
+                            margin-top: 3vw;
+                            &::placeholder{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                    .emailForm{
+                        input{
+                            width: 70vw;
+                            height: 10vw;
+                            margin-right: 0;
+                            padding: 1.5vw;
+                            margin-top: 3vw;
+                            &::placeholder{
+                                font-size: 2rem;
+                            }
+                        }
+                    }
+                    .submitButton{
+                        input {
+                            width: 15vw;
+                            height: 15vw;
+                            font-size: 2.4rem;
+                            margin-top: 3vw;
+                        }
+                    }
+                }
+            }
+            .mailingListVideo {
+                width: 85vw;
+                height: 85vw;
+                margin-top: 4vw;
+                margin-bottom: 7.5vw;
+                margin-right: 0;
+                margin-left: 0;
+                video{
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                }  
+            }
+        }
+    }   
+}
+@media only screen and (max-width:450px){
+    .mainPage{
+        .about{
+            .aboutTitle{
+                font-size: 2rem;
+                display: flex;
+                margin-top: 10px;
+                margin-bottom: 5px;
+                text-align: center;
+                width: 300px; 
+            }
+            .aboutText {
+                font-size: 1.6rem;
+                display: flex;
+                flex-direction: column;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                text-align: center;
+                width: 80vw;
+                .aboutText p{
+                    padding-top: 15px;
+                }   
+            }
+        }
+        .mainImages{
+            width: 85vw;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6,auto);
+            grid-template-areas:
+            "familyMobile"
+            "animalsMobile"
+            "dollsMobile"
+            "miniDollsMobile"
+            "babyComforterMobile"
+            "babyAnimalsMobile";
+            gap: 1vw;
+            img{
+                width: 100%;
+            }
+            .hellodollFamily{
+                grid-area: familyMobile;
+                position: relative;
+                display: inline-block;
+                .hellodollFamilyText{
+                    position: absolute;
+                    bottom: 1.5vw;
+                    right: 1.5vw;
+                    color: $primary-color;
+                    font-size: 1.6rem;   
+                }    
+            }
+            .animals{
+                grid-area: animalsMobile;
+                position: relative;
+                display: inline-block;
+                .animalsText{
+                    position: absolute;
+                    bottom: 1.5vw;
+                    right: 1.5vw;
+                    color: $primary-color;
+                    font-size: 1.6rem;
+                }
+            }
+            .dolls{
+                grid-area: dollsMobile;
+                position: relative;
+                display: inline-block;
+                .dollsText{
+                    position: absolute;
+                    bottom: 1.5vw;
+                    right: 1.5vw;
+                    color: $primary-color;
+                    font-size: 1.6rem;
+                }
+            }
+            .babyComforter{
+                grid-area: babyComforterMobile;
+                position: relative;
+                display: inline-block;
+                .babyComforterText{
+                    position: absolute;
+                    bottom: 1.5vw;
+                    right: 1.5vw;
+                    color: $primary-color;
+                    font-size: 1.6rem;
+                }
+            }
+            .miniDolls{
+                grid-area: miniDollsMobile;
+                position: relative;
+                display: inline-block;
+                .miniDollsText{
+                    position: absolute;
+                    bottom: 1.5vw;
+                    right: 1.5vw;
+                    color: $primary-color;
+                    font-size: 1.6rem;
+                }
+            }
+            .babyAnimalsMobile{
+                grid-area: babyAnimalsMobile;
+                position: relative;
+                display: inline-block;
+                .babyAnimalsMobileText{
+                    position: absolute;
+                    bottom: 1.5vw;
+                    right: 1.5vw;
+                    color: $primary-color;
+                    font-size: 1.6rem;
+                }
+            }
+            .elephant{
+                display: none;
+            }
+            .animalsColage{
+                display: none;
+            }
+            .kid{
+                display: none;
+            }
+            .babyAnimals{
+                display: none;
+            }
+        }
+        .mailingList{
+            .mailingListContent{
+                h3{
+                    font-size: 2.4rem;
+                }
+                p{
+                    font-size: 1.8rem;
+                }
+                .form{
+                    .nameForm{
+                        input{
+                            &::placeholder{
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                    .emailForm{
+                        input{
+                            &::placeholder{
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                    .submitButton{
+                        input {
+                            width: 20vw;
+                            height: 20vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
