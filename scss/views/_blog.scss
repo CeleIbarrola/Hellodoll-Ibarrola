@@ -1,0 +1,483 @@
+$primary-color:#b0b0af;
+$red-color:#D68B76;
+$green-color:#89B1AB;
+$yellow-color:#F5D767;
+
+.mainBlogContent{
+    background-color: $primary-color;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "mainBlog blogSidebar";
+    .mainBlog{
+        grid-area: mainBlog;
+        display: flex;
+        flex-direction: column;
+        .blogPost{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4vw;
+            .postTitle{
+                display: flex;
+                align-items: center;
+                font-size: 2.8rem;
+                margin-bottom: 2vw;
+                .postDate{
+                    color: white;
+                }
+                img{
+                    margin-right: 1vw;
+                    margin-left: 2vw;
+                    height: 3vw;
+                }
+                .postTitleText{
+                    color: $yellow-color;
+                }  
+            }
+            .blogPostImage{
+                width: auto;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .nextPages{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 3vw;
+            img{
+                height: 50px;
+                margin:10px;
+            }
+        }
+        .blogComments{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 4vw;
+            h2{
+                color: white;
+                font-size: 4.8rem;
+                margin-bottom: 5vw;
+                margin-top: 5vw;
+            }
+            .commentsForm{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                color: white;
+                justify-content: center;
+                .commentsFormLeft{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 22vw;
+                    .commentsNameForm{
+                        display: flex;
+                        width: 22vw;
+                        input{
+                            background-color:$red-color;
+                            border: none;
+                            width: 22vw;
+                            height: 3vw;
+                            display: block;
+                            margin-bottom: 2vw;
+                            &::placeholder{
+                                color: white;
+                                font-size: 1.6rem;
+                                padding-left: 1vw;
+                            }
+                        }
+                    }
+                    .commentsEmailForm{
+                        display: flex;
+                        width: 22vw;
+                        input{
+                            background-color:$yellow-color;
+                            border: none;
+                            width: 22vw;
+                            height: 3vw;
+                            display: block;
+                            margin-bottom: 2vw;
+                            &::placeholder{
+                                color: white;
+                                font-size: 1.6rem;
+                                padding-left: 1vw;
+                            }
+                        }
+                    }
+                    .commentsSubmitButton{
+                        input {
+                            background-color: $green-color;
+                            border: none;
+                            width: 4.5vw;
+                            height: 4.5vw;
+                            border-radius: 50%;
+                            color: white;
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+                .commentsMessage{
+                    input{
+                        background-color: white;
+                        width: 22vw;
+                        height: 14vw;
+                        border: none;
+                        margin-left: 2vw;
+                        &::placeholder{
+                            color:$primary-color;
+                            font-size: 1.6rem;
+                            position: absolute;
+                            top: 1vw;
+                            left: 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .blogSidebar{
+        grid-area: blogSidebar;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        .dropdown{
+            .btn-secondary{
+                background-color:$green-color;  
+            }
+            .searchBar { 
+                width: auto;
+                height: 3vw;
+                border-radius: 0%;
+                border: none;
+                font-size: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 3vw;
+                color: white;
+            }
+            .dropdown-menu{
+                background-color: $primary-color;
+                .dropdown-item {
+                    color: white;
+                    font-size: 2rem;
+                }
+            }
+        }
+        .aboutMe {
+            width: auto;
+            margin-top: 4vw;
+            position: relative;
+            display: inline-block;
+            img{
+                width: 100%;
+            }
+            h3{
+                a{
+                    position: absolute;
+                    color: $primary-color;
+                    font-size: 4.8rem;
+                    text-decoration: none;
+                    top: 3vw;
+                    left: 3vw;
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+        .blogMailingList{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            margin-top: 4vw;
+            align-items: center;
+            padding: 2vw 2vw;
+            h4{
+                color: $primary-color;
+                font-size: 1.9rem;
+                text-align: center;
+                margin-top: 1vw;
+                margin-bottom: 2vw;
+            }
+            p{
+                color: $primary-color;
+                font-size: 1.6rem;
+                text-align: center;
+            }
+            .blogMailingListForm{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 21vw;
+                margin-top: 2vw;
+                .blogMailingListFormNameForm{
+                    width: 21vw;
+                    input{
+                        background-color:$red-color;
+                        border: none;
+                        width: 21vw;
+                        height: 2.5vw;
+                        display: block;
+                        margin-bottom: 2vw;
+                        &::placeholder{
+                            color: white;
+                            font-size: 1.6rem;
+                            padding-left: 1vw;
+                        }
+                    }
+                }
+                .blogMailingListFormEmailForm{
+                    width: 21vw;
+                    input{
+                        background-color:$yellow-color;
+                        border: none;
+                        width: 21vw;
+                        height: 2.5vw;
+                        display: block;
+                        margin-bottom: 2vw;
+                        &::placeholder{
+                            color: white;
+                            font-size: 1.6rem;
+                            padding-left: 1vw;
+                        }
+                    }
+                }
+                .blogMailingListFormSubmitButton{
+                    input {
+                        background-color: $green-color;
+                        border: none;
+                        width: 4.5vw;
+                        height: 4.5vw;
+                        border-radius: 50%;
+                        display: block;
+                        color: white;
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1230px){
+    .mainBlogContent{
+        .mainBlog{
+            .blogPost{
+                .postTitle{
+                    font-size: 2.3rem;
+                }
+            }
+        }
+        .blogSidebar{
+            .dropdown{
+                .searchBar { 
+                    height: 5vw;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:850px){
+    .mainBlogContent{
+        .mainBlog{
+            .blogPost{
+                .postTitle{
+                    font-size: 1.8rem;
+                    margin-bottom: 2vw;  
+                }
+            }
+            .nextPages{
+                img{
+                    height: 40px;
+                    margin:10px;
+                }
+            }
+            .blogComments{
+                h2{
+                    font-size: 2.5rem;
+                    margin-bottom: 5vw;
+                    margin-top: 5vw;
+                }
+                .commentsForm{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 40vw 30vw;
+                    justify-items: center;
+                    .commentsFormLeft{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 50vw;
+                        .commentsNameForm{
+                            width: 50vw;
+                            input{
+                                width: 50vw;
+                                height: 8vw;
+                                margin-bottom: 2vw;
+                                &::placeholder{
+                                    font-size: 1.6rem;
+                                    padding-left: 1vw;
+                                }
+                            }
+                        }
+                        .commentsEmailForm{
+                            width: 50vw;
+                            input{
+                                width: 50vw;
+                                height: 8vw;
+                                margin-bottom: 2vw;
+                                &::placeholder{
+                                    font-size: 1.6rem;
+                                    padding-left: 1vw;
+                                }
+                            }
+                        }
+                        .commentsSubmitButton{
+                            input {
+                                width: 12vw;
+                                height: 12vw;
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                    .commentsMessage{
+                        input{
+                            width: 50vw;
+                            height: 30vw;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .blogSidebar{
+            .dropdown{
+                .searchBar { 
+                    height: 6vw;
+                }
+                .dropdown-menu{
+                    .dropdown-item {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+            .aboutMe{
+                a{
+                    font-size: 3.6rem;
+                }
+            }
+            .blogMailingList{
+                .blogMailingListForm{
+                    .blogMailingListFormNameForm{
+                        input{
+                            height: 3.5vw;
+                        }
+                    }
+                    .blogMailingListFormEmailForm{
+                        input{
+                            height: 3.5vw;
+                        }
+                    }
+                    .blogMailingListFormSubmitButton{
+                        input {
+                            width: 6vw;
+                            height: 6vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .mainBlogContent{
+        width: 100vw;
+        padding-left: 7.5vw;
+        padding-right: 7.5vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vw auto;
+        grid-template-areas:
+        "search"
+        "blog";
+        .blogSidebar{
+            grid-area: search;
+            margin: 0;
+            .dropdown{
+                .searchBar { 
+                    height: 7vw;
+                }
+            }
+            .aboutMe{
+                display: none;
+            }
+            .blogMailingList{
+                display: none;
+            }
+        }
+        .mainBlog{
+            width: auto;
+            grid-area: blog;
+            display: flex;
+            flex-direction: column;
+            .blogPost{
+                .postTitle{
+                    font-size: 1.6rem;  
+                }
+            }
+            .nextPages{
+                img{
+                    margin:5px;
+                }
+            }
+            .blogComments{
+                h2{
+                    font-size: 2.5rem;
+                    margin-bottom: 5vw;
+                    margin-top: 5vw;
+                }
+                .commentsForm{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 40vw 30vw;
+                    justify-items: center;
+                    .commentsFormLeft{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 60vw;
+                        .commentsNameForm{
+                            width: 60vw;
+                            input{
+                                width: 60vw;
+                                height: 8vw;
+                                display: block;
+                                margin-bottom: 2vw;
+                            }
+                        }
+                        .commentsEmailForm{
+                            width: 60vw;
+                            input{
+                                width: 60vw;
+                                height: 8vw;
+                                display: block;
+                                margin-bottom: 2vw;
+                            }
+                        }
+                    }
+                    .commentsMessage{
+                        input{
+                            width: 60vw;
+                            height: 30vw;
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

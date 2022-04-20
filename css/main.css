@@ -159,8 +159,11 @@ header {
       header .headerTopContainer .mobileMenu .offcanvas-title {
         font-size: 2.4rem;
         color: #b0b0af; }
-      header .headerTopContainer .mobileMenu .offcanvas-body .dropdown-menu .dropdown-item a {
-        color: white; }
+      header .headerTopContainer .mobileMenu .offcanvas-body .dropdown-menu {
+        background-color: #b0b0af; }
+        header .headerTopContainer .mobileMenu .offcanvas-body .dropdown-menu li .dropdown-item {
+          color: white;
+          font-size: 2.4rem; }
   header .headerBottomContainer {
     display: none; } }
 
@@ -359,6 +362,1212 @@ footer {
     height: 13vw; }
     footer .bottomFooter p {
       font-size: 1.6rem; } }
+
+.mainBlogContent {
+  background-color: #b0b0af;
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  grid-template-areas: "mainBlog blogSidebar"; }
+  .mainBlogContent .mainBlog {
+    grid-area: mainBlog;
+    display: flex;
+    flex-direction: column; }
+    .mainBlogContent .mainBlog .blogPost {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 4vw; }
+      .mainBlogContent .mainBlog .blogPost .postTitle {
+        display: flex;
+        align-items: center;
+        font-size: 2.8rem;
+        margin-bottom: 2vw; }
+        .mainBlogContent .mainBlog .blogPost .postTitle .postDate {
+          color: white; }
+        .mainBlogContent .mainBlog .blogPost .postTitle img {
+          margin-right: 1vw;
+          margin-left: 2vw;
+          height: 3vw; }
+        .mainBlogContent .mainBlog .blogPost .postTitle .postTitleText {
+          color: #F5D767; }
+      .mainBlogContent .mainBlog .blogPost .blogPostImage {
+        width: auto; }
+        .mainBlogContent .mainBlog .blogPost .blogPostImage img {
+          width: 100%; }
+    .mainBlogContent .mainBlog .nextPages {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 3vw; }
+      .mainBlogContent .mainBlog .nextPages img {
+        height: 50px;
+        margin: 10px; }
+    .mainBlogContent .mainBlog .blogComments {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 4vw; }
+      .mainBlogContent .mainBlog .blogComments h2 {
+        color: white;
+        font-size: 4.8rem;
+        margin-bottom: 5vw;
+        margin-top: 5vw; }
+      .mainBlogContent .mainBlog .blogComments .commentsForm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        justify-content: center; }
+        .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 22vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm {
+            display: flex;
+            width: 22vw; }
+            .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm input {
+              background-color: #D68B76;
+              border: none;
+              width: 22vw;
+              height: 3vw;
+              display: block;
+              margin-bottom: 2vw; }
+              .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm input::placeholder {
+                color: white;
+                font-size: 1.6rem;
+                padding-left: 1vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm {
+            display: flex;
+            width: 22vw; }
+            .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm input {
+              background-color: #F5D767;
+              border: none;
+              width: 22vw;
+              height: 3vw;
+              display: block;
+              margin-bottom: 2vw; }
+              .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm input::placeholder {
+                color: white;
+                font-size: 1.6rem;
+                padding-left: 1vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsSubmitButton input {
+            background-color: #89B1AB;
+            border: none;
+            width: 4.5vw;
+            height: 4.5vw;
+            border-radius: 50%;
+            color: white;
+            font-size: 1.6rem; }
+        .mainBlogContent .mainBlog .blogComments .commentsForm .commentsMessage input {
+          background-color: white;
+          width: 22vw;
+          height: 14vw;
+          border: none;
+          margin-left: 2vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsMessage input::placeholder {
+            color: #b0b0af;
+            font-size: 1.6rem;
+            position: absolute;
+            top: 1vw;
+            left: 1vw; }
+  .mainBlogContent .blogSidebar {
+    grid-area: blogSidebar;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw; }
+    .mainBlogContent .blogSidebar .dropdown .btn-secondary {
+      background-color: #89B1AB; }
+    .mainBlogContent .blogSidebar .dropdown .searchBar {
+      width: auto;
+      height: 3vw;
+      border-radius: 0%;
+      border: none;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 3vw;
+      color: white; }
+    .mainBlogContent .blogSidebar .dropdown .dropdown-menu {
+      background-color: #b0b0af; }
+      .mainBlogContent .blogSidebar .dropdown .dropdown-menu .dropdown-item {
+        color: white;
+        font-size: 2rem; }
+    .mainBlogContent .blogSidebar .aboutMe {
+      width: auto;
+      margin-top: 4vw;
+      position: relative;
+      display: inline-block; }
+      .mainBlogContent .blogSidebar .aboutMe img {
+        width: 100%; }
+      .mainBlogContent .blogSidebar .aboutMe h3 a {
+        position: absolute;
+        color: #b0b0af;
+        font-size: 4.8rem;
+        text-decoration: none;
+        top: 3vw;
+        left: 3vw;
+        display: flex;
+        flex-direction: column; }
+    .mainBlogContent .blogSidebar .blogMailingList {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      margin-top: 4vw;
+      align-items: center;
+      padding: 2vw 2vw; }
+      .mainBlogContent .blogSidebar .blogMailingList h4 {
+        color: #b0b0af;
+        font-size: 1.9rem;
+        text-align: center;
+        margin-top: 1vw;
+        margin-bottom: 2vw; }
+      .mainBlogContent .blogSidebar .blogMailingList p {
+        color: #b0b0af;
+        font-size: 1.6rem;
+        text-align: center; }
+      .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 21vw;
+        margin-top: 2vw; }
+        .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormNameForm {
+          width: 21vw; }
+          .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormNameForm input {
+            background-color: #D68B76;
+            border: none;
+            width: 21vw;
+            height: 2.5vw;
+            display: block;
+            margin-bottom: 2vw; }
+            .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormNameForm input::placeholder {
+              color: white;
+              font-size: 1.6rem;
+              padding-left: 1vw; }
+        .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormEmailForm {
+          width: 21vw; }
+          .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormEmailForm input {
+            background-color: #F5D767;
+            border: none;
+            width: 21vw;
+            height: 2.5vw;
+            display: block;
+            margin-bottom: 2vw; }
+            .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormEmailForm input::placeholder {
+              color: white;
+              font-size: 1.6rem;
+              padding-left: 1vw; }
+        .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormSubmitButton input {
+          background-color: #89B1AB;
+          border: none;
+          width: 4.5vw;
+          height: 4.5vw;
+          border-radius: 50%;
+          display: block;
+          color: white;
+          font-size: 1.6rem; }
+
+@media only screen and (max-width: 1230px) {
+  .mainBlogContent .mainBlog .blogPost .postTitle {
+    font-size: 2.3rem; }
+  .mainBlogContent .blogSidebar .dropdown .searchBar {
+    height: 5vw; } }
+
+@media only screen and (max-width: 850px) {
+  .mainBlogContent .mainBlog .blogPost .postTitle {
+    font-size: 1.8rem;
+    margin-bottom: 2vw; }
+  .mainBlogContent .mainBlog .nextPages img {
+    height: 40px;
+    margin: 10px; }
+  .mainBlogContent .mainBlog .blogComments h2 {
+    font-size: 2.5rem;
+    margin-bottom: 5vw;
+    margin-top: 5vw; }
+  .mainBlogContent .mainBlog .blogComments .commentsForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vw 30vw;
+    justify-items: center; }
+    .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50vw; }
+      .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm {
+        width: 50vw; }
+        .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm input {
+          width: 50vw;
+          height: 8vw;
+          margin-bottom: 2vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm input::placeholder {
+            font-size: 1.6rem;
+            padding-left: 1vw; }
+      .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm {
+        width: 50vw; }
+        .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm input {
+          width: 50vw;
+          height: 8vw;
+          margin-bottom: 2vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm input::placeholder {
+            font-size: 1.6rem;
+            padding-left: 1vw; }
+      .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsSubmitButton input {
+        width: 12vw;
+        height: 12vw;
+        font-size: 1.6rem; }
+    .mainBlogContent .mainBlog .blogComments .commentsForm .commentsMessage input {
+      width: 50vw;
+      height: 30vw;
+      margin-left: 0; }
+  .mainBlogContent .blogSidebar .dropdown .searchBar {
+    height: 6vw; }
+  .mainBlogContent .blogSidebar .dropdown .dropdown-menu .dropdown-item {
+    font-size: 1.8rem; }
+  .mainBlogContent .blogSidebar .aboutMe a {
+    font-size: 3.6rem; }
+  .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormNameForm input {
+    height: 3.5vw; }
+  .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormEmailForm input {
+    height: 3.5vw; }
+  .mainBlogContent .blogSidebar .blogMailingList .blogMailingListForm .blogMailingListFormSubmitButton input {
+    width: 6vw;
+    height: 6vw; } }
+
+@media only screen and (max-width: 600px) {
+  .mainBlogContent {
+    width: 100vw;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vw auto;
+    grid-template-areas: "search" "blog"; }
+    .mainBlogContent .blogSidebar {
+      grid-area: search;
+      margin: 0; }
+      .mainBlogContent .blogSidebar .dropdown .searchBar {
+        height: 7vw; }
+      .mainBlogContent .blogSidebar .aboutMe {
+        display: none; }
+      .mainBlogContent .blogSidebar .blogMailingList {
+        display: none; }
+    .mainBlogContent .mainBlog {
+      width: auto;
+      grid-area: blog;
+      display: flex;
+      flex-direction: column; }
+      .mainBlogContent .mainBlog .blogPost .postTitle {
+        font-size: 1.6rem; }
+      .mainBlogContent .mainBlog .nextPages img {
+        margin: 5px; }
+      .mainBlogContent .mainBlog .blogComments h2 {
+        font-size: 2.5rem;
+        margin-bottom: 5vw;
+        margin-top: 5vw; }
+      .mainBlogContent .mainBlog .blogComments .commentsForm {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vw 30vw;
+        justify-items: center; }
+        .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 60vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm {
+            width: 60vw; }
+            .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm input {
+              width: 60vw;
+              height: 8vw;
+              display: block;
+              margin-bottom: 2vw; }
+          .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm {
+            width: 60vw; }
+            .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm input {
+              width: 60vw;
+              height: 8vw;
+              display: block;
+              margin-bottom: 2vw; }
+        .mainBlogContent .mainBlog .blogComments .commentsForm .commentsMessage input {
+          width: 60vw;
+          height: 30vw;
+          margin-left: 0; } }
+
+.mainPage {
+  background-color: #b0b0af;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .mainPage .mainContact {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; }
+    .mainPage .mainContact .mainContactPhotoMobile {
+      display: none; }
+    .mainPage .mainContact .mainContactPhoto {
+      width: 100vw;
+      position: relative;
+      display: inline-block; }
+      .mainPage .mainContact .mainContactPhoto img {
+        width: 100%; }
+    .mainPage .mainContact .mainContactContent {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      margin-right: 7.5vw;
+      align-items: flex-end; }
+      .mainPage .mainContact .mainContactContent h2 {
+        color: #b0b0af;
+        font-size: 3rem;
+        margin-bottom: 2vw; }
+      .mainPage .mainContact .mainContactContent p {
+        color: #b0b0af;
+        font-size: 1.6rem; }
+        .mainPage .mainContact .mainContactContent p .infoMail {
+          color: #D68B76; }
+        .mainPage .mainContact .mainContactContent p .faqsLink {
+          color: #F5D767; }
+      .mainPage .mainContact .mainContactContent .contactForm {
+        display: grid;
+        grid-template-columns: 18vw 18vw;
+        color: white;
+        justify-content: center; }
+        .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 18vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm {
+            width: 18vw; }
+            .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm input {
+              background-color: #D68B76;
+              border: none;
+              width: 18vw;
+              height: 2.5vw;
+              display: block;
+              margin-bottom: 2vw; }
+              .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm input::placeholder {
+                color: white;
+                font-size: 1.6rem;
+                padding-left: 1vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm {
+            width: 18vw; }
+            .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm input {
+              background-color: #F5D767;
+              border: none;
+              width: 18vw;
+              height: 2.5vw;
+              display: block;
+              margin-bottom: 2vw; }
+              .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm input::placeholder {
+                color: white;
+                font-size: 1.6rem;
+                padding-left: 1vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactSubmitButton input {
+            background-color: #89B1AB;
+            border: none;
+            width: 4.5vw;
+            height: 4.5vw;
+            border-radius: 50%;
+            display: block;
+            color: white;
+            font-size: 1.6rem; }
+        .mainPage .mainContact .mainContactContent .contactForm .contactMessage input {
+          background-color: white;
+          width: 16vw;
+          height: 14vw;
+          border: none;
+          margin-left: 2vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactMessage input::placeholder {
+            color: #b0b0af;
+            font-size: 1.6rem;
+            position: absolute;
+            top: 1vw;
+            left: 1vw; }
+
+@media only screen and (max-width: 1230px) {
+  .mainPage .mainContact .mainContactContent {
+    margin-right: 3vw; }
+    .mainPage .mainContact .mainContactContent h2 {
+      font-size: 3rem;
+      margin-bottom: 1vw; } }
+
+@media only screen and (max-width: 850px) {
+  .mainPage .mainContact {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    align-items: start; }
+    .mainPage .mainContact .mainContactPhoto {
+      display: none; }
+    .mainPage .mainContact .mainContactPhotoMobile {
+      height: auto;
+      display: block;
+      margin-right: 5vw;
+      margin-left: 5vw;
+      width: 90vw; }
+      .mainPage .mainContact .mainContactPhotoMobile img {
+        width: 100%; }
+    .mainPage .mainContact .mainContactContent {
+      width: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      margin-right: 0;
+      margin-left: 0;
+      padding-right: 5vw;
+      padding-left: 5vw; }
+      .mainPage .mainContact .mainContactContent h2 {
+        font-size: 4rem;
+        margin: 0px;
+        color: white;
+        margin-top: 3vw;
+        margin-bottom: 3vw; }
+      .mainPage .mainContact .mainContactContent p {
+        color: white;
+        font-size: 2rem;
+        text-align: center; }
+      .mainPage .mainContact .mainContactContent .contactForm {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 35vw 35vw;
+        grid-template-areas: "message" "form";
+        justify-items: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw; }
+        .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft {
+          grid-area: form;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 60vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm {
+            width: 60vw; }
+            .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm input {
+              width: 60vw;
+              height: 8vw;
+              display: block;
+              margin-bottom: 2vw; }
+              .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm input::placeholder {
+                font-size: 1.6rem;
+                padding-left: 1vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm {
+            width: 60vw; }
+            .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm input {
+              width: 60vw;
+              height: 8vw;
+              display: block;
+              margin-bottom: 2vw; }
+              .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm input::placeholder {
+                font-size: 1.6rem;
+                padding-left: 1vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactSubmitButton input {
+            width: 12vw;
+            height: 12vw;
+            font-size: 1.6rem; }
+        .mainPage .mainContact .mainContactContent .contactForm .contactMessage {
+          width: 60vw; }
+          .mainPage .mainContact .mainContactContent .contactForm .contactMessage input {
+            grid-area: message;
+            width: 60vw;
+            height: 30vw;
+            margin-left: 0; }
+            .mainPage .mainContact .mainContactContent .contactForm .contactMessage input::placeholder {
+              font-size: 1.6rem;
+              position: absolute;
+              top: 1vw;
+              left: 1vw; } }
+
+.mainFaqsContent {
+  background-color: #b0b0af;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 7.5vw;
+  padding-left: 7.5vw; }
+  .mainFaqsContent h2 {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 3vw; }
+  .mainFaqsContent .mainFaq {
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .mainFaqsContent .mainFaq .mainFaqImage {
+      width: 40vw; }
+      .mainFaqsContent .mainFaq .mainFaqImage img {
+        width: 100%; }
+    .mainFaqsContent .mainFaq .mainFaqText {
+      padding: 2vw;
+      width: 40vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .mainFaqsContent .mainFaq .mainFaqText h3 {
+        font-size: 2.4rem;
+        color: #F5D767;
+        margin-bottom: 2vw; }
+      .mainFaqsContent .mainFaq .mainFaqText p {
+        font-size: 2.1rem;
+        color: white; }
+
+@media only screen and (max-width: 1230px) {
+  .mainFaqsContent .mainFaq .mainFaqText h3 {
+    font-size: 2rem; }
+  .mainFaqsContent .mainFaq .mainFaqText p {
+    font-size: 1.6rem; } }
+
+@media only screen and (max-width: 850px) {
+  .mainFaqsContent .mainFaq {
+    margin-bottom: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .mainFaqsContent .mainFaq .mainFaqImage {
+      width: 100vw;
+      padding-left: 7.5vw;
+      padding-right: 7.5vw; }
+    .mainFaqsContent .mainFaq .mainFaqText {
+      padding-right: 7.5vw;
+      padding-left: 7.5vw;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: justify; } }
+
+@media only screen and (max-width: 450px) {
+  .mainFaqsContent h2 {
+    font-size: 3rem; } }
+
+.mainPage {
+  background-color: #b0b0af;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .mainPage .mainOurStory {
+    width: 100vw;
+    position: relative;
+    display: inline-block; }
+    .mainPage .mainOurStory .OurStoryMobileImage {
+      display: none; }
+    .mainPage .mainOurStory .OurStoryImage {
+      width: 100%; }
+    .mainPage .mainOurStory h2 {
+      width: 30vw;
+      font-size: 6rem;
+      color: #b0b0af;
+      position: absolute;
+      top: 3vw;
+      left: 3vw; }
+      .mainPage .mainOurStory h2 span {
+        color: #D68B76; }
+    .mainPage .mainOurStory h3 {
+      width: 25vw;
+      font-size: 3.6rem;
+      color: #F5D767;
+      position: absolute;
+      bottom: 3vw;
+      left: 3vw; }
+  .mainPage .mainOurStoryText {
+    padding-right: 7.5vw;
+    padding-left: 7.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vw;
+    text-align: justify; }
+    .mainPage .mainOurStoryText .welcome {
+      text-align: center;
+      font-size: 3rem;
+      padding-top: 2vw;
+      color: white; }
+    .mainPage .mainOurStoryText .mainText {
+      padding-top: 2vw;
+      color: white;
+      font-size: 2.4rem; }
+
+@media only screen and (max-width: 1230px) {
+  .mainPage .mainOurStory h2 {
+    width: 30vw;
+    font-size: 4rem; }
+  .mainPage .mainOurStory h3 {
+    width: 30vw;
+    font-size: 2.5rem; }
+  .mainPage .mainOurStoryText .welcome {
+    font-size: 2.5rem; }
+  .mainPage .mainOurStoryText .mainText {
+    font-size: 2rem; } }
+
+@media only screen and (max-width: 850px) {
+  .mainPage .mainOurStory h2 {
+    width: 50vw;
+    font-size: 3rem; }
+  .mainPage .mainOurStory h3 {
+    width: 40vw;
+    font-size: 2rem; }
+  .mainPage .mainOurStoryText .welcome {
+    font-size: 2rem; }
+  .mainPage .mainOurStoryText .mainText {
+    font-size: 1.6rem; } }
+
+@media only screen and (max-width: 450px) {
+  .mainPage .mainOurStory .OurStoryMobileImage {
+    display: block;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 100vw; }
+    .mainPage .mainOurStory .OurStoryMobileImage img {
+      width: 100%; }
+  .mainPage .mainOurStory .OurStoryImage {
+    display: none; }
+  .mainPage .mainOurStory h2 {
+    width: 50vw;
+    font-size: 2.1rem;
+    padding-left: 2vw; }
+  .mainPage .mainOurStory h3 {
+    display: none; } }
+
+.mainShopPage {
+  background-color: #b0b0af; }
+  .mainShopPage .mainShopHeader {
+    width: 100vw;
+    height: 12vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7.5vw;
+    justify-content: center; }
+    .mainShopPage .mainShopHeader h2 {
+      color: #b0b0af;
+      font-size: 4rem;
+      margin-bottom: 1vw; }
+    .mainShopPage .mainShopHeader .dropdown .mainShopHeaderBrowser {
+      width: 300px;
+      height: 3.5vw;
+      color: white;
+      font-size: 2.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .mainShopPage .mainShopHeader .dropdown .btn-secondary {
+      background-color: #b0b0af;
+      border: none; }
+    .mainShopPage .mainShopHeader .dropdown .dropdown-menu {
+      background-color: #b0b0af; }
+      .mainShopPage .mainShopHeader .dropdown .dropdown-menu li .dropdown-item {
+        color: white;
+        font-size: 2.4rem; }
+  .mainShopPage .mainShop {
+    margin-top: 5vw;
+    margin-right: 7.5vw;
+    margin-left: 7.5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 40vw;
+    column-gap: 3vw; }
+    .mainShopPage .mainShop .item {
+      width: 100%;
+      display: grid;
+      grid-template-rows: 28vw 8vw;
+      grid-template-areas: "productImage" "itemInfo"; }
+      .mainShopPage .mainShop .item .productImage {
+        grid-area: productImage;
+        position: relative;
+        display: inline-block; }
+        .mainShopPage .mainShop .item .productImage img {
+          width: 100%; }
+      .mainShopPage .mainShop .item .itemInfo {
+        display: flex;
+        justify-content: space-between;
+        grid-area: itemInfo;
+        align-items: center; }
+        .mainShopPage .mainShop .item .itemInfo .itemText {
+          font-size: 2.1rem;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          padding: 1vw; }
+          .mainShopPage .mainShop .item .itemInfo .itemText h3 {
+            margin-bottom: 1vw; }
+        .mainShopPage .mainShop .item .itemInfo .links {
+          display: flex;
+          flex-direction: column;
+          padding: 1vw; }
+          .mainShopPage .mainShop .item .itemInfo .links .cartIcon {
+            width: 3vw;
+            margin-bottom: 0.6vw; }
+          .mainShopPage .mainShop .item .itemInfo .links .moreInfoIcon {
+            width: 3vw; }
+  .mainShopPage .nextPages {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3vw; }
+    .mainShopPage .nextPages img {
+      height: 50px;
+      margin: 10px; }
+
+@media only screen and (max-width: 850px) {
+  .mainShopPage .mainShopHeader {
+    height: 17vw; }
+    .mainShopPage .mainShopHeader .dropdown .mainShopHeaderBrowser {
+      height: 5vw; }
+  .mainShopPage .mainShop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 59vw; }
+    .mainShopPage .mainShop .item {
+      width: 100%;
+      display: grid;
+      grid-template-rows: 41vw 15vw; }
+      .mainShopPage .mainShop .item .itemInfo .itemText {
+        font-size: 1.6rem; }
+      .mainShopPage .mainShop .item .itemInfo .links .cartIcon {
+        width: 4vw;
+        margin-bottom: 0.5vw; }
+      .mainShopPage .mainShop .item .itemInfo .links .moreInfoIcon {
+        width: 4vw; }
+  .mainShopPage .nextPages img {
+    height: 40px;
+    margin: 10px; } }
+
+@media only screen and (max-width: 600px) {
+  .mainShopPage .mainShopHeader h2 {
+    font-size: 3rem; }
+  .mainShopPage .mainShopHeader .dropdown .mainShopHeaderBrowser {
+    width: 50vw; }
+  .mainShopPage .mainShop .item .itemInfo .links .cartIcon {
+    width: 5vw;
+    margin-bottom: 0.7vw; }
+  .mainShopPage .mainShop .item .itemInfo .links .moreInfoIcon {
+    width: 5vw; }
+  .mainShopPage .nextPages img {
+    margin: 5px; } }
+
+@media only screen and (max-width: 450px) {
+  .mainShopPage .mainShopHeader {
+    width: 100vw;
+    height: 36vw;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center; }
+    .mainShopPage .mainShopHeader h2 {
+      font-size: 4rem;
+      margin-bottom: 1vw;
+      padding: 1vw; }
+    .mainShopPage .mainShopHeader .dropdown .mainShopHeaderBrowser {
+      width: 70vw;
+      height: 12.5vw;
+      padding: 1vw; }
+  .mainShopPage .mainShop {
+    margin-top: 5vw;
+    margin-right: 7.5vw;
+    margin-left: 7.5vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 115vw;
+    column-gap: 3vw; }
+    .mainShopPage .mainShop .item {
+      width: 100%;
+      display: grid;
+      grid-template-rows: 85vw 20vw; }
+      .mainShopPage .mainShop .item .itemInfo .links .cartIcon {
+        width: 7vw;
+        margin-bottom: 1vw; }
+      .mainShopPage .mainShop .item .itemInfo .links .moreInfoIcon {
+        width: 7vw; } }
+
+.mainAccount {
+  background-color: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "login register";
+  column-gap: 3vw;
+  justify-items: center;
+  padding-right: 7.5vw;
+  padding-left: 7.5vw;
+  padding-bottom: 3vw; }
+  .mainAccount .loginAccount {
+    grid-area: login;
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw; }
+    .mainAccount .loginAccount h2 {
+      color: #b0b0af;
+      font-size: 3.6rem;
+      text-align: left;
+      margin-bottom: 1vw; }
+    .mainAccount .loginAccount .usernameForm label {
+      color: #b0b0af;
+      font-size: 1.6rem;
+      margin-bottom: 0.5vw; }
+    .mainAccount .loginAccount .usernameForm input {
+      background-color: #D68B76;
+      border: none;
+      width: 38vw;
+      height: 3vw;
+      display: block;
+      margin-bottom: 1vw;
+      margin-right: 1vw; }
+    .mainAccount .loginAccount .passwordForm label {
+      color: #b0b0af;
+      font-size: 1.6rem;
+      margin-bottom: 0.5vw; }
+    .mainAccount .loginAccount .passwordForm input {
+      background-color: #F5D767;
+      border: none;
+      width: 38vw;
+      height: 3vw;
+      display: block;
+      margin-bottom: 1vw;
+      margin-right: 1vw; }
+    .mainAccount .loginAccount .checkbox {
+      margin-bottom: 1vw;
+      font-size: 1.6rem;
+      color: #b0b0af;
+      display: flex;
+      justify-content: space-between; }
+      .mainAccount .loginAccount .checkbox a {
+        color: #b0b0af;
+        text-decoration: none;
+        text-align: end; }
+    .mainAccount .loginAccount .login {
+      display: flex;
+      justify-content: flex-end; }
+      .mainAccount .loginAccount .login input {
+        background-color: #89B1AB;
+        border: none;
+        width: 10vw;
+        height: 4vw;
+        display: block;
+        color: white;
+        font-size: 2.4rem; }
+  .mainAccount .registerAccount {
+    grid-area: register;
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw; }
+    .mainAccount .registerAccount h2 {
+      color: #b0b0af;
+      font-size: 3.6rem;
+      text-align: left;
+      margin-bottom: 1vw; }
+    .mainAccount .registerAccount .emailAdressForm label {
+      color: #b0b0af;
+      font-size: 1.6rem;
+      margin-bottom: 0.5vw; }
+    .mainAccount .registerAccount .emailAdressForm input {
+      background-color: #D68B76;
+      border: none;
+      width: 38vw;
+      height: 3vw;
+      display: block;
+      margin-bottom: 1vw;
+      margin-right: 1vw; }
+    .mainAccount .registerAccount .passwordForm label {
+      color: #b0b0af;
+      font-size: 1.6rem;
+      margin-bottom: 0.5vw; }
+    .mainAccount .registerAccount .passwordForm input {
+      background-color: #F5D767;
+      border: none;
+      width: 38vw;
+      height: 3vw;
+      display: block;
+      margin-bottom: 1vw;
+      margin-right: 1vw; }
+    .mainAccount .registerAccount .register {
+      display: flex;
+      justify-content: flex-end; }
+      .mainAccount .registerAccount .register input {
+        background-color: #89B1AB;
+        border: none;
+        width: 10vw;
+        height: 4vw;
+        display: block;
+        color: white;
+        font-size: 2.4rem; }
+
+@media only screen and (max-width: 1000px) {
+  .mainAccount {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "login"  "register"; }
+    .mainAccount .loginAccount {
+      grid-area: login;
+      width: 80vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      margin-bottom: 3vw; }
+      .mainAccount .loginAccount h2 {
+        font-size: 3rem;
+        text-align: left;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+        padding-left: 10vw; }
+      .mainAccount .loginAccount .usernameForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2vw; }
+        .mainAccount .loginAccount .usernameForm label {
+          align-self: flex-start;
+          padding-left: 10vw; }
+        .mainAccount .loginAccount .usernameForm input {
+          width: 60vw;
+          height: 6vw;
+          display: block;
+          margin-bottom: 1vw;
+          margin-right: 0; }
+      .mainAccount .loginAccount .passwordForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2vw; }
+        .mainAccount .loginAccount .passwordForm label {
+          align-self: flex-start;
+          padding-left: 10vw; }
+        .mainAccount .loginAccount .passwordForm input {
+          width: 60vw;
+          height: 6vw;
+          display: block;
+          margin-bottom: 1vw;
+          margin-right: 0; }
+      .mainAccount .loginAccount .checkbox {
+        margin-bottom: 3vw;
+        font-size: 1.6rem;
+        padding-left: 10vw;
+        padding-right: 10vw; }
+      .mainAccount .loginAccount .login input {
+        width: 20vw;
+        height: 7.5vw;
+        font-size: 2rem;
+        margin-right: 10vw;
+        margin-bottom: 3vw; }
+    .mainAccount .registerAccount {
+      grid-area: register;
+      width: 80vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      padding: 0; }
+      .mainAccount .registerAccount h2 {
+        font-size: 3rem;
+        text-align: left;
+        margin-bottom: 3vw;
+        margin-top: 3vw;
+        padding-left: 10vw; }
+      .mainAccount .registerAccount .emailAdressForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2vw; }
+        .mainAccount .registerAccount .emailAdressForm label {
+          align-self: flex-start;
+          padding-left: 10vw; }
+        .mainAccount .registerAccount .emailAdressForm input {
+          width: 60vw;
+          height: 6vw;
+          display: block;
+          margin-bottom: 1vw;
+          margin-right: 0; }
+      .mainAccount .registerAccount .passwordForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2vw; }
+        .mainAccount .registerAccount .passwordForm label {
+          align-self: flex-start;
+          padding-left: 10vw; }
+        .mainAccount .registerAccount .passwordForm input {
+          width: 60vw;
+          height: 6vw;
+          display: block;
+          margin-bottom: 1vw;
+          margin-right: 0; }
+      .mainAccount .registerAccount .register input {
+        width: 20vw;
+        height: 7.5vw;
+        font-size: 2rem;
+        margin-right: 10vw;
+        margin-bottom: 3vw; } }
+
+@media only screen and (max-width: 450px) {
+  .mainAccount .loginAccount .usernameForm input {
+    height: 7.5vw; }
+  .mainAccount .loginAccount .passwordForm input {
+    height: 7.5vw; }
+  .mainAccount .loginAccount .login input {
+    width: 30vw;
+    height: 9vw;
+    font-size: 2rem; }
+  .mainAccount .registerAccount .emailAdressForm input {
+    height: 7.5vw; }
+  .mainAccount .registerAccount .passwordForm input {
+    height: 7.5vw; }
+  .mainAccount .registerAccount .register input {
+    width: 30vw;
+    height: 9vw;
+    font-size: 2rem; } }
+
+.mainCart {
+  background-color: #b0b0af; }
+  .mainCart .cartHeader {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .mainCart .cartHeader h2 {
+      color: #b0b0af;
+      font-size: 4.8rem; }
+  .mainCart .mainCartInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw; }
+    .mainCart .mainCartInfo p {
+      color: white;
+      font-size: 1.6rem;
+      margin-top: 2vw;
+      text-align: justify; }
+      .mainCart .mainCartInfo p a {
+        color: white; }
+
+@media only screen and (max-width: 1230px) {
+  .mainCart .cartHeader {
+    height: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw; }
+    .mainCart .cartHeader h2 {
+      font-size: 4rem; } }
+
+.mainPayments, .mainPrivacy, .mainReturns, .mainSaleTerms, .mainShipping, .mainUseTerms {
+  background-color: #b0b0af; }
+  .mainPayments .paymentsHeader, .mainPayments .privacyHeader, .mainPayments .returnsHeader, .mainPayments .saleTermsHeader, .mainPayments .shippingHeader, .mainPayments .useTermsHeader, .mainPrivacy .paymentsHeader, .mainPrivacy .privacyHeader, .mainPrivacy .returnsHeader, .mainPrivacy .saleTermsHeader, .mainPrivacy .shippingHeader, .mainPrivacy .useTermsHeader, .mainReturns .paymentsHeader, .mainReturns .privacyHeader, .mainReturns .returnsHeader, .mainReturns .saleTermsHeader, .mainReturns .shippingHeader, .mainReturns .useTermsHeader, .mainSaleTerms .paymentsHeader, .mainSaleTerms .privacyHeader, .mainSaleTerms .returnsHeader, .mainSaleTerms .saleTermsHeader, .mainSaleTerms .shippingHeader, .mainSaleTerms .useTermsHeader, .mainShipping .paymentsHeader, .mainShipping .privacyHeader, .mainShipping .returnsHeader, .mainShipping .saleTermsHeader, .mainShipping .shippingHeader, .mainShipping .useTermsHeader, .mainUseTerms .paymentsHeader, .mainUseTerms .privacyHeader, .mainUseTerms .returnsHeader, .mainUseTerms .saleTermsHeader, .mainUseTerms .shippingHeader, .mainUseTerms .useTermsHeader {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .mainPayments .paymentsHeader h2, .mainPayments .privacyHeader h2, .mainPayments .returnsHeader h2, .mainPayments .saleTermsHeader h2, .mainPayments .shippingHeader h2, .mainPayments .useTermsHeader h2, .mainPrivacy .paymentsHeader h2, .mainPrivacy .privacyHeader h2, .mainPrivacy .returnsHeader h2, .mainPrivacy .saleTermsHeader h2, .mainPrivacy .shippingHeader h2, .mainPrivacy .useTermsHeader h2, .mainReturns .paymentsHeader h2, .mainReturns .privacyHeader h2, .mainReturns .returnsHeader h2, .mainReturns .saleTermsHeader h2, .mainReturns .shippingHeader h2, .mainReturns .useTermsHeader h2, .mainSaleTerms .paymentsHeader h2, .mainSaleTerms .privacyHeader h2, .mainSaleTerms .returnsHeader h2, .mainSaleTerms .saleTermsHeader h2, .mainSaleTerms .shippingHeader h2, .mainSaleTerms .useTermsHeader h2, .mainShipping .paymentsHeader h2, .mainShipping .privacyHeader h2, .mainShipping .returnsHeader h2, .mainShipping .saleTermsHeader h2, .mainShipping .shippingHeader h2, .mainShipping .useTermsHeader h2, .mainUseTerms .paymentsHeader h2, .mainUseTerms .privacyHeader h2, .mainUseTerms .returnsHeader h2, .mainUseTerms .saleTermsHeader h2, .mainUseTerms .shippingHeader h2, .mainUseTerms .useTermsHeader h2 {
+      color: #b0b0af;
+      font-size: 4.8rem; }
+  .mainPayments .mainPaymentsInfo, .mainPayments .mainPrivacyInfo, .mainPayments .mainReturnsInfo, .mainPayments .mainSaleTermsInfo, .mainPayments .mainShippingInfo, .mainPayments .useTermsInfo, .mainPrivacy .mainPaymentsInfo, .mainPrivacy .mainPrivacyInfo, .mainPrivacy .mainReturnsInfo, .mainPrivacy .mainSaleTermsInfo, .mainPrivacy .mainShippingInfo, .mainPrivacy .useTermsInfo, .mainReturns .mainPaymentsInfo, .mainReturns .mainPrivacyInfo, .mainReturns .mainReturnsInfo, .mainReturns .mainSaleTermsInfo, .mainReturns .mainShippingInfo, .mainReturns .useTermsInfo, .mainSaleTerms .mainPaymentsInfo, .mainSaleTerms .mainPrivacyInfo, .mainSaleTerms .mainReturnsInfo, .mainSaleTerms .mainSaleTermsInfo, .mainSaleTerms .mainShippingInfo, .mainSaleTerms .useTermsInfo, .mainShipping .mainPaymentsInfo, .mainShipping .mainPrivacyInfo, .mainShipping .mainReturnsInfo, .mainShipping .mainSaleTermsInfo, .mainShipping .mainShippingInfo, .mainShipping .useTermsInfo, .mainUseTerms .mainPaymentsInfo, .mainUseTerms .mainPrivacyInfo, .mainUseTerms .mainReturnsInfo, .mainUseTerms .mainSaleTermsInfo, .mainUseTerms .mainShippingInfo, .mainUseTerms .useTermsInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw; }
+    .mainPayments .mainPaymentsInfo h3, .mainPayments .mainPrivacyInfo h3, .mainPayments .mainReturnsInfo h3, .mainPayments .mainSaleTermsInfo h3, .mainPayments .mainShippingInfo h3, .mainPayments .useTermsInfo h3, .mainPrivacy .mainPaymentsInfo h3, .mainPrivacy .mainPrivacyInfo h3, .mainPrivacy .mainReturnsInfo h3, .mainPrivacy .mainSaleTermsInfo h3, .mainPrivacy .mainShippingInfo h3, .mainPrivacy .useTermsInfo h3, .mainReturns .mainPaymentsInfo h3, .mainReturns .mainPrivacyInfo h3, .mainReturns .mainReturnsInfo h3, .mainReturns .mainSaleTermsInfo h3, .mainReturns .mainShippingInfo h3, .mainReturns .useTermsInfo h3, .mainSaleTerms .mainPaymentsInfo h3, .mainSaleTerms .mainPrivacyInfo h3, .mainSaleTerms .mainReturnsInfo h3, .mainSaleTerms .mainSaleTermsInfo h3, .mainSaleTerms .mainShippingInfo h3, .mainSaleTerms .useTermsInfo h3, .mainShipping .mainPaymentsInfo h3, .mainShipping .mainPrivacyInfo h3, .mainShipping .mainReturnsInfo h3, .mainShipping .mainSaleTermsInfo h3, .mainShipping .mainShippingInfo h3, .mainShipping .useTermsInfo h3, .mainUseTerms .mainPaymentsInfo h3, .mainUseTerms .mainPrivacyInfo h3, .mainUseTerms .mainReturnsInfo h3, .mainUseTerms .mainSaleTermsInfo h3, .mainUseTerms .mainShippingInfo h3, .mainUseTerms .useTermsInfo h3 {
+      color: #F5D767;
+      font-size: 2.4rem;
+      margin-top: 4vw; }
+    .mainPayments .mainPaymentsInfo p, .mainPayments .mainPrivacyInfo p, .mainPayments .mainReturnsInfo p, .mainPayments .mainSaleTermsInfo p, .mainPayments .mainShippingInfo p, .mainPayments .useTermsInfo p, .mainPrivacy .mainPaymentsInfo p, .mainPrivacy .mainPrivacyInfo p, .mainPrivacy .mainReturnsInfo p, .mainPrivacy .mainSaleTermsInfo p, .mainPrivacy .mainShippingInfo p, .mainPrivacy .useTermsInfo p, .mainReturns .mainPaymentsInfo p, .mainReturns .mainPrivacyInfo p, .mainReturns .mainReturnsInfo p, .mainReturns .mainSaleTermsInfo p, .mainReturns .mainShippingInfo p, .mainReturns .useTermsInfo p, .mainSaleTerms .mainPaymentsInfo p, .mainSaleTerms .mainPrivacyInfo p, .mainSaleTerms .mainReturnsInfo p, .mainSaleTerms .mainSaleTermsInfo p, .mainSaleTerms .mainShippingInfo p, .mainSaleTerms .useTermsInfo p, .mainShipping .mainPaymentsInfo p, .mainShipping .mainPrivacyInfo p, .mainShipping .mainReturnsInfo p, .mainShipping .mainSaleTermsInfo p, .mainShipping .mainShippingInfo p, .mainShipping .useTermsInfo p, .mainUseTerms .mainPaymentsInfo p, .mainUseTerms .mainPrivacyInfo p, .mainUseTerms .mainReturnsInfo p, .mainUseTerms .mainSaleTermsInfo p, .mainUseTerms .mainShippingInfo p, .mainUseTerms .useTermsInfo p {
+      color: white;
+      font-size: 1.6rem;
+      margin-top: 2vw;
+      text-align: justify; }
+
+@media only screen and (max-width: 1230px) {
+  .mainPayments .paymentsHeader, .mainPayments .privacyHeader, .mainPayments .returnsHeader, .mainPayments .saleTermsHeader, .mainPayments .shippingHeader, .mainPayments .useTermsHeader, .mainPrivacy .paymentsHeader, .mainPrivacy .privacyHeader, .mainPrivacy .returnsHeader, .mainPrivacy .saleTermsHeader, .mainPrivacy .shippingHeader, .mainPrivacy .useTermsHeader, .mainReturns .paymentsHeader, .mainReturns .privacyHeader, .mainReturns .returnsHeader, .mainReturns .saleTermsHeader, .mainReturns .shippingHeader, .mainReturns .useTermsHeader, .mainSaleTerms .paymentsHeader, .mainSaleTerms .privacyHeader, .mainSaleTerms .returnsHeader, .mainSaleTerms .saleTermsHeader, .mainSaleTerms .shippingHeader, .mainSaleTerms .useTermsHeader, .mainShipping .paymentsHeader, .mainShipping .privacyHeader, .mainShipping .returnsHeader, .mainShipping .saleTermsHeader, .mainShipping .shippingHeader, .mainShipping .useTermsHeader, .mainUseTerms .paymentsHeader, .mainUseTerms .privacyHeader, .mainUseTerms .returnsHeader, .mainUseTerms .saleTermsHeader, .mainUseTerms .shippingHeader, .mainUseTerms .useTermsHeader {
+    height: auto;
+    padding-top: 1vw;
+    padding-bottom: 1vw; }
+    .mainPayments .paymentsHeader h2, .mainPayments .privacyHeader h2, .mainPayments .returnsHeader h2, .mainPayments .saleTermsHeader h2, .mainPayments .shippingHeader h2, .mainPayments .useTermsHeader h2, .mainPrivacy .paymentsHeader h2, .mainPrivacy .privacyHeader h2, .mainPrivacy .returnsHeader h2, .mainPrivacy .saleTermsHeader h2, .mainPrivacy .shippingHeader h2, .mainPrivacy .useTermsHeader h2, .mainReturns .paymentsHeader h2, .mainReturns .privacyHeader h2, .mainReturns .returnsHeader h2, .mainReturns .saleTermsHeader h2, .mainReturns .shippingHeader h2, .mainReturns .useTermsHeader h2, .mainSaleTerms .paymentsHeader h2, .mainSaleTerms .privacyHeader h2, .mainSaleTerms .returnsHeader h2, .mainSaleTerms .saleTermsHeader h2, .mainSaleTerms .shippingHeader h2, .mainSaleTerms .useTermsHeader h2, .mainShipping .paymentsHeader h2, .mainShipping .privacyHeader h2, .mainShipping .returnsHeader h2, .mainShipping .saleTermsHeader h2, .mainShipping .shippingHeader h2, .mainShipping .useTermsHeader h2, .mainUseTerms .paymentsHeader h2, .mainUseTerms .privacyHeader h2, .mainUseTerms .returnsHeader h2, .mainUseTerms .saleTermsHeader h2, .mainUseTerms .shippingHeader h2, .mainUseTerms .useTermsHeader h2 {
+      font-size: 4rem; } }
+
+@media only screen and (max-width: 600px) {
+  .mainPayments .mainPaymentsInfo h3, .mainPayments .mainPrivacyInfo h3, .mainPayments .mainReturnsInfo h3, .mainPayments .mainSaleTermsInfo h3, .mainPayments .mainShippingInfo h3, .mainPayments .useTermsInfo h3, .mainPrivacy .mainPaymentsInfo h3, .mainPrivacy .mainPrivacyInfo h3, .mainPrivacy .mainReturnsInfo h3, .mainPrivacy .mainSaleTermsInfo h3, .mainPrivacy .mainShippingInfo h3, .mainPrivacy .useTermsInfo h3, .mainReturns .mainPaymentsInfo h3, .mainReturns .mainPrivacyInfo h3, .mainReturns .mainReturnsInfo h3, .mainReturns .mainSaleTermsInfo h3, .mainReturns .mainShippingInfo h3, .mainReturns .useTermsInfo h3, .mainSaleTerms .mainPaymentsInfo h3, .mainSaleTerms .mainPrivacyInfo h3, .mainSaleTerms .mainReturnsInfo h3, .mainSaleTerms .mainSaleTermsInfo h3, .mainSaleTerms .mainShippingInfo h3, .mainSaleTerms .useTermsInfo h3, .mainShipping .mainPaymentsInfo h3, .mainShipping .mainPrivacyInfo h3, .mainShipping .mainReturnsInfo h3, .mainShipping .mainSaleTermsInfo h3, .mainShipping .mainShippingInfo h3, .mainShipping .useTermsInfo h3, .mainUseTerms .mainPaymentsInfo h3, .mainUseTerms .mainPrivacyInfo h3, .mainUseTerms .mainReturnsInfo h3, .mainUseTerms .mainSaleTermsInfo h3, .mainUseTerms .mainShippingInfo h3, .mainUseTerms .useTermsInfo h3 {
+    font-size: 2rem; } }
+
+.mainProductPage {
+  background-color: #b0b0af; }
+  .mainProductPage .productHeader {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .mainProductPage .productHeader h2 {
+      color: #b0b0af;
+      font-size: 4rem; }
+  .mainProductPage .product {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7.5vw;
+    margin-left: 7.5vw;
+    margin-top: 3vw;
+    align-items: center; }
+    .mainProductPage .product .productImages {
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+      gap: 3vw;
+      margin-bottom: 3vw; }
+      .mainProductPage .product .productImages img {
+        width: 100%; }
+    .mainProductPage .product .productInfo .productTitle {
+      display: flex;
+      justify-content: space-between; }
+      .mainProductPage .product .productInfo .productTitle h3 {
+        font-size: 2rem;
+        color: #F5D767; }
+      .mainProductPage .product .productInfo .productTitle h4 {
+        font-size: 2rem;
+        color: #D68B76; }
+    .mainProductPage .product .productInfo .productDescription p {
+      font-size: 1.6rem;
+      color: white;
+      text-align: justify;
+      margin-bottom: 2vw; }
+    .mainProductPage .product .addToCart input {
+      background-color: #89B1AB;
+      border: none;
+      width: 40vw;
+      height: auto;
+      color: white;
+      font-size: 2.4rem; }
+
+@media only screen and (max-width: 1230px) {
+  .mainProductPage .productHeader h2 {
+    font-size: 3rem; } }
+
+@media only screen and (max-width: 600px) {
+  .mainProductPage .product .productInfo .productTitle {
+    display: flex;
+    flex-direction: column; } }
+
+@media only screen and (max-width: 450px) {
+  .mainProductPage .product .productImages {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat 4, auto;
+    gap: 3vw;
+    margin-bottom: 3vw; } }
 
 .mainPage {
   background-color: #b0b0af;

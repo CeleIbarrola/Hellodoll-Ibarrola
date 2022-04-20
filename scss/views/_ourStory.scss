@@ -1,0 +1,131 @@
+$primary-color:#b0b0af;
+$red-color:#D68B76;
+$green-color:#89B1AB;
+$yellow-color:#F5D767;
+
+.mainPage{
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .mainOurStory{
+        width: 100vw;
+        position: relative;
+        display: inline-block;
+        .OurStoryMobileImage{
+            display: none;
+        }
+        .OurStoryImage{
+            width: 100%;
+        }
+        h2{
+            width: 30vw;
+            font-size: 6rem;
+            color: $primary-color;
+            position: absolute;
+            top: 3vw;
+            left: 3vw;
+            span{
+                color: $red-color;
+            }
+        }
+        h3{
+            width: 25vw;
+            font-size: 3.6rem;
+            color: $yellow-color;
+            position: absolute;
+            bottom: 3vw;
+            left: 3vw;
+        }
+    }
+    .mainOurStoryText{
+        padding-right: 7.5vw;
+        padding-left: 7.5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vw;
+        text-align: justify;
+        .welcome {
+            text-align: center;
+            font-size: 3rem;
+            padding-top: 2vw;
+            color: white;
+        }
+        .mainText{
+            padding-top: 2vw;
+            color: white;
+            font-size: 2.4rem;
+        }
+    }
+}
+@media only screen and (max-width:1230px){
+    .mainPage{
+        .mainOurStory{
+            h2{
+                width: 30vw;
+                font-size: 4rem;
+            }
+            h3{
+                width: 30vw;
+                font-size: 2.5rem;
+            }
+        }
+        .mainOurStoryText{
+            .welcome {
+                font-size: 2.5rem;
+            }
+            .mainText{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:850px){
+    .mainPage{
+        .mainOurStory{
+            h2{
+                width: 50vw;
+                font-size: 3rem;
+            }
+            h3{
+                width: 40vw;
+                font-size: 2rem;
+            }
+        }
+        .mainOurStoryText{
+            .welcome {
+                font-size: 2rem;
+            }
+            .mainText{
+                font-size: 1.6rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:450px){
+    .mainPage{
+        .mainOurStory{
+            .OurStoryMobileImage{
+                display: block;
+                padding-left: 3vw;
+                padding-right: 3vw;
+                width:100vw;
+                img{
+                    width:100%;
+                }
+            }
+            .OurStoryImage{
+                display: none;
+            }
+            h2{
+                width: 50vw;
+                font-size: 2.1rem;
+                padding-left: 2vw;
+            }
+            h3{
+                display: none;
+            }
+        }
+    }
+}

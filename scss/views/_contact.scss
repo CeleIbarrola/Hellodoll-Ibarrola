@@ -1,0 +1,249 @@
+$primary-color:#b0b0af;
+$red-color:#D68B76;
+$green-color:#89B1AB;
+$yellow-color:#F5D767;
+
+.mainPage{
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .mainContact{
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        .mainContactPhotoMobile{
+                display: none;
+        }
+        .mainContactPhoto{
+            width: 100vw;
+            position: relative;
+            display: inline-block;
+            img{
+                width: 100%;
+            }
+        }
+        .mainContactContent{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            margin-right: 7.5vw;
+            align-items: flex-end;
+            h2{
+                color: $primary-color;
+                font-size: 3rem;
+                margin-bottom: 2vw;
+            }
+            p{
+                color: $primary-color;
+                font-size: 1.6rem;
+                .infoMail{
+                    color:$red-color;
+                }
+                .faqsLink{
+                    color:$yellow-color;
+                }
+            }
+            .contactForm{
+                display: grid;
+                grid-template-columns: 18vw 18vw;
+                color: white;
+                justify-content: center;
+                .contactFormLeft{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 18vw;
+                    .contactNameForm{
+                        width: 18vw;
+                        input{
+                            background-color:$red-color;
+                            border: none;
+                            width: 18vw;
+                            height: 2.5vw;
+                            display: block;
+                            margin-bottom: 2vw;
+                            &::placeholder{
+                                color: white;
+                                font-size: 1.6rem;
+                                padding-left: 1vw;
+                            }
+                        }
+                    }
+                    .contactEmailForm{
+                        width: 18vw;
+                        input{
+                            background-color:$yellow-color;
+                            border: none;
+                            width: 18vw;
+                            height: 2.5vw;
+                            display: block;
+                            margin-bottom: 2vw;
+                            &::placeholder{
+                                color: white;
+                                font-size: 1.6rem;
+                                padding-left: 1vw;
+                            }
+                        }
+                    }
+                    .contactSubmitButton{
+                        input {
+                            background-color: $green-color;
+                            border: none;
+                            width: 4.5vw;
+                            height: 4.5vw;
+                            border-radius: 50%;
+                            display: block;
+                            color: white;
+                            font-size: 1.6rem;
+                        }
+                    }
+                }
+                .contactMessage{
+                    input{
+                        background-color: white;
+                        width: 16vw;
+                        height: 14vw;
+                        border: none;
+                        margin-left: 2vw;
+                        &::placeholder{
+                            color:$primary-color;
+                            font-size: 1.6rem;
+                            position: absolute;
+                            top: 1vw;
+                            left: 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1230px){
+    .mainPage{
+        .mainContact{
+            .mainContactContent{
+                margin-right: 3vw;
+                h2{
+                    font-size: 3rem;
+                    margin-bottom: 1vw;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:850px){
+    .mainPage{
+        .mainContact{
+            width: 100vw;
+            display: flex;
+            flex-direction:column;
+            margin: 0%;
+            align-items: start;
+            .mainContactPhoto{
+                    display: none;
+            }
+            .mainContactPhotoMobile{
+                height:auto; 
+                display: block;
+                margin-right: 5vw;
+                margin-left: 5vw;
+                width: 90vw;
+                img{
+                    width: 100%;
+                }
+            }
+            .mainContactContent{
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                margin-right: 0;
+                margin-left: 0;
+                padding-right: 5vw;
+                padding-left: 5vw;
+                h2{
+                    font-size: 4rem;
+                    margin: 0px;
+                    color: white;
+                    margin-top: 3vw;
+                    margin-bottom: 3vw;
+                }
+                p{
+                    color: white;
+                    font-size: 2rem;
+                    text-align: center;
+                }
+                .contactForm{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 35vw 35vw;
+                    grid-template-areas: 
+                    "message"
+                    "form";
+                    justify-items: center;
+                    margin-top: 5vw;
+                    margin-bottom: 5vw;
+                    .contactFormLeft{
+                        grid-area: form;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 60vw;
+                        .contactNameForm{
+                            width: 60vw;
+                            input{
+                                width: 60vw;
+                                height: 8vw;
+                                display: block;
+                                margin-bottom: 2vw;
+                                &::placeholder{
+                                    font-size: 1.6rem;
+                                    padding-left: 1vw;
+                                }
+                            }
+                        }
+                        .contactEmailForm{
+                            width: 60vw;
+                            input{
+                                width: 60vw;
+                                height: 8vw;
+                                display: block;
+                                margin-bottom: 2vw;
+                                &::placeholder{
+                                    font-size: 1.6rem;
+                                    padding-left: 1vw;
+                                }
+                            }
+                        }
+                        .contactSubmitButton{
+                            input {
+                                width: 12vw;
+                                height: 12vw;
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                    .contactMessage{
+                        width:60vw;
+                        input{
+                            grid-area: message;
+                            width: 60vw;
+                            height: 30vw;
+                            margin-left: 0;
+                            &::placeholder{
+                                font-size: 1.6rem;
+                                position: absolute;
+                                top: 1vw;
+                                left: 1vw;
+                            }
+                        }
+                    }
+                }
+            }  
+        }
+    }
+}

@@ -1,0 +1,232 @@
+$primary-color:#b0b0af;
+$red-color:#D68B76;
+$green-color:#89B1AB;
+$yellow-color:#F5D767;
+
+.mainShopPage{
+    background-color: $primary-color;
+    .mainShopHeader{
+        width: 100vw;
+        height: 12vw;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding-left: 7.5vw;
+        justify-content: center;
+        h2{
+            color: $primary-color;
+            font-size: 4rem;
+            margin-bottom: 1vw;
+        }
+        .dropdown{
+            .mainShopHeaderBrowser{
+                width: 300px;
+                height: 3.5vw;
+                color: white;
+                font-size: 2.4rem;
+                display: flex; 
+                align-items: center;
+                justify-content: center;
+            }
+            .btn-secondary{
+                background-color: $primary-color;
+                border: none;
+            }
+            .dropdown-menu{
+                background-color: $primary-color;
+                li{
+                    .dropdown-item{
+                        color:white;
+                        font-size:2.4rem;
+                    }
+                }      
+            }
+        } 
+    }
+    .mainShop{
+        margin-top: 5vw;
+        margin-right: 7.5vw;
+        margin-left: 7.5vw;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 40vw;
+        column-gap: 3vw;
+        .item{
+            width: 100%;
+            display: grid;
+            grid-template-rows: 28vw 8vw;
+            grid-template-areas: 
+            "productImage"
+            "itemInfo";
+            .productImage{
+                grid-area: productImage;
+                position: relative;
+                display: inline-block;
+                img{
+                    width: 100%;
+                }
+            }
+            .itemInfo{
+                display: flex;
+                justify-content: space-between;
+                grid-area: itemInfo;
+                align-items: center;
+                .itemText{
+                    font-size: 2.1rem;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 1vw;
+                    h3{
+                        margin-bottom: 1vw;
+                    }
+                }
+                .links{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 1vw;
+                    .cartIcon{
+                        width: 3vw;
+                        margin-bottom: 0.6vw;
+                    }
+                    .moreInfoIcon{
+                        width: 3vw;
+                    }
+                }
+            }
+        }
+    }
+    .nextPages{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 3vw;
+        img{
+            height: 50px;
+            margin:10px;
+        }
+    }
+}
+@media only screen and (max-width:850px){
+    .mainShopPage{
+        .mainShopHeader{
+            height: 17vw;
+            .dropdown{
+                .mainShopHeaderBrowser{
+                    height: 5vw;
+                }
+            }
+        }
+        .mainShop{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-auto-rows: 59vw;
+            .item{
+                width: 100%;
+                display: grid;
+                grid-template-rows: 41vw 15vw;
+                .itemInfo{
+                    .itemText{
+                        font-size: 1.6rem;
+                    }
+                    .links{
+                        .cartIcon{
+                            width: 4vw;
+                            margin-bottom: 0.5vw;
+                        }
+                        .moreInfoIcon{
+                            width: 4vw;
+                        }
+                    }
+                }
+            }
+        }
+        .nextPages{
+            img{
+                height: 40px;
+                margin:10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .mainShopPage{
+        .mainShopHeader{
+            h2{
+                font-size: 3rem;
+            }
+            .dropdown{
+                .mainShopHeaderBrowser{
+                    width: 50vw;
+                }
+            } 
+        }
+        .mainShop{
+            .item{
+                .itemInfo{
+                    .links{
+                        .cartIcon{
+                            width: 5vw;
+                            margin-bottom: 0.7vw;
+                        }
+                        .moreInfoIcon{
+                            width: 5vw;
+                        }
+                    }
+                } 
+            }
+        }
+        .nextPages{
+            img{
+                margin:5px;
+            }
+        }
+    }
+}
+@media only screen and (max-width:450px){
+    .mainShopPage{
+        .mainShopHeader{
+            width: 100vw;
+            height: 36vw;
+            padding-left: 0;
+            justify-content: center;
+            align-items: center;
+            h2{
+                font-size: 4rem;
+                margin-bottom: 1vw;
+                padding: 1vw;
+            }
+            .dropdown{
+                .mainShopHeaderBrowser{
+                    width: 70vw;
+                    height: 12.5vw;
+                    padding: 1vw;
+                }
+            } 
+        }
+        .mainShop{
+            margin-top: 5vw;
+            margin-right: 7.5vw;
+            margin-left: 7.5vw;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-auto-rows: 115vw;
+            column-gap: 3vw;
+            .item{
+                width: 100%;
+                display: grid;
+                grid-template-rows: 85vw 20vw;
+                .itemInfo{
+                    .links{
+                        .cartIcon{
+                            width: 7vw;
+                            margin-bottom: 1vw;
+                        }
+                        .moreInfoIcon{
+                            width: 7vw;
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}

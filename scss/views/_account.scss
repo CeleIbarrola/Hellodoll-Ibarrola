@@ -1,0 +1,325 @@
+$primary-color:#b0b0af;
+$red-color:#D68B76;
+$green-color:#89B1AB;
+$yellow-color:#F5D767;
+
+.mainAccount{
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+   "login register";
+    column-gap: 3vw;
+    justify-items: center;
+    padding-right: 7.5vw;
+    padding-left: 7.5vw;
+    padding-bottom: 3vw;
+    .loginAccount{
+        grid-area: login;
+        background-color: white;
+        width: 40vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 1vw;
+        h2{
+            color: $primary-color;
+            font-size: 3.6rem;
+            text-align: left;
+            margin-bottom: 1vw;
+        }
+        .usernameForm{
+            label{
+                color: $primary-color;
+                font-size: 1.6rem;
+                margin-bottom: 0.5vw;
+            }
+            input {
+                background-color:$red-color;
+                border: none;
+                width: 38vw;
+                height: 3vw;
+                display: block;
+                margin-bottom: 1vw;
+                margin-right: 1vw;
+            }
+        }
+        .passwordForm{
+            label{
+                color: $primary-color;
+                font-size: 1.6rem;
+                margin-bottom: 0.5vw;
+            }
+            input{
+                background-color:$yellow-color;
+                border: none;
+                width: 38vw;
+                height: 3vw;
+                display: block;
+                margin-bottom: 1vw;
+                margin-right: 1vw;
+            }
+        }
+        .checkbox{
+            margin-bottom: 1vw;
+            font-size: 1.6rem;
+            color: $primary-color;
+            display: flex;
+            justify-content: space-between;
+            a{
+                color: $primary-color;
+                text-decoration: none;
+                text-align:end;
+            }
+        }
+        .login{
+            display: flex;
+            justify-content: flex-end;
+            input{
+                background-color: $green-color;
+                border: none;
+                width: 10vw;
+                height: 4vw;
+                display: block;
+                color: white;
+                font-size: 2.4rem;
+            }
+        }
+    }
+    .registerAccount{
+        grid-area: register;
+        background-color: white;
+        width: 40vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 1vw;
+        h2{
+            color: $primary-color;
+            font-size: 3.6rem;
+            text-align: left;
+            margin-bottom: 1vw;
+        }
+        .emailAdressForm{
+            label{
+                color: $primary-color;
+                font-size: 1.6rem;
+                margin-bottom: 0.5vw;
+            }
+            input{
+                background-color:$red-color;
+                border: none;
+                width: 38vw;
+                height: 3vw;
+                display: block;
+                margin-bottom: 1vw;
+                margin-right: 1vw;
+            }
+        }
+        .passwordForm{
+            label{
+                color: $primary-color;
+                font-size: 1.6rem;
+                margin-bottom: 0.5vw;
+            }
+            input{
+                background-color:$yellow-color;
+                border: none;
+                width: 38vw;
+                height: 3vw;
+                display: block;
+                margin-bottom: 1vw;
+                margin-right: 1vw;
+            }
+        }
+        .register{
+            display: flex;
+            justify-content: flex-end;
+            input{
+                background-color: $green-color;
+                border: none;
+                width: 10vw;
+                height: 4vw;
+                display: block;
+                color: white;
+                font-size: 2.4rem;
+            }
+        } 
+    }
+}
+@media only screen and (max-width:1000px){
+    .mainAccount{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+       "login" 
+       "register";
+        .loginAccount{
+            grid-area:login;
+            width: 80vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin-bottom: 3vw;
+            h2{
+                font-size: 3rem;
+                text-align: left;
+                margin-bottom: 3vw;
+                margin-top: 3vw;
+                padding-left: 10vw;
+            }
+            .usernameForm{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 2vw;
+                label{
+                    align-self: flex-start;
+                    padding-left: 10vw;
+                }
+                input {
+                    width: 60vw;
+                    height: 6vw;
+                    display: block;
+                    margin-bottom: 1vw;
+                    margin-right: 0;
+                }
+            }
+            .passwordForm{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 2vw;
+                label{
+                    align-self: flex-start;
+                    padding-left: 10vw;
+                }
+                input {
+                    width: 60vw;
+                    height: 6vw;
+                    display: block;
+                    margin-bottom: 1vw;
+                    margin-right: 0;
+                }
+            }
+            .checkbox{
+                margin-bottom: 3vw;
+                font-size: 1.6rem;
+                padding-left: 10vw;
+                padding-right: 10vw;
+            }
+            .login{
+                input{
+                    width: 20vw;
+                    height: 7.5vw;
+                    font-size: 2rem;
+                    margin-right: 10vw;
+                    margin-bottom: 3vw;
+                }
+            } 
+        }
+        .registerAccount{
+            grid-area:register;
+            width: 80vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            h2{
+                font-size: 3rem;
+                text-align: left;
+                margin-bottom: 3vw;
+                margin-top: 3vw;
+                padding-left: 10vw;
+            }
+            .emailAdressForm{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 2vw;
+                label{
+                    align-self: flex-start;
+                    padding-left: 10vw;
+                }
+                input{
+                    width: 60vw;
+                    height: 6vw;
+                    display: block;
+                    margin-bottom: 1vw;
+                    margin-right: 0;
+                }
+            }
+            .passwordForm{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 2vw;
+                label{
+                    align-self: flex-start;
+                    padding-left: 10vw;
+                }
+                input{
+                    width: 60vw;
+                    height: 6vw;
+                    display: block;
+                    margin-bottom: 1vw;
+                    margin-right: 0;
+                }
+            }
+            .register{
+                input{
+                    width: 20vw;
+                    height: 7.5vw;
+                    font-size: 2rem;
+                    margin-right: 10vw;
+                    margin-bottom: 3vw;
+                }
+            } 
+        }
+    }
+}
+@media only screen and (max-width:450px){
+    .mainAccount{
+        .loginAccount{
+            .usernameForm{
+                input {
+                    height: 7.5vw;
+                }
+            }
+            .passwordForm{
+                input {
+                    height: 7.5vw;
+                }
+            }
+            .login{
+                input{
+                    width: 30vw;
+                    height: 9vw;
+                    font-size: 2rem;
+                }
+            } 
+        }
+        .registerAccount{
+            .emailAdressForm{
+                input{
+                    height: 7.5vw;
+                }
+            }
+            .passwordForm{
+                input{
+                    height: 7.5vw;
+                }
+            }
+            .register{
+                input{
+                    width: 30vw;
+                    height: 9vw;
+                    font-size: 2rem;
+                }
+            } 
+        }
+    }
+}

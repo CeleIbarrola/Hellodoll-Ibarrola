@@ -8,7 +8,16 @@ html{
     font-size: 62.5%;
 }
 @import "layout/header";
-@import "layout/footer"; 
+@import "layout/footer";
+@import "views/blog";
+@import "views/contact";
+@import "views/faqs";
+@import "views/ourStory"; 
+@import "views/shop";
+@import "views/account";
+@import "views/cart";
+@import "views/info";
+@import "views/products";
 
 $primary-color:#b0b0af;
 $red-color:#D68B76;

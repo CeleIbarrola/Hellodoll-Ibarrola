@@ -1,0 +1,104 @@
+$primary-color:#b0b0af;
+$red-color:#D68B76;
+$green-color:#89B1AB;
+$yellow-color:#F5D767;
+
+.mainProductPage{
+    background-color: $primary-color;
+    .productHeader{
+        width: 100vw;
+        height: auto;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h2{
+            color: $primary-color;
+            font-size: 4rem;
+        } 
+    }
+    .product{
+        display: flex;
+        flex-direction: column;
+        margin-right: 7.5vw;
+        margin-left: 7.5vw;
+        margin-top: 3vw;
+        align-items: center; 
+        .productImages{
+            display:grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            gap: 3vw;
+            margin-bottom: 3vw;
+            img{
+                width:100%;
+            }
+        }
+        .productInfo{
+            .productTitle{
+                display:flex;
+                justify-content: space-between;
+                h3{
+                    font-size:2rem;
+                    color: $yellow-color;
+                }
+                h4{
+                    font-size: 2rem;
+                    color:$red-color;
+                }
+            }
+            .productDescription{
+                p{
+                    font-size: 1.6rem;
+                    color:white;
+                    text-align: justify;
+                    margin-bottom: 2vw;
+                }
+            }  
+        }
+        .addToCart{
+            input{
+                background-color: $green-color;
+                border: none;
+                width: 40vw;
+                height: auto;
+                color: white;
+                font-size: 2.4rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:1230px){
+    .mainProductPage{
+        .productHeader{
+            h2{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+@media only screen and (max-width:600px){
+    .mainProductPage{
+        .product{
+            .productInfo{
+                .productTitle{
+                    display:flex;
+                    flex-direction:column;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:450px){
+    .mainProductPage{
+        .product{
+            .productImages{
+                display:grid;
+                grid-template-columns: auto;
+                grid-template-rows: repeat (4,auto);
+                gap: 3vw;
+                margin-bottom: 3vw;
+            }
+        }
+    } 
+}
