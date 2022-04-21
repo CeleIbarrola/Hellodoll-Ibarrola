@@ -278,6 +278,7 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       color: white;
       margin-left: 4vw; }
       footer .topFooter .info h4 {
@@ -302,6 +303,7 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       color: white;
       margin-right: 4vw; }
       footer .topFooter .terms h4 {
@@ -331,9 +333,11 @@ footer {
       font-size: 2.4rem;
       padding: 2vw;
       margin-bottom: 3px;
+      text-align: center;
       display: flex;
-      justify-content: center;
-      text-align: center; }
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
 
 @media only screen and (max-width: 850px) {
   footer .topFooter {
@@ -674,23 +678,18 @@ footer {
         grid-template-rows: 40vw 30vw;
         justify-items: center; }
         .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
           width: 60vw; }
           .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm {
             width: 60vw; }
             .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsNameForm input {
               width: 60vw;
               height: 8vw;
-              display: block;
               margin-bottom: 2vw; }
           .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm {
             width: 60vw; }
             .mainBlogContent .mainBlog .blogComments .commentsForm .commentsFormLeft .commentsEmailForm input {
               width: 60vw;
               height: 8vw;
-              display: block;
               margin-bottom: 2vw; }
         .mainBlogContent .mainBlog .blogComments .commentsForm .commentsMessage input {
           width: 60vw;
@@ -701,7 +700,8 @@ footer {
   background-color: #b0b0af;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
   .mainPage .mainContact {
     width: 100vw;
     display: flex;
@@ -742,6 +742,7 @@ footer {
           display: flex;
           flex-direction: column;
           align-items: center;
+          justify-content: center;
           width: 18vw; }
           .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm {
             width: 18vw; }
@@ -750,7 +751,6 @@ footer {
               border: none;
               width: 18vw;
               height: 2.5vw;
-              display: block;
               margin-bottom: 2vw; }
               .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm input::placeholder {
                 color: white;
@@ -763,7 +763,6 @@ footer {
               border: none;
               width: 18vw;
               height: 2.5vw;
-              display: block;
               margin-bottom: 2vw; }
               .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm input::placeholder {
                 color: white;
@@ -848,27 +847,24 @@ footer {
           display: flex;
           flex-direction: column;
           align-items: center;
+          justify-content: center;
           width: 60vw; }
           .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm {
             width: 60vw; }
             .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm input {
               width: 60vw;
               height: 8vw;
-              display: block;
               margin-bottom: 2vw; }
               .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactNameForm input::placeholder {
-                font-size: 1.6rem;
-                padding-left: 1vw; }
+                font-size: 1.6rem; }
           .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm {
             width: 60vw; }
             .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm input {
               width: 60vw;
               height: 8vw;
-              display: block;
               margin-bottom: 2vw; }
               .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactEmailForm input::placeholder {
-                font-size: 1.6rem;
-                padding-left: 1vw; }
+                font-size: 1.6rem; }
           .mainPage .mainContact .mainContactContent .contactForm .contactFormLeft .contactSubmitButton input {
             width: 12vw;
             height: 12vw;
@@ -879,18 +875,14 @@ footer {
             grid-area: message;
             width: 60vw;
             height: 30vw;
-            margin-left: 0; }
-            .mainPage .mainContact .mainContactContent .contactForm .contactMessage input::placeholder {
-              font-size: 1.6rem;
-              position: absolute;
-              top: 1vw;
-              left: 1vw; } }
+            margin-left: 0; } }
 
 .mainFaqsContent {
   background-color: #b0b0af;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding-right: 7.5vw;
   padding-left: 7.5vw; }
   .mainFaqsContent h2 {
@@ -911,7 +903,8 @@ footer {
       width: 40vw;
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      align-items: center;
+      justify-content: center; }
       .mainFaqsContent .mainFaq .mainFaqText h3 {
         font-size: 2.4rem;
         color: #F5D767;
@@ -931,7 +924,8 @@ footer {
     margin-bottom: 5vw;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
     .mainFaqsContent .mainFaq .mainFaqImage {
       width: 100vw;
       padding-left: 7.5vw;
@@ -943,6 +937,7 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       text-align: justify; } }
 
 @media only screen and (max-width: 450px) {
@@ -953,7 +948,8 @@ footer {
   background-color: #b0b0af;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
   .mainPage .mainOurStory {
     width: 100vw;
     position: relative;
@@ -984,6 +980,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-bottom: 5vw;
     text-align: justify; }
     .mainPage .mainOurStoryText .welcome {
@@ -1045,8 +1042,9 @@ footer {
     background-color: white;
     display: flex;
     flex-direction: column;
-    padding-left: 7.5vw;
-    justify-content: center; }
+    align-items: center;
+    justify-content: center;
+    padding-left: 7.5vw; }
     .mainShopPage .mainShopHeader h2 {
       color: #b0b0af;
       font-size: 4rem;
@@ -1187,7 +1185,7 @@ footer {
         width: 7vw; } }
 
 .mainAccount {
-  background-color: var(--primary-color);
+  background-color: #b0b0af;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
@@ -1311,23 +1309,15 @@ footer {
     grid-template-rows: auto auto;
     grid-template-areas: "login"  "register"; }
     .mainAccount .loginAccount {
-      grid-area: login;
       width: 80vw;
-      height: auto;
-      display: flex;
-      flex-direction: column;
       padding: 0;
       margin-bottom: 3vw; }
       .mainAccount .loginAccount h2 {
         font-size: 3rem;
-        text-align: left;
         margin-bottom: 3vw;
         margin-top: 3vw;
         padding-left: 10vw; }
       .mainAccount .loginAccount .usernameForm {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 2vw; }
         .mainAccount .loginAccount .usernameForm label {
           align-self: flex-start;
@@ -1335,13 +1325,8 @@ footer {
         .mainAccount .loginAccount .usernameForm input {
           width: 60vw;
           height: 6vw;
-          display: block;
-          margin-bottom: 1vw;
           margin-right: 0; }
       .mainAccount .loginAccount .passwordForm {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 2vw; }
         .mainAccount .loginAccount .passwordForm label {
           align-self: flex-start;
@@ -1349,8 +1334,6 @@ footer {
         .mainAccount .loginAccount .passwordForm input {
           width: 60vw;
           height: 6vw;
-          display: block;
-          margin-bottom: 1vw;
           margin-right: 0; }
       .mainAccount .loginAccount .checkbox {
         margin-bottom: 3vw;
@@ -1364,22 +1347,15 @@ footer {
         margin-right: 10vw;
         margin-bottom: 3vw; }
     .mainAccount .registerAccount {
-      grid-area: register;
       width: 80vw;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      padding: 0; }
+      padding: 0;
+      margin-bottom: 3vw; }
       .mainAccount .registerAccount h2 {
         font-size: 3rem;
-        text-align: left;
         margin-bottom: 3vw;
         margin-top: 3vw;
         padding-left: 10vw; }
       .mainAccount .registerAccount .emailAdressForm {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 2vw; }
         .mainAccount .registerAccount .emailAdressForm label {
           align-self: flex-start;
@@ -1387,13 +1363,8 @@ footer {
         .mainAccount .registerAccount .emailAdressForm input {
           width: 60vw;
           height: 6vw;
-          display: block;
-          margin-bottom: 1vw;
           margin-right: 0; }
       .mainAccount .registerAccount .passwordForm {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 2vw; }
         .mainAccount .registerAccount .passwordForm label {
           align-self: flex-start;
@@ -1401,8 +1372,6 @@ footer {
         .mainAccount .registerAccount .passwordForm input {
           width: 60vw;
           height: 6vw;
-          display: block;
-          margin-bottom: 1vw;
           margin-right: 0; }
       .mainAccount .registerAccount .register input {
         width: 20vw;
@@ -1443,8 +1412,8 @@ footer {
       font-size: 4.8rem; }
   .mainCart .mainCartInfo {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-left: 7.5vw;
     padding-right: 7.5vw; }
     .mainCart .mainCartInfo p {
@@ -1457,7 +1426,6 @@ footer {
 
 @media only screen and (max-width: 1230px) {
   .mainCart .cartHeader {
-    height: auto;
     padding-top: 1vw;
     padding-bottom: 1vw; }
     .mainCart .cartHeader h2 {
@@ -1510,6 +1478,7 @@ footer {
     height: auto;
     background-color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center; }
     .mainProductPage .productHeader h2 {
@@ -1518,10 +1487,11 @@ footer {
   .mainProductPage .product {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-right: 7.5vw;
     margin-left: 7.5vw;
-    margin-top: 3vw;
-    align-items: center; }
+    margin-top: 3vw; }
     .mainProductPage .product .productImages {
       display: grid;
       grid-template-columns: auto auto;
@@ -1573,7 +1543,8 @@ footer {
   background-color: #b0b0af;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
   .mainPage .mainVideo video {
     width: 100vw;
     position: relative;
@@ -1581,7 +1552,8 @@ footer {
   .mainPage .about {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
     .mainPage .about .aboutTitle {
       color: white;
       font-size: 4.8rem;
@@ -1590,13 +1562,15 @@ footer {
       text-align: center;
       width: 80vw; }
     .mainPage .about .aboutText {
-      color: white;
-      font-size: 3.6rem;
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      font-size: 3.6rem;
       margin-top: 1.5vw;
       margin-bottom: 1.5vw;
-      text-align: center;
       width: 80vw; }
       .mainPage .about .aboutText p {
         padding-top: 2.2vw; }
@@ -1711,7 +1685,9 @@ footer {
         margin-top: 2vw; }
         .mainPage .mailingList .mailingListContent .form .nameForm {
           display: flex;
-          align-items: center; }
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
           .mainPage .mailingList .mailingListContent .form .nameForm input {
             background-color: #D68B76;
             border: none;
@@ -1724,7 +1700,9 @@ footer {
               font-size: 1.8rem; }
         .mainPage .mailingList .mailingListContent .form .emailForm {
           display: flex;
-          align-items: center; }
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
           .mainPage .mailingList .mailingListContent .form .emailForm input {
             background-color: #F5D767;
             border: none;
@@ -1756,34 +1734,22 @@ footer {
 @media only screen and (max-width: 850px) {
   .mainPage .mainImages .hellodollFamily .hellodollFamilyText {
     font-size: 2.5rem;
-    position: absolute;
-    bottom: 0.01vw;
-    right: 1vw; }
+    bottom: 0.01vw; }
   .mainPage .mainImages .animals .animalsText {
     font-size: 2.5rem;
-    position: absolute;
-    bottom: 0.01vw;
-    right: 1vw; }
+    bottom: 0.01vw; }
   .mainPage .mainImages .dolls .dollsText {
     font-size: 2.5rem;
-    position: absolute;
-    bottom: 0.01vw;
-    right: 1vw; }
+    bottom: 0.01vw; }
   .mainPage .mainImages .babyComforter .babyComforterText {
     font-size: 2.5rem;
-    position: absolute;
-    bottom: 0.01vw;
-    right: 1vw; }
+    bottom: 0.01vw; }
   .mainPage .mainImages .miniDolls .miniDollsText {
     font-size: 2.5rem;
-    position: absolute;
-    bottom: 0.01vw;
-    right: 1vw; }
+    bottom: 0.01vw; }
   .mainPage .mainImages .babyAnimals .babyAnimalsText {
     font-size: 2.5rem;
-    position: absolute;
-    bottom: 0.01vw;
-    right: 1vw; }
+    bottom: 0.01vw; }
   .mainPage .mailingList .mailingListContent h3 {
     font-size: 2.8rem; }
   .mainPage .mailingList .mailingListContent p {
@@ -1813,11 +1779,11 @@ footer {
   .mainPage .mainImages .babyAnimals .babyAnimalsText {
     font-size: 1.8rem; }
   .mainPage .mailingList {
-    width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 100vw;
     margin-top: 4vw; }
     .mainPage .mailingList .mailingListContent {
       width: 80vw;
@@ -1832,22 +1798,20 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0;
         justify-content: center;
+        padding: 0;
         margin-top: 2vw; }
         .mainPage .mailingList .mailingListContent .form .nameForm input {
-          width: 70vw;
+          width: 60vw;
           height: 10vw;
-          margin-right: 0;
-          padding: 1.5vw;
+          font-size: 2.4rem;
           margin-top: 3vw; }
           .mainPage .mailingList .mailingListContent .form .nameForm input::placeholder {
             font-size: 2rem; }
         .mainPage .mailingList .mailingListContent .form .emailForm input {
-          width: 70vw;
+          width: 60vw;
           height: 10vw;
-          margin-right: 0;
-          padding: 1.5vw;
+          font-size: 2.4rem;
           margin-top: 3vw; }
           .mainPage .mailingList .mailingListContent .form .emailForm input::placeholder {
             font-size: 2rem; }
@@ -1871,18 +1835,13 @@ footer {
 @media only screen and (max-width: 450px) {
   .mainPage .about .aboutTitle {
     font-size: 2rem;
-    display: flex;
     margin-top: 10px;
     margin-bottom: 5px;
-    text-align: center;
     width: 300px; }
   .mainPage .about .aboutText {
     font-size: 1.6rem;
-    display: flex;
-    flex-direction: column;
     margin-top: 5px;
     margin-bottom: 10px;
-    text-align: center;
     width: 80vw; }
     .mainPage .about .aboutText .aboutText p {
       padding-top: 15px; }
@@ -1896,64 +1855,28 @@ footer {
     .mainPage .mainImages img {
       width: 100%; }
     .mainPage .mainImages .hellodollFamily {
-      grid-area: familyMobile;
-      position: relative;
-      display: inline-block; }
+      grid-area: familyMobile; }
       .mainPage .mainImages .hellodollFamily .hellodollFamilyText {
-        position: absolute;
-        bottom: 1.5vw;
-        right: 1.5vw;
-        color: #b0b0af;
         font-size: 1.6rem; }
     .mainPage .mainImages .animals {
-      grid-area: animalsMobile;
-      position: relative;
-      display: inline-block; }
+      grid-area: animalsMobile; }
       .mainPage .mainImages .animals .animalsText {
-        position: absolute;
-        bottom: 1.5vw;
-        right: 1.5vw;
-        color: #b0b0af;
         font-size: 1.6rem; }
     .mainPage .mainImages .dolls {
-      grid-area: dollsMobile;
-      position: relative;
-      display: inline-block; }
+      grid-area: dollsMobile; }
       .mainPage .mainImages .dolls .dollsText {
-        position: absolute;
-        bottom: 1.5vw;
-        right: 1.5vw;
-        color: #b0b0af;
         font-size: 1.6rem; }
     .mainPage .mainImages .babyComforter {
-      grid-area: babyComforterMobile;
-      position: relative;
-      display: inline-block; }
+      grid-area: babyComforterMobile; }
       .mainPage .mainImages .babyComforter .babyComforterText {
-        position: absolute;
-        bottom: 1.5vw;
-        right: 1.5vw;
-        color: #b0b0af;
         font-size: 1.6rem; }
     .mainPage .mainImages .miniDolls {
-      grid-area: miniDollsMobile;
-      position: relative;
-      display: inline-block; }
+      grid-area: miniDollsMobile; }
       .mainPage .mainImages .miniDolls .miniDollsText {
-        position: absolute;
-        bottom: 1.5vw;
-        right: 1.5vw;
-        color: #b0b0af;
         font-size: 1.6rem; }
     .mainPage .mainImages .babyAnimalsMobile {
-      grid-area: babyAnimalsMobile;
-      position: relative;
-      display: inline-block; }
+      grid-area: babyAnimalsMobile; }
       .mainPage .mainImages .babyAnimalsMobile .babyAnimalsMobileText {
-        position: absolute;
-        bottom: 1.5vw;
-        right: 1.5vw;
-        color: #b0b0af;
         font-size: 1.6rem; }
     .mainPage .mainImages .elephant {
       display: none; }

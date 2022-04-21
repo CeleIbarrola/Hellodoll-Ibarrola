@@ -2,6 +2,11 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
+@mixin flexColumnCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .mainCart{
     background-color: $primary-color;
@@ -9,18 +14,14 @@ $yellow-color:#F5D767;
         width: 100vw;
         height: auto;
         background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flexColumnCenter;
         h2{
             color: $primary-color;
             font-size: 4.8rem;
         } 
     }
     .mainCartInfo{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flexColumnCenter;
         padding-left: 7.5vw;
         padding-right: 7.5vw;
         p{
@@ -37,7 +38,6 @@ $yellow-color:#F5D767;
 @media only screen and (max-width:1230px){
     .mainCart{
         .cartHeader{
-            height: auto;
             padding-top: 1vw;
             padding-bottom: 1vw;
             h2{

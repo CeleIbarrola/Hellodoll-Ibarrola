@@ -2,6 +2,12 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
+@mixin flexColumnCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .mainProductPage{
     background-color: $primary-color;
@@ -9,21 +15,17 @@ $yellow-color:#F5D767;
         width: 100vw;
         height: auto;
         background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flexColumnCenter;
         h2{
             color: $primary-color;
             font-size: 4rem;
         } 
     }
     .product{
-        display: flex;
-        flex-direction: column;
+        @include flexColumnCenter;
         margin-right: 7.5vw;
         margin-left: 7.5vw;
         margin-top: 3vw;
-        align-items: center; 
         .productImages{
             display:grid;
             grid-template-columns: auto auto;

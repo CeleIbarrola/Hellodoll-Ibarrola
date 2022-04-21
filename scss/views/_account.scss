@@ -2,9 +2,81 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
+@mixin formLabel{
+    color: $primary-color;
+    font-size: 1.6rem;
+    margin-bottom: 0.5vw;
+}
+@mixin formInput{
+    border: none;
+    width: 38vw;
+    height: 3vw;
+    display: block;
+    margin-bottom: 1vw;
+    margin-right: 1vw;
+}
+@mixin submit{
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin submitInput{
+    background-color: $green-color;
+    border: none;
+    width: 10vw;
+    height: 4vw;
+    display: block;
+    color: white;
+    font-size: 2.4rem;
+}
+@mixin account{
+    background-color: white;
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+@mixin h2{
+    color: $primary-color;
+    font-size: 3.6rem;
+    text-align: left;
+    margin-bottom: 1vw;
+}
+@mixin account1000{
+    width: 80vw;
+    padding: 0;
+    margin-bottom: 3vw;
+}
+@mixin h21000{
+    font-size: 3rem;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+    padding-left: 10vw;
+}
+@mixin formLabel1000{
+    align-self: flex-start;
+    padding-left: 10vw;
+}
+@mixin formInput1000{
+    width: 60vw;
+    height: 6vw;
+    margin-right: 0;
+}
+@mixin submit1000{
+    width: 20vw;
+    height: 7.5vw;
+    font-size: 2rem;
+    margin-right: 10vw;
+    margin-bottom: 3vw;
+}
+@mixin submit450{
+    width: 30vw;
+    height: 9vw;
+    font-size: 2rem;
+}
 
 .mainAccount{
-    background-color: var(--primary-color);
+    background-color: $primary-color;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -17,48 +89,26 @@ $yellow-color:#F5D767;
     padding-bottom: 3vw;
     .loginAccount{
         grid-area: login;
-        background-color: white;
-        width: 40vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        padding: 1vw;
+        @include account;
         h2{
-            color: $primary-color;
-            font-size: 3.6rem;
-            text-align: left;
-            margin-bottom: 1vw;
+            @include h2;
         }
         .usernameForm{
             label{
-                color: $primary-color;
-                font-size: 1.6rem;
-                margin-bottom: 0.5vw;
+                @include formLabel;
             }
             input {
                 background-color:$red-color;
-                border: none;
-                width: 38vw;
-                height: 3vw;
-                display: block;
-                margin-bottom: 1vw;
-                margin-right: 1vw;
+                @include formInput;
             }
         }
         .passwordForm{
             label{
-                color: $primary-color;
-                font-size: 1.6rem;
-                margin-bottom: 0.5vw;
+                @include formLabel;
             }
             input{
                 background-color:$yellow-color;
-                border: none;
-                width: 38vw;
-                height: 3vw;
-                display: block;
-                margin-bottom: 1vw;
-                margin-right: 1vw;
+                @include formInput;
             }
         }
         .checkbox{
@@ -74,76 +124,40 @@ $yellow-color:#F5D767;
             }
         }
         .login{
-            display: flex;
-            justify-content: flex-end;
+            @include submit;
             input{
-                background-color: $green-color;
-                border: none;
-                width: 10vw;
-                height: 4vw;
-                display: block;
-                color: white;
-                font-size: 2.4rem;
+                @include submitInput();
             }
         }
     }
     .registerAccount{
         grid-area: register;
-        background-color: white;
-        width: 40vw;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        padding: 1vw;
+        @include account;
         h2{
-            color: $primary-color;
-            font-size: 3.6rem;
-            text-align: left;
-            margin-bottom: 1vw;
+            @include h2;
         }
         .emailAdressForm{
             label{
-                color: $primary-color;
-                font-size: 1.6rem;
-                margin-bottom: 0.5vw;
+                @include formLabel;
             }
             input{
                 background-color:$red-color;
-                border: none;
-                width: 38vw;
-                height: 3vw;
-                display: block;
-                margin-bottom: 1vw;
-                margin-right: 1vw;
+                @include formInput;
             }
         }
         .passwordForm{
             label{
-                color: $primary-color;
-                font-size: 1.6rem;
-                margin-bottom: 0.5vw;
+                @include formLabel;
             }
             input{
                 background-color:$yellow-color;
-                border: none;
-                width: 38vw;
-                height: 3vw;
-                display: block;
-                margin-bottom: 1vw;
-                margin-right: 1vw;
+                @include formInput;
             }
         }
         .register{
-            display: flex;
-            justify-content: flex-end;
+            @include submit;
             input{
-                background-color: $green-color;
-                border: none;
-                width: 10vw;
-                height: 4vw;
-                display: block;
-                color: white;
-                font-size: 2.4rem;
+                @include submitInput();
             }
         } 
     }
@@ -157,52 +171,26 @@ $yellow-color:#F5D767;
        "login" 
        "register";
         .loginAccount{
-            grid-area:login;
-            width: 80vw;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            padding: 0;
-            margin-bottom: 3vw;
+            @include account1000;
             h2{
-                font-size: 3rem;
-                text-align: left;
-                margin-bottom: 3vw;
-                margin-top: 3vw;
-                padding-left: 10vw;
+                @include h21000;
             }
             .usernameForm{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
                 margin-bottom: 2vw;
                 label{
-                    align-self: flex-start;
-                    padding-left: 10vw;
+                    @include formLabel1000;
                 }
                 input {
-                    width: 60vw;
-                    height: 6vw;
-                    display: block;
-                    margin-bottom: 1vw;
-                    margin-right: 0;
+                    @include formInput1000;
                 }
             }
             .passwordForm{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
                 margin-bottom: 2vw;
                 label{
-                    align-self: flex-start;
-                    padding-left: 10vw;
+                    @include formLabel1000;
                 }
                 input {
-                    width: 60vw;
-                    height: 6vw;
-                    display: block;
-                    margin-bottom: 1vw;
-                    margin-right: 0;
+                   @include formInput1000;
                 }
             }
             .checkbox{
@@ -213,69 +201,36 @@ $yellow-color:#F5D767;
             }
             .login{
                 input{
-                    width: 20vw;
-                    height: 7.5vw;
-                    font-size: 2rem;
-                    margin-right: 10vw;
-                    margin-bottom: 3vw;
+                    @include submit1000;
                 }
             } 
         }
         .registerAccount{
-            grid-area:register;
-            width: 80vw;
-            height: auto;
-            display: flex;
-            flex-direction: column;
-            padding: 0;
+            @include account1000;
             h2{
-                font-size: 3rem;
-                text-align: left;
-                margin-bottom: 3vw;
-                margin-top: 3vw;
-                padding-left: 10vw;
+                @include h21000;
             }
             .emailAdressForm{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
                 margin-bottom: 2vw;
                 label{
-                    align-self: flex-start;
-                    padding-left: 10vw;
+                    @include formLabel1000;
                 }
                 input{
-                    width: 60vw;
-                    height: 6vw;
-                    display: block;
-                    margin-bottom: 1vw;
-                    margin-right: 0;
+                    @include formInput1000;
                 }
             }
             .passwordForm{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
                 margin-bottom: 2vw;
                 label{
-                    align-self: flex-start;
-                    padding-left: 10vw;
+                    @include formLabel1000;
                 }
                 input{
-                    width: 60vw;
-                    height: 6vw;
-                    display: block;
-                    margin-bottom: 1vw;
-                    margin-right: 0;
+                    @include formInput1000;
                 }
             }
             .register{
                 input{
-                    width: 20vw;
-                    height: 7.5vw;
-                    font-size: 2rem;
-                    margin-right: 10vw;
-                    margin-bottom: 3vw;
+                    @include submit1000;
                 }
             } 
         }
@@ -296,9 +251,7 @@ $yellow-color:#F5D767;
             }
             .login{
                 input{
-                    width: 30vw;
-                    height: 9vw;
-                    font-size: 2rem;
+                    @include submit450;
                 }
             } 
         }
@@ -315,9 +268,7 @@ $yellow-color:#F5D767;
             }
             .register{
                 input{
-                    width: 30vw;
-                    height: 9vw;
-                    font-size: 2rem;
+                    @include submit450;
                 }
             } 
         }

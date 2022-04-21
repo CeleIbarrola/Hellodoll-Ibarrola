@@ -2,6 +2,47 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
+@mixin flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+@mixin commentsForm{
+    display: flex;
+    width: 22vw;
+}
+@mixin commentsFormInput{
+    border: none;
+    width: 22vw;
+    height: 3vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+@mixin commentsFormPlaceholder{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+@mixin mailingListForm{
+    border: none;
+    width: 21vw;
+    height: 2.5vw;
+    display: block;
+    margin-bottom: 2vw;
+}
+@mixin commentsForm850{
+    width: 50vw;
+    height: 8vw;
+    margin-bottom: 2vw;
+}
+@mixin commentsFormPlaceholder850{
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+@mixin commentsForm600{
+    width: 60vw;
+    height: 8vw;
+    margin-bottom: 2vw;
+}
 
 .mainBlogContent{
     background-color: $primary-color;
@@ -14,11 +55,9 @@ $yellow-color:#F5D767;
     "mainBlog blogSidebar";
     .mainBlog{
         grid-area: mainBlog;
-        display: flex;
-        flex-direction: column;
+        @include flexColumn;
         .blogPost{
-            display: flex;
-            flex-direction: column;
+            @include flexColumn;
             margin-bottom: 4vw;
             .postTitle{
                 display: flex;
@@ -54,8 +93,7 @@ $yellow-color:#F5D767;
             }
         }
         .blogComments{
-            display: flex;
-            flex-direction: column;
+            @include flexColumn;
             align-items: center;
             margin-bottom: 4vw;
             h2{
@@ -70,41 +108,26 @@ $yellow-color:#F5D767;
                 color: white;
                 justify-content: center;
                 .commentsFormLeft{
-                    display: flex;
-                    flex-direction: column;
+                    @include flexColumn;
                     align-items: center;
                     width: 22vw;
                     .commentsNameForm{
-                        display: flex;
-                        width: 22vw;
+                        @include commentsForm;
                         input{
                             background-color:$red-color;
-                            border: none;
-                            width: 22vw;
-                            height: 3vw;
-                            display: block;
-                            margin-bottom: 2vw;
+                            @include commentsFormInput;
                             &::placeholder{
-                                color: white;
-                                font-size: 1.6rem;
-                                padding-left: 1vw;
+                                @include commentsFormPlaceholder;
                             }
                         }
                     }
                     .commentsEmailForm{
-                        display: flex;
-                        width: 22vw;
+                        @include commentsForm;
                         input{
                             background-color:$yellow-color;
-                            border: none;
-                            width: 22vw;
-                            height: 3vw;
-                            display: block;
-                            margin-bottom: 2vw;
+                            @include commentsFormInput;
                             &::placeholder{
-                                color: white;
-                                font-size: 1.6rem;
-                                padding-left: 1vw;
+                                @include commentsFormPlaceholder;
                             }
                         }
                     }
@@ -141,14 +164,13 @@ $yellow-color:#F5D767;
     }
     .blogSidebar{
         grid-area: blogSidebar;
-        display: flex;
-        flex-direction: column;
+        @include flexColumn;
         margin-left: 5vw;
         .dropdown{
             .btn-secondary{
                 background-color:$green-color;  
             }
-            .searchBar { 
+            .searchBar{ 
                 width: auto;
                 height: 3vw;
                 border-radius: 0%;
@@ -184,15 +206,13 @@ $yellow-color:#F5D767;
                     text-decoration: none;
                     top: 3vw;
                     left: 3vw;
-                    display: flex;
-                    flex-direction: column;
+                    @include flexColumn;
                 }
             }
         }
         .blogMailingList{
             width: 100%;
-            display: flex;
-            flex-direction: column;
+            @include flexColumn;
             background-color: white;
             margin-top: 4vw;
             align-items: center;
@@ -210,8 +230,7 @@ $yellow-color:#F5D767;
                 text-align: center;
             }
             .blogMailingListForm{
-                display: flex;
-                flex-direction: column;
+                @include flexColumn;
                 align-items: center;
                 width: 21vw;
                 margin-top: 2vw;
@@ -219,15 +238,9 @@ $yellow-color:#F5D767;
                     width: 21vw;
                     input{
                         background-color:$red-color;
-                        border: none;
-                        width: 21vw;
-                        height: 2.5vw;
-                        display: block;
-                        margin-bottom: 2vw;
+                        @include mailingListForm;
                         &::placeholder{
-                            color: white;
-                            font-size: 1.6rem;
-                            padding-left: 1vw;
+                           @include commentsFormPlaceholder;
                         }
                     }
                 }
@@ -235,15 +248,9 @@ $yellow-color:#F5D767;
                     width: 21vw;
                     input{
                         background-color:$yellow-color;
-                        border: none;
-                        width: 21vw;
-                        height: 2.5vw;
-                        display: block;
-                        margin-bottom: 2vw;
+                        @include mailingListForm;
                         &::placeholder{
-                            color: white;
-                            font-size: 1.6rem;
-                            padding-left: 1vw;
+                            @include commentsFormPlaceholder;
                         }
                     }
                 }
@@ -308,31 +315,24 @@ $yellow-color:#F5D767;
                     grid-template-rows: 40vw 30vw;
                     justify-items: center;
                     .commentsFormLeft{
-                        display: flex;
-                        flex-direction: column;
+                        @include flexColumn;
                         align-items: center;
                         width: 50vw;
                         .commentsNameForm{
                             width: 50vw;
                             input{
-                                width: 50vw;
-                                height: 8vw;
-                                margin-bottom: 2vw;
+                                @include commentsForm850;
                                 &::placeholder{
-                                    font-size: 1.6rem;
-                                    padding-left: 1vw;
+                                    @include commentsFormPlaceholder850;
                                 }
                             }
                         }
                         .commentsEmailForm{
                             width: 50vw;
                             input{
-                                width: 50vw;
-                                height: 8vw;
-                                margin-bottom: 2vw;
+                                @include commentsForm850;
                                 &::placeholder{
-                                    font-size: 1.6rem;
-                                    padding-left: 1vw;
+                                    @include commentsFormPlaceholder850;
                                 }
                             }
                         }
@@ -446,26 +446,17 @@ $yellow-color:#F5D767;
                     grid-template-rows: 40vw 30vw;
                     justify-items: center;
                     .commentsFormLeft{
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
                         width: 60vw;
                         .commentsNameForm{
                             width: 60vw;
                             input{
-                                width: 60vw;
-                                height: 8vw;
-                                display: block;
-                                margin-bottom: 2vw;
+                               @include commentsForm600;
                             }
                         }
                         .commentsEmailForm{
                             width: 60vw;
                             input{
-                                width: 60vw;
-                                height: 8vw;
-                                display: block;
-                                margin-bottom: 2vw;
+                                @include commentsForm600;
                             }
                         }
                     }

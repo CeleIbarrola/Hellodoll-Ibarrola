@@ -23,21 +23,51 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
-
-.mainPage{
-    background-color: $primary-color;
+@mixin flexColumnCenter{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+@mixin formInput{
+    border: none;
+    width: 26vw;
+    height: 4vw;
+    margin-right: 2vw;
+    padding: 1vw;
+}
+@mixin mainImage{
+    position: relative;
+    display: inline-block;
+}
+@mixin mainImageText{
+    position: absolute;
+    bottom: 1.5vw;
+    right: 1.5vw;
+    color: $primary-color;
+    font-size: 3.6rem;
+}
+@mixin mainImagesText850{
+    font-size: 2.5rem;
+    bottom: 0.01vw;
+}
+@mixin formInput600{
+    width: 60vw;
+    height: 10vw;
+    font-size: 2.4rem;
+    margin-top: 3vw;
+}
+
+.mainPage{
+    background-color: $primary-color;
+    @include flexColumnCenter;
     .mainVideo video{
         width: 100vw;
         position: relative;
         z-index: 1;
     }
     .about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flexColumnCenter;
         .aboutTitle{
             color: white;
             font-size: 4.8rem;
@@ -47,13 +77,12 @@ $yellow-color:#F5D767;
             width: 80vw; 
         }
         .aboutText {
+            @include flexColumnCenter;
+            text-align: center;
             color: white;
             font-size: 3.6rem;
-            display: flex;
-            flex-direction: column;
             margin-top: 1.5vw;
             margin-bottom: 1.5vw;
-            text-align: center;
             width: 80vw;
             p{
                 padding-top: 2.2vw;
@@ -82,26 +111,16 @@ $yellow-color:#F5D767;
         }
         .hellodollFamily{
             grid-area: family;
-            position: relative;
-            display: inline-block;
+            @include mainImage;
             .hellodollFamilyText{
-                position: absolute;
-                bottom: 1.5vw;
-                right: 1.5vw;
-                color: $primary-color;
-                font-size: 3.6rem;
+                @include mainImageText;
             }
         }
         .animals{
             grid-area: animals;
-            position: relative;
-            display: inline-block;
+            @include mainImage;
             .animalsText{
-                position: absolute;
-                bottom: 1.5vw;
-                right: 1.5vw;
-                color: $primary-color;
-                font-size: 3.6rem;
+                @include mainImageText;
             }
         }
         .elephant{
@@ -112,38 +131,23 @@ $yellow-color:#F5D767;
         }
         .dolls{
             grid-area: dolls;
-            position: relative;
-            display: inline-block;
+            @include mainImage;
             .dollsText{
-                position: absolute;
-                bottom: 1.5vw;
-                right: 1.5vw;
-                color: $primary-color;
-                font-size: 3.6rem;
+                @include mainImageText;
             }
         }
         .babyComforter{
             grid-area: comforter;
-            position: relative;
-            display: inline-block;
+            @include mainImage;
             .babyComforterText{
-                position: absolute;
-                bottom: 1.5vw;
-                right: 1.5vw;
-                color: $primary-color;
-                font-size: 3.6rem;
+                @include mainImageText;
             }
         }
         .miniDolls{
             grid-area: miniDolls;
-            position: relative;
-            display: inline-block;
+            @include mainImage;
             .miniDollsText{
-                position: absolute;
-                bottom: 1.5vw;
-                right: 1.5vw;
-                color: $primary-color;
-                font-size: 3.6rem; 
+                @include mainImageText; 
             }
         }
         .kid{
@@ -151,8 +155,7 @@ $yellow-color:#F5D767;
         }
         .babyAnimals{
             grid-area:babyAnimals;
-            position: relative;
-            display: inline-block;
+            @include mainImage;
             .babyAnimalsText{
                 position: absolute;
                 top: 1.5vw;
@@ -198,15 +201,10 @@ $yellow-color:#F5D767;
                 justify-content: center;
                 margin-top: 2vw;
                 .nameForm{
-                    display:flex;
-                    align-items: center;
+                    @include flexColumnCenter;
                     input{
                         background-color:$red-color;
-                        border: none;
-                        width: 26vw;
-                        height: 4vw;
-                        margin-right: 2vw;
-                        padding: 1vw;
+                       @include formInput;
                         &::placeholder{
                             color: white;
                             font-size: 1.8rem;
@@ -214,15 +212,10 @@ $yellow-color:#F5D767;
                     }
                 }
                 .emailForm {
-                    display:flex;
-                    align-items: center;
+                    @include flexColumnCenter;
                     input{
                         background-color:$yellow-color;
-                        border: none;
-                        width: 26vw;
-                        height: 4vw;
-                        margin-right: 2vw;
-                        padding: 1vw;
+                        @include formInput;
                         &::placeholder{
                             color: white;
                             font-size: 1.8rem;
@@ -260,50 +253,32 @@ $yellow-color:#F5D767;
         .mainImages{
             .hellodollFamily{
                 .hellodollFamilyText{
-                    font-size: 2.5rem;
-                    position: absolute;
-                    bottom: 0.01vw;
-                    right: 1vw;
+                    @include mainImagesText850;
                 }
             }
             .animals{
                 .animalsText{
-                    font-size: 2.5rem;
-                    position: absolute;
-                    bottom: 0.01vw;
-                    right: 1vw;
+                    @include mainImagesText850;
                 }
             }
             .dolls{
                 .dollsText{
-                    font-size: 2.5rem;
-                    position: absolute;
-                    bottom: 0.01vw;
-                    right: 1vw;
+                    @include mainImagesText850;
                 }
             }
             .babyComforter{
                 .babyComforterText{
-                    font-size: 2.5rem;
-                    position: absolute;
-                    bottom: 0.01vw;
-                    right: 1vw;
+                    @include mainImagesText850;
                 }
             }
             .miniDolls{
                 .miniDollsText{
-                    font-size: 2.5rem;
-                    position: absolute;
-                    bottom: 0.01vw;
-                    right: 1vw;
+                    @include mainImagesText850;
                 }
             }
             .babyAnimals{
                 .babyAnimalsText{
-                    font-size: 2.5rem;
-                    position: absolute;
-                    bottom: 0.01vw;
-                    right: 1vw;
+                    @include mainImagesText850;
                 }
             }
         }
@@ -383,11 +358,8 @@ $yellow-color:#F5D767;
             }
         }
         .mailingList{
+            @include flexColumnCenter;
             width: 100vw;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             margin-top: 4vw;
             .mailingListContent{
                 width: 80vw;
@@ -401,19 +373,12 @@ $yellow-color:#F5D767;
                     margin-top: 2vw;
                 }
                 .form{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+                    @include flexColumnCenter;
                     padding: 0;
-                    justify-content: center;
                     margin-top: 2vw;
                     .nameForm{
                         input{
-                            width: 70vw;
-                            height: 10vw;
-                            margin-right: 0;
-                            padding: 1.5vw;
-                            margin-top: 3vw;
+                            @include formInput600;
                             &::placeholder{
                                 font-size: 2rem;
                             }
@@ -421,11 +386,7 @@ $yellow-color:#F5D767;
                     }
                     .emailForm{
                         input{
-                            width: 70vw;
-                            height: 10vw;
-                            margin-right: 0;
-                            padding: 1.5vw;
-                            margin-top: 3vw;
+                            @include formInput600;
                             &::placeholder{
                                 font-size: 2rem;
                             }
@@ -462,19 +423,14 @@ $yellow-color:#F5D767;
         .about{
             .aboutTitle{
                 font-size: 2rem;
-                display: flex;
                 margin-top: 10px;
                 margin-bottom: 5px;
-                text-align: center;
                 width: 300px; 
             }
             .aboutText {
                 font-size: 1.6rem;
-                display: flex;
-                flex-direction: column;
                 margin-top: 5px;
                 margin-bottom: 10px;
-                text-align: center;
                 width: 80vw;
                 .aboutText p{
                     padding-top: 15px;
@@ -499,73 +455,37 @@ $yellow-color:#F5D767;
             }
             .hellodollFamily{
                 grid-area: familyMobile;
-                position: relative;
-                display: inline-block;
                 .hellodollFamilyText{
-                    position: absolute;
-                    bottom: 1.5vw;
-                    right: 1.5vw;
-                    color: $primary-color;
                     font-size: 1.6rem;   
                 }    
             }
             .animals{
                 grid-area: animalsMobile;
-                position: relative;
-                display: inline-block;
                 .animalsText{
-                    position: absolute;
-                    bottom: 1.5vw;
-                    right: 1.5vw;
-                    color: $primary-color;
-                    font-size: 1.6rem;
+                    font-size: 1.6rem;;
                 }
             }
             .dolls{
                 grid-area: dollsMobile;
-                position: relative;
-                display: inline-block;
                 .dollsText{
-                    position: absolute;
-                    bottom: 1.5vw;
-                    right: 1.5vw;
-                    color: $primary-color;
                     font-size: 1.6rem;
                 }
             }
             .babyComforter{
                 grid-area: babyComforterMobile;
-                position: relative;
-                display: inline-block;
                 .babyComforterText{
-                    position: absolute;
-                    bottom: 1.5vw;
-                    right: 1.5vw;
-                    color: $primary-color;
                     font-size: 1.6rem;
                 }
             }
             .miniDolls{
                 grid-area: miniDollsMobile;
-                position: relative;
-                display: inline-block;
                 .miniDollsText{
-                    position: absolute;
-                    bottom: 1.5vw;
-                    right: 1.5vw;
-                    color: $primary-color;
                     font-size: 1.6rem;
                 }
             }
             .babyAnimalsMobile{
                 grid-area: babyAnimalsMobile;
-                position: relative;
-                display: inline-block;
                 .babyAnimalsMobileText{
-                    position: absolute;
-                    bottom: 1.5vw;
-                    right: 1.5vw;
-                    color: $primary-color;
                     font-size: 1.6rem;
                 }
             }

@@ -3,11 +3,32 @@ $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
 
-.mainPage{
-    background-color: $primary-color;
+@mixin flexColumnCenter{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+@mixin contactFormInput{
+    border: none;
+    width: 18vw;
+    height: 2.5vw;
+    margin-bottom: 2vw;
+}
+@mixin contactFormInputPlaceholder{
+    color: white;
+    font-size: 1.6rem;
+    padding-left: 1vw;
+}
+@mixin contactFormInput850{
+    width: 60vw;
+    height: 8vw;
+    margin-bottom: 2vw;
+}
+
+.mainPage{
+    background-color: $primary-color;
+    @include flexColumnCenter;
     .mainContact{
         width: 100vw;
         display: flex;
@@ -52,23 +73,15 @@ $yellow-color:#F5D767;
                 color: white;
                 justify-content: center;
                 .contactFormLeft{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
+                    @include flexColumnCenter;
                     width: 18vw;
                     .contactNameForm{
                         width: 18vw;
                         input{
                             background-color:$red-color;
-                            border: none;
-                            width: 18vw;
-                            height: 2.5vw;
-                            display: block;
-                            margin-bottom: 2vw;
+                            @include contactFormInput;
                             &::placeholder{
-                                color: white;
-                                font-size: 1.6rem;
-                                padding-left: 1vw;
+                                @include contactFormInputPlaceholder;
                             }
                         }
                     }
@@ -76,15 +89,9 @@ $yellow-color:#F5D767;
                         width: 18vw;
                         input{
                             background-color:$yellow-color;
-                            border: none;
-                            width: 18vw;
-                            height: 2.5vw;
-                            display: block;
-                            margin-bottom: 2vw;
+                            @include contactFormInput;
                             &::placeholder{
-                                color: white;
-                                font-size: 1.6rem;
-                                padding-left: 1vw;
+                                @include contactFormInputPlaceholder;
                             }
                         }
                     }
@@ -189,33 +196,23 @@ $yellow-color:#F5D767;
                     margin-bottom: 5vw;
                     .contactFormLeft{
                         grid-area: form;
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
+                        @include flexColumnCenter;
                         width: 60vw;
                         .contactNameForm{
                             width: 60vw;
                             input{
-                                width: 60vw;
-                                height: 8vw;
-                                display: block;
-                                margin-bottom: 2vw;
+                                @include contactFormInput850;
                                 &::placeholder{
                                     font-size: 1.6rem;
-                                    padding-left: 1vw;
                                 }
                             }
                         }
                         .contactEmailForm{
                             width: 60vw;
                             input{
-                                width: 60vw;
-                                height: 8vw;
-                                display: block;
-                                margin-bottom: 2vw;
+                                @include contactFormInput850;
                                 &::placeholder{
                                     font-size: 1.6rem;
-                                    padding-left: 1vw;
                                 }
                             }
                         }
@@ -234,12 +231,6 @@ $yellow-color:#F5D767;
                             width: 60vw;
                             height: 30vw;
                             margin-left: 0;
-                            &::placeholder{
-                                font-size: 1.6rem;
-                                position: absolute;
-                                top: 1vw;
-                                left: 1vw;
-                            }
                         }
                     }
                 }

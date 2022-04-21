@@ -2,6 +2,23 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
+
+@mixin navIcon{
+    height: 70px;
+    margin-left: 3vw;
+}
+@mixin navIcon850{
+    height: 50px;
+    margin-left: 7px;
+}
+@mixin navIcon600{
+    height: 40px;
+    margin-left: 5px;
+}
+@mixin navIcon450{
+    height: 30px;
+    margin-left: 5px; 
+}
 header{
     width: 100vw;
     .headerTopContainer{
@@ -83,14 +100,12 @@ header{
                 list-style: none;
                 .navIconAccount {
                     img{
-                        height: 70px;
-                        margin-left: 3vw;
+                        @include navIcon;
                     }  
                 }
                 .navIconSearch{
                     img{
-                        height: 70px;
-                        margin-left: 3vw;
+                        @include navIcon;
                     }
                     .btn-primary{
                         background-color:transparent;
@@ -147,8 +162,7 @@ header{
                 }
                 .navIconCart {
                     img{
-                        height: 70px;
-                        margin-left: 3vw;
+                        @include navIcon;
                     }  
                 }
             }       
@@ -248,20 +262,17 @@ header{
                     height: 50px;
                     .navIconAccount {
                         img{
-                            height: 50px;
-                            margin-left: 7px;
+                            @include navIcon850;
                         }  
                     }
                     .navIconSearch {
                         img{
-                            height: 50px;
-                            margin-left: 7px;
+                            @include navIcon850;
                         }  
                     }
                     .navIconCart {
                         img{
-                            height: 50px;
-                            margin-left: 7px;
+                            @include navIcon850;
                         }  
                     }
                 }
@@ -300,14 +311,12 @@ header{
                     height: 40px;
                     .navIconAccount {
                         img{
-                            height: 40px;
-                            margin-left: 5px;
+                            @include navIcon600;
                         }  
                     }
                     .navIconSearch {
                         img{
-                            height: 40px;
-                            margin-left: 5px;
+                            @include navIcon600;
                         }
                         .offcanvas-header{
                             .offcanvas-body{
@@ -325,8 +334,7 @@ header{
                     }
                     .navIconCart {
                         img{
-                            height: 40px;
-                            margin-left: 5px;
+                            @include navIcon600;
                         }  
                     }
                 }
@@ -364,14 +372,12 @@ header{
                     height: 30px;
                     .navIconAccount {
                         img{
-                            height: 30px;
-                            margin-left: 5px;
+                           @include navIcon450;
                         }  
                     }
                     .navIconSearch {
                         img{
-                            height: 30px;
-                            margin-left: 5px;
+                            @include navIcon450;
                         }
                         .offcanvas-header{
                             .offcanvas-body{
@@ -392,8 +398,7 @@ header{
                     }
                     .navIconCart {
                         img{
-                            height: 30px;
-                            margin-left: 5px;
+                            @include navIcon450;
                         }  
                     }
                 }

@@ -3,11 +3,16 @@ $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
 
-.mainFaqsContent{
-    background-color: $primary-color; 
+@mixin flexColumnCenter{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.mainFaqsContent{
+    background-color: $primary-color; 
+    @include flexColumnCenter;
     padding-right: 7.5vw; 
     padding-left: 7.5vw;
     h2{
@@ -29,9 +34,7 @@ $yellow-color:#F5D767;
         .mainFaqText{
             padding: 2vw;
             width: 40vw;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flexColumnCenter;
             h3{
                 font-size: 2.4rem;
                 color: $yellow-color;
@@ -62,9 +65,7 @@ $yellow-color:#F5D767;
     .mainFaqsContent{
         .mainFaq{
             margin-bottom: 5vw;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            @include flexColumnCenter;
             .mainFaqImage{
                 width: 100vw;
                 padding-left: 7.5vw;
@@ -74,9 +75,7 @@ $yellow-color:#F5D767;
                 padding-right: 7.5vw;
                 padding-left: 7.5vw;
                 width: 100vw;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                @include flexColumnCenter;
                 text-align: justify;
             }
         }
