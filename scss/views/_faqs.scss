@@ -9,12 +9,15 @@ $yellow-color:#F5D767;
     align-items: center;
     justify-content: center;
 }
+@mixin padding{
+    padding-right: 7.5vw; 
+    padding-left: 7.5vw;
+}
 
 .mainFaqsContent{
     background-color: $primary-color; 
     @include flexColumnCenter;
-    padding-right: 7.5vw; 
-    padding-left: 7.5vw;
+    @include padding;
     h2{
         color: white;
         font-size: 5rem;
@@ -68,12 +71,10 @@ $yellow-color:#F5D767;
             @include flexColumnCenter;
             .mainFaqImage{
                 width: 100vw;
-                padding-left: 7.5vw;
-                padding-right: 7.5vw;
+                @include padding;
             }
             .mainFaqText{
-                padding-right: 7.5vw;
-                padding-left: 7.5vw;
+                @include padding;
                 width: 100vw;
                 @include flexColumnCenter;
                 text-align: justify;

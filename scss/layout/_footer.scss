@@ -15,6 +15,18 @@ $yellow-color:#F5D767;
     list-style: none;
     padding: 1.5vw;
 }
+@mixin li{
+    padding: 2px;
+    text-align: justify;
+}
+@mixin a{
+    color: white;
+    text-decoration: none;
+}
+@mixin hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 footer{
     background-color: $primary-color;
@@ -36,14 +48,11 @@ footer{
             ul{
                 @include ul;
                 li{
-                    padding: 2px;
-                    text-align: justify;
+                    @include li;
                     a{
-                        color: white;
-                        text-decoration: none;
+                        @include a;
                         &:hover{
-                            cursor: pointer;
-                            text-decoration: underline;
+                            @include hover;
                         }
                     }
                 }   
@@ -55,23 +64,20 @@ footer{
             }
         }
         .terms{
-            @include flexColumnCenter;
-            color: white;
-            margin-right: 4vw;
+            @extend .info;
+            background-color: $red-color;
+            text-decoration: underline;
             h4{
                 font-size: 2rem;
             }
             ul{
                 @include ul;
                 li{
-                    padding: 2px;
-                    text-align: justify;
+                    @include li;
                     a{
-                        color: white;
-                        text-decoration: none;
+                        @include a;
                         &:hover{
-                            cursor: pointer;
-                            text-decoration: underline;
+                            @include hover;
                         }
                     }
                 }   

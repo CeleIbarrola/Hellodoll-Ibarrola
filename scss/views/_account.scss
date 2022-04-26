@@ -36,7 +36,7 @@ $yellow-color:#F5D767;
     flex-direction: column;
     padding: 1vw;
 }
-@mixin h2{
+@mixin h3{
     color: $primary-color;
     font-size: 3.6rem;
     text-align: left;
@@ -90,8 +90,8 @@ $yellow-color:#F5D767;
     .loginAccount{
         grid-area: login;
         @include account;
-        h2{
-            @include h2;
+        h3{
+            @include h3;
         }
         .usernameForm{
             label{
@@ -133,8 +133,8 @@ $yellow-color:#F5D767;
     .registerAccount{
         grid-area: register;
         @include account;
-        h2{
-            @include h2;
+        h3{
+            @include h3;
         }
         .emailAdressForm{
             label{

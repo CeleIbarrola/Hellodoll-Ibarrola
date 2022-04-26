@@ -23,11 +23,19 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
+
+$font-sizes:(1:4.8rem,2:4rem,3:3.6rem,4:2.5rem,5:1.8rem,6:1.6rem);
+    
 @mixin flexColumnCenter{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@mixin flexRowCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @mixin formInput{
     border: none;
@@ -35,6 +43,10 @@ $yellow-color:#F5D767;
     height: 4vw;
     margin-right: 2vw;
     padding: 1vw;
+}
+@mixin formInputPlaceholder{
+    color: white;
+    font-size: map-get($font-sizes,5);
 }
 @mixin mainImage{
     position: relative;
@@ -45,16 +57,23 @@ $yellow-color:#F5D767;
     bottom: 1.5vw;
     right: 1.5vw;
     color: $primary-color;
-    font-size: 3.6rem;
+    font-size: map-get($font-sizes,3);
+}
+@mixin text {
+    color: white;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    text-align: center;
+    width: 80vw; 
 }
 @mixin mainImagesText850{
-    font-size: 2.5rem;
+    font-size: map-get($font-sizes,4);
     bottom: 0.01vw;
 }
 @mixin formInput600{
     width: 60vw;
     height: 10vw;
-    font-size: 2.4rem;
+    font-size: map-get($font-sizes,4);
     margin-top: 3vw;
 }
 
@@ -69,21 +88,13 @@ $yellow-color:#F5D767;
     .about{
         @include flexColumnCenter;
         .aboutTitle{
-            color: white;
-            font-size: 4.8rem;
-            margin-top: 1.5vw;
-            margin-bottom: 1.5vw;
-            text-align: center;
-            width: 80vw; 
+            font-size: map-get($font-sizes,1);
+            @include text; 
         }
         .aboutText {
             @include flexColumnCenter;
-            text-align: center;
-            color: white;
-            font-size: 3.6rem;
-            margin-top: 1.5vw;
-            margin-bottom: 1.5vw;
-            width: 80vw;
+            @include text;
+            font-size: map-get($font-sizes,4);
             p{
                 padding-top: 2.2vw;
             }   
@@ -161,7 +172,7 @@ $yellow-color:#F5D767;
                 top: 1.5vw;
                 right: 1.5vw;
                 color: white;
-                font-size: 3.6rem;
+                font-size: map-get($font-sizes,3);
             }
         }
         .babyAnimalsMobile{
@@ -172,9 +183,7 @@ $yellow-color:#F5D767;
         width: 100vw;
         height: auto;
         background-color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexRowCenter;
         margin-top: 4vw;
         padding-top: 2vw;
         padding-bottom: 2vw;
@@ -184,21 +193,19 @@ $yellow-color:#F5D767;
             margin-right: 4vw;
             h3{
                 color: $primary-color;
-                font-size: 4rem;
+                font-size: map-get($font-sizes,2);
                 text-align: center;
             }
             p{
                 color: $primary-color;
-                font-size: 2.4rem;
+                font-size: map-get($font-sizes,4);
                 text-align: center;
                 margin-top: 2vw;
             }
             .form{
-                display: flex;
-                align-items: center;
+                @include flexRowCenter;
                 padding: 1.5vw;
                 color: white;
-                justify-content: center;
                 margin-top: 2vw;
                 .nameForm{
                     @include flexColumnCenter;
@@ -206,8 +213,7 @@ $yellow-color:#F5D767;
                         background-color:$red-color;
                        @include formInput;
                         &::placeholder{
-                            color: white;
-                            font-size: 1.8rem;
+                            @include formInputPlaceholder;
                         }
                     }
                 }
@@ -217,8 +223,7 @@ $yellow-color:#F5D767;
                         background-color:$yellow-color;
                         @include formInput;
                         &::placeholder{
-                            color: white;
-                            font-size: 1.8rem;
+                            @include formInputPlaceholder;
                         }
                     }
                 }
@@ -230,8 +235,7 @@ $yellow-color:#F5D767;
                         height: 6vw;
                         border-radius: 50%;
                         display: block;
-                        color: white;
-                        font-size: 1.8rem;
+                        @include formInputPlaceholder;
                     }
                 }
             }
@@ -285,29 +289,29 @@ $yellow-color:#F5D767;
         .mailingList{
             .mailingListContent{
                 h3{
-                    font-size: 2.8rem;
+                    font-size: map-get($font-sizes,4);
                 }
                 p{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,5);
                 }
                 .form{
                     .nameForm{
                         input{
                             &::placeholder{
-                                font-size: 1.6rem;
+                                font-size: map-get($font-sizes,6);
                             }
                         }
                     }
                     .emailForm{
                         input{
                             &::placeholder{
-                                font-size: 1.6rem;
+                                font-size: map-get($font-sizes,6);
                             }
                         }
                     }
                     .submitButton{
                         input{
-                            font-size: 1.6rem;
+                            font-size: map-get($font-sizes,6);
                         }
                     }
                 }
@@ -319,41 +323,41 @@ $yellow-color:#F5D767;
     .mainPage{
         .about{
             .aboutTitle{
-                font-size: 4rem;
+                font-size: map-get($font-sizes,2);
             } 
             .aboutText {
-                font-size: 2.5rem; 
+                font-size: map-get($font-sizes,4); 
             }
         } 
         .mainImages{
             .hellodollFamily{
                 .hellodollFamilyText{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .animals{
                 .animalsText{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .dolls{
                 .dollsText{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .babyComforter{
                 .babyComforterText{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .miniDolls{
                 .miniDollsText{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .babyAnimals{
                 .babyAnimalsText{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
         }
@@ -366,10 +370,10 @@ $yellow-color:#F5D767;
                 margin-left: 0;
                 margin-right: 0;
                 h3{
-                    font-size: 3.2rem;
+                    font-size: map-get($font-sizes,3);
                 }
                 p{
-                    font-size: 2.1rem;
+                    font-size: map-get($font-sizes,5);
                     margin-top: 2vw;
                 }
                 .form{
@@ -380,7 +384,7 @@ $yellow-color:#F5D767;
                         input{
                             @include formInput600;
                             &::placeholder{
-                                font-size: 2rem;
+                                font-size: map-get($font-sizes,5);
                             }
                         }
                     }
@@ -388,7 +392,7 @@ $yellow-color:#F5D767;
                         input{
                             @include formInput600;
                             &::placeholder{
-                                font-size: 2rem;
+                                font-size: map-get($font-sizes,5);
                             }
                         }
                     }
@@ -396,7 +400,7 @@ $yellow-color:#F5D767;
                         input {
                             width: 15vw;
                             height: 15vw;
-                            font-size: 2.4rem;
+                            font-size: map-get($font-sizes,4);
                             margin-top: 3vw;
                         }
                     }
@@ -422,13 +426,13 @@ $yellow-color:#F5D767;
     .mainPage{
         .about{
             .aboutTitle{
-                font-size: 2rem;
+                font-size: map-get($font-sizes,5);
                 margin-top: 10px;
                 margin-bottom: 5px;
                 width: 300px; 
             }
             .aboutText {
-                font-size: 1.6rem;
+                font-size: map-get($font-sizes,6);
                 margin-top: 5px;
                 margin-bottom: 10px;
                 width: 80vw;
@@ -456,37 +460,37 @@ $yellow-color:#F5D767;
             .hellodollFamily{
                 grid-area: familyMobile;
                 .hellodollFamilyText{
-                    font-size: 1.6rem;   
+                    font-size: map-get($font-sizes,6);   
                 }    
             }
             .animals{
                 grid-area: animalsMobile;
                 .animalsText{
-                    font-size: 1.6rem;;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .dolls{
                 grid-area: dollsMobile;
                 .dollsText{
-                    font-size: 1.6rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .babyComforter{
                 grid-area: babyComforterMobile;
                 .babyComforterText{
-                    font-size: 1.6rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .miniDolls{
                 grid-area: miniDollsMobile;
                 .miniDollsText{
-                    font-size: 1.6rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .babyAnimalsMobile{
                 grid-area: babyAnimalsMobile;
                 .babyAnimalsMobileText{
-                    font-size: 1.6rem;
+                    font-size: map-get($font-sizes,6);
                 }
             }
             .elephant{
@@ -505,23 +509,23 @@ $yellow-color:#F5D767;
         .mailingList{
             .mailingListContent{
                 h3{
-                    font-size: 2.4rem;
+                    font-size: map-get($font-sizes,4);
                 }
                 p{
-                    font-size: 1.8rem;
+                    font-size: map-get($font-sizes,5);
                 }
                 .form{
                     .nameForm{
                         input{
                             &::placeholder{
-                                font-size: 1.8rem;
+                                font-size: map-get($font-sizes,5);
                             }
                         }
                     }
                     .emailForm{
                         input{
                             &::placeholder{
-                                font-size: 1.8rem;
+                                font-size: map-get($font-sizes,5);
                             }
                         }
                     }

@@ -29,6 +29,15 @@ $yellow-color:#F5D767;
     display: block;
     margin-bottom: 2vw;
 }
+@mixin submitButton{
+    background-color: $green-color;
+    border: none;
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.6rem;
+}
 @mixin commentsForm850{
     width: 50vw;
     height: 8vw;
@@ -133,13 +142,7 @@ $yellow-color:#F5D767;
                     }
                     .commentsSubmitButton{
                         input {
-                            background-color: $green-color;
-                            border: none;
-                            width: 4.5vw;
-                            height: 4.5vw;
-                            border-radius: 50%;
-                            color: white;
-                            font-size: 1.6rem;
+                           @include submitButton;
                         }
                     }
                 }
@@ -256,14 +259,7 @@ $yellow-color:#F5D767;
                 }
                 .blogMailingListFormSubmitButton{
                     input {
-                        background-color: $green-color;
-                        border: none;
-                        width: 4.5vw;
-                        height: 4.5vw;
-                        border-radius: 50%;
-                        display: block;
-                        color: white;
-                        font-size: 1.6rem;
+                        @include submitButton;
                     }
                 }
             }

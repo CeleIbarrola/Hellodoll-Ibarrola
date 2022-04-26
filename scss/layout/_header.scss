@@ -2,6 +2,10 @@ $primary-color:#b0b0af;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
+@mixin flexRowCenter{
+    display: flex;
+    align-items: center;
+}
 
 @mixin navIcon{
     height: 70px;
@@ -31,8 +35,7 @@ header{
         align-items: center;
         .socialMediaNav{
             margin-left: 7.5vw;
-            display: flex;
-            align-items: center;
+            @include flexRowCenter;
             grid-area:socialMedia;
             .socialMediaIcon{
                 width: 30px;
@@ -43,8 +46,7 @@ header{
         .headerTitle{
             color:$primary-color;
             margin-right: 7.5vw;
-            display: flex;
-            align-items: center;
+            @include flexRowCenter;
             justify-content: flex-end;
             font-size: 2.1rem;
             grid-area: title;
@@ -59,8 +61,7 @@ header{
         display: grid;
         grid-template-columns: 1fr 2fr;
         .headerLogo{
-            display: flex;
-            align-items: center;
+            @include flexRowCenter;
             img{
                 height: 218px;
                 margin-left: 7.5vw;

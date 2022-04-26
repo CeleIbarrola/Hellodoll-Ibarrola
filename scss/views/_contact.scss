@@ -52,7 +52,7 @@ $yellow-color:#F5D767;
             flex-direction: column;
             margin-right: 7.5vw;
             align-items: flex-end;
-            h2{
+            h3{
                 color: $primary-color;
                 font-size: 3rem;
                 margin-bottom: 2vw;
@@ -133,7 +133,7 @@ $yellow-color:#F5D767;
         .mainContact{
             .mainContactContent{
                 margin-right: 3vw;
-                h2{
+                h3{
                     font-size: 3rem;
                     margin-bottom: 1vw;
                 }
@@ -150,7 +150,7 @@ $yellow-color:#F5D767;
             margin: 0%;
             align-items: start;
             .mainContactPhoto{
-                    display: none;
+                display: none;
             }
             .mainContactPhotoMobile{
                 height:auto; 
@@ -172,7 +172,7 @@ $yellow-color:#F5D767;
                 margin-left: 0;
                 padding-right: 5vw;
                 padding-left: 5vw;
-                h2{
+                h3{
                     font-size: 4rem;
                     margin: 0px;
                     color: white;
