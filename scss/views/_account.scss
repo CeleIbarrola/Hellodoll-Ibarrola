@@ -44,7 +44,7 @@ $yellow-color:#F5D767;
 }
 @mixin account1000{
     width: 80vw;
-    padding: 0;
+    padding: 1vw;
     margin-bottom: 3vw;
 }
 @mixin h21000{
@@ -55,10 +55,9 @@ $yellow-color:#F5D767;
 }
 @mixin formLabel1000{
     align-self: flex-start;
-    padding-left: 10vw;
 }
 @mixin formInput1000{
-    width: 60vw;
+    width: 78vw;
     height: 6vw;
     margin-right: 0;
 }
@@ -66,7 +65,7 @@ $yellow-color:#F5D767;
     width: 20vw;
     height: 7.5vw;
     font-size: 2rem;
-    margin-right: 10vw;
+    margin-right: 1vw;
     margin-bottom: 3vw;
 }
 @mixin submit450{
@@ -196,8 +195,8 @@ $yellow-color:#F5D767;
             .checkbox{
                 margin-bottom: 3vw;
                 font-size: 1.6rem;
-                padding-left: 10vw;
-                padding-right: 10vw;
+                padding-left: 1vw;
+                padding-right: 1vw;
             }
             .login{
                 input{

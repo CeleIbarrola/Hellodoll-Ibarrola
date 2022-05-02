@@ -16,7 +16,6 @@ $yellow-color:#F5D767;
         height: 12vw;
         background-color: white;
         @include flexColumnCenter;
-        padding-left: 7.5vw;
         h2{
             color: $primary-color;
             font-size: 4rem;
@@ -24,7 +23,7 @@ $yellow-color:#F5D767;
         }
         .dropdown{
             .mainShopHeaderBrowser{
-                width: 300px;
+                width: 450px;
                 height: 3.5vw;
                 color: white;
                 font-size: 2.4rem;
@@ -37,6 +36,7 @@ $yellow-color:#F5D767;
                 border: none;
             }
             .dropdown-menu{
+                width: 450px;
                 background-color: $primary-color;
                 li{
                     .dropdown-item{
@@ -160,7 +160,10 @@ $yellow-color:#F5D767;
             }
             .dropdown{
                 .mainShopHeaderBrowser{
-                    width: 50vw;
+                    width: 70vw;
+                }
+                .dropdown-menu{
+                    width: 70vw; 
                 }
             } 
         }
@@ -191,7 +194,6 @@ $yellow-color:#F5D767;
         .mainShopHeader{
             width: 100vw;
             height: 36vw;
-            padding-left: 0;
             justify-content: center;
             align-items: center;
             h2{
@@ -201,9 +203,12 @@ $yellow-color:#F5D767;
             }
             .dropdown{
                 .mainShopHeaderBrowser{
-                    width: 70vw;
+                    width: 90vw;
                     height: 12.5vw;
                     padding: 1vw;
+                }
+                .dropdown-menu{
+                    width: 90vw; 
                 }
             } 
         }

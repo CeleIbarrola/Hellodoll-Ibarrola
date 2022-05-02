@@ -4,6 +4,7 @@ $green-color:#89B1AB;
 $yellow-color:#F5D767;
 @mixin flexColumnCenter{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }

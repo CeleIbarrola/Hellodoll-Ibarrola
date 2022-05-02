@@ -1,0 +1,276 @@
+{
+    "header":{
+        "mainTitle":"Hellodoll-Joyfull handmade rag dolls",
+        "title":"Joyfull handmade rag dolls",
+        "menu":"Menu",
+        "navHome":"Home",
+        "navAbout":"My Story",
+        "navBlog":"Blog",
+        "navFaqs":"Faqs",
+        "navContact":"Get in Contact",
+        "navShop":"Shop",
+        "shopFamily":"Hellodoll Family",
+        "shopAnimals":"Animals",
+        "shopBabyAnimals":"Baby animals",
+        "shopMiniDolls":"Mini dolls",
+        "shopDolls":"Dolls",
+        "shopBabyComforter":"Baby comforter",
+        "search":"Press enter to search",
+        "searchPlaceholder":"Search"
+    },
+    "main":{
+        "aboutTitle":"Welcome to the fanciful world of Hellodol!!",
+        "aboutText1":"You will find here a special family of unique textile art dolls for children and big kids alike.",
+        "aboutText2":"There is a lot of love in every little fabric friend, let them share it with your little ones!",
+        "mailingListContentH3":"We love making new friends",
+        "mailingListContentp":"Join our mailing list and get 10% off your next order! You can unsubscribe at any time."
+    },
+    "footer":{
+        "footerInfo":"USEFULL INFO",
+        "footerContact":"contact",
+        "footerShipping":"shipping",
+        "footerReturns":"returns",
+        "footerPayments":"payments",
+        "footerTerms":"OUR TERMS",
+        "footerTermsOfSale":"terms of sale",
+        "footerTermsOfUse":"terms of use",
+        "footerPrivacy":"privacy",
+        "bottomFooter":"2022 © Hellodoll - Web design by Celeste Ibarrola - celesteibarrola@gmail.com"
+    },
+    "account":{
+        "accountTitle":"Hellodoll-Account",
+        "login":"Login",
+        "username":"USERNAME OR EMAIL ADRESS*",
+        "password":"PASSWORD*",
+        "rememberMe":"REMEMBER ME",
+        "lost":"LOST YOUR PASSWORD?",
+        "register":"Register",
+        "emailAdress":"EMAIL ADRESS*"
+    },
+    "blog":{
+        "blogTitle":"Hellodoll-Blog",
+        "postTitleText1": "BLOG, THE COMFORTER DOLL",
+        "postTitleText2": "BLOG, GENDER NEUTRAL DOLLS",
+        "postTitleText3": "BLOG, HOLIDAYS NEWS",
+        "blogComments":"Comments",
+        "search":"Search for post",
+        "dropdown-item1":"THE COMFORTER DOLL",
+        "dropdown-item2":"GENDER NEUTRAL DOLLS",
+        "dropdown-item3":"HOLIDAYS NEWS",
+        "aboutMe1":"About",
+        "aboutMe2":"Me",
+        "mailingListContentH4":"We love making new friends",
+        "mailingListContentp1":"Join our mailing list and get 10% off your next order!",
+        "mailingListContentp2":"You can unsubscribe at any time." 
+    },
+    "cart":{
+        "cartTitle":"Hellodoll-Cart",
+        "cartHeaderH3":"Shopping Cart",
+        "mainCartInfo1":"Your cart is currently empty.",
+        "mainCartInfo2":"Continue browsing",
+        "mainCartInfolink":"here"
+    },
+    "contact":{
+        "contactTitle":"Hellodoll-Contact",
+        "mainContactContentH3":"Contact",
+        "mainContactContentp1":"Do you have any doubt? Do you want to know if your order will arrive in time for a gift?",
+        "mainContactContentp2":"Not sure which doll to choose? Do you have any suggestions or proposals for us?",
+        "mainContactContentp3":"We will be happy to read to you.",
+        "mainContactContentp4":"Fill out this form or write to",
+        "mainContactContentMail":"info@hellodoll.com",
+        "mainContactContentp5":"If you are a little anxious and you can not wait for us to respond check out our,",
+        "mainContactContentFaqs":"“FAQS”",
+        "mainContactContentp6":"you might find the answer there."
+    },
+    "faqs":{
+        "faqsTitle":"Hellodoll-FAQS",
+        "mainFaqsContentH2":"FAQS",
+        "mainFaqTextH3-1":"Are Hellodoll dolls fit to play?",
+        "mainFaqTextp-1":"Keep in mind that the mini Hellodolls and some of the big ones have delicate and small details (buttons, bows, bows), so they are only recommended for the soft play of children over three years old, or as decoration of a children's room. However, some of the larger dolls have bows or ribbons as accessories made of a size large enough that they cannot be inhaled or swallowed. It is unlikely, but under a lot of effort or pressure or after a lot of use these items could come off. However, it is always necessary to remember that play should always be done under adult supervision, and extreme vigilance should be exercised when children are very young.",
+        "mainFaqTextH3-2":"How do I care for my new friend?",
+        "mainFaqTextp-2": "Hellodolls are not washable (never put it in the washer and dryer and avoid immersion in water), but can be spot cleaned with a gentle detergent and warm water.I recommend displaying the dolls out of direct sunlight as this can fade the colours over time",
+        "mainFaqTextH3-3":"How do you send your Hellodolls?",
+        "mainFaqTextp-3":"Orders are shipped from Argentina. I ship my orders by air through Argentine Post Office. I use Certificated Packages which requires a signature. If nobody is home to sign for the package, you might have to make a phone call or trip to your local post office (USPS if you're in the U.S.A.).Your customs fees or import taxes are NOT included in the price of the item. Additional charges may be levied by your country based on individual import laws. I am not able to mark your package as a gift to avoid these fees- sorry to disappoint. I cannot be held responsible for packages getting lost or not delivered due to incorrectly entered addresses. If this occurs and packages return to me I will either issue a refund for the price of the item or re-ship it to the correct address at your expense.",
+        "mainFaqTextH3-4":"The design I like is listed on a different animal, can I change the animal?",
+        "mainFaqTextp-4":"Of course! Just send me a message to see if the fabrics are in stock. Remember that I usually use vintage or printed fabrics on request and what you are looking for may not be available. Anyway, I can always give you design alternatives, so we can together make the doll of your dreams."
+    },
+    "myStory":{
+        "myStoryTitle":"Hellodoll-My Story",
+        "mainMyStoryH2":"Who is behind Hellodoll!!",
+        "mainMyStoryH3":"My name is Celeste, designer and maker of handmade fabric dolls.",
+        "welcome1":"Hello and welcome to my little shop, a joyful home of unique rag dolls for children and big kids alike.",
+        "mainText1":"I’m Celeste, a textile designer working from my lovely home studio in Villa Allende, a beautiful little city in the center of Argentina. I started sewing when I was 11 years old, with my grandmother heirloom Singer machine. Then I studied architecture and worked 17 years in the construction industry, but I continued playing with fabrics and threads, making stuffs for my two lovely boys. After a year of deep work stress, in the midst of a  modern and accelarated professional life I realized that I needed to connect with my inner child and get back to enjoying and having fun like in childhood. And Hellodoll was born. In the beginning it was a therapy, a kind of space to meditate and release creativity, and almost without realizing it, I was dedicating the whole day to make cuddly toys and dolls.",
+        "mainText2":"I design the patterns, and let my imagination run wild experimenting with different materials and recycled fabrics, and playing with the textures and colours. A tremendous amount of love goes into every handmade Hellodoll. Every step of the process is carefully analyzed: from the unique and detailed designs to the refinement in the selection of fashionable colors and the choice of the noblest fabrics.",
+        "mainText3":"Usually the designs change as they come to life, so they are one of a kind creatures, each one has a unique feel and look.I believe that whimsy is cherished at any age, that’s why Hellodoll collection of stuffed animals and dolls is specially designed to surprise and delight both little ones and their parents alike. Hellodoll charming dolls for kids inspire imaginative play, and add a chic touch to a playroom or nursery’s décor.",
+        "welcome2":"I hope you find something here that makes you smile :)"
+    },
+    "payment":{
+        "paymentsTitle":"Hellodoll-Payments",
+        "paymentsHeaderH2":"Payment Info",
+        "mainPaymentsInfoH3-1":"Accepting Payments",
+        "mainPaymentsInfop-1":"We ship worldwide and accept payments from customers all over the world.",
+        "mainPaymentsInfoH3-2":"Currency",
+        "mainPaymentsInfop-2":"All our prices are listed in USD and our payments are processed accordingly. If you are based overseas, you can still order from us using Paypal or the debit or credit cards listed below.",
+        "mainPaymentsInfop-2-b":"All our prices are listed in USD and our payments are processed accordingly. If you are based overseas, you can still order from us using Paypal or the debit or credit cards listed below.",
+        "mainPaymentsInfoH3-3":"Payment Methods",
+        "mainPaymentsInfop-3":"We accept payments via Paypal or using Visa, MasterCard and American Express debit and credit cards.",
+        "mainPaymentsInfop-3-b":" Hellodoll!! will never capture or store your payment information."
+    },
+    "privacy":{
+        "privacyTitle":"Hellodoll-Privacy",
+        "privacyHeaderH2":"Privacy Info",
+        "mainPrivacyInfop1":"Welcome to the privacy policy for the website of Hellodoll . We are committed to protecting your privacy. To learn more, please read the privacy policy that follows, which applies to the content and applications of this site as well as to Hellodoll’s other services and products.",
+        "mainPrivacyInfop2":"We recommend that you review this privacy statement periodically, as Hellodoll reserves the right to change its terms at any time and apply these revised terms to all information previously collected. By visiting and/or using our website, you accept the practices described in this privacy policy. Any access to or use of the website by you after the changes go into effect shall constitute your agreement to this privacy policy. This privacy policy was last updated 5/31/2021.",
+        "privacyHeaderH3-1":"What Is Personal Information?",
+        "mainPrivacyInfop3":"Personal Information is information relating to an identified or identifiable natural person. An identifiable natural person is one who can be identified, directly or indirectly, by reference to an identifier such as a name, an identification number, location data, an online identifier, or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person.",
+        "mainPrivacyInfop4":"We do not consider personal information to include information that has been anonymized or aggregated so that it can no longer be used to identify a specific natural person, whether in combination with other information or otherwise.",
+        "privacyHeaderH3-2":"What Information We Collect + How We Use it:",
+        "mainPrivacyInfop5":" We collect personal information from you and any devices (including mobile devices) you use when you purchase products, subscribe to the email list or use our services. Some of this personal information, such as a way to identify you, is necessary to complete orders or provide requested information. The provision of all other personal information is voluntary, but may be necessary in order to use our services.",
+        "privacyHeaderH3-3":"Examples of ways in which we may collect such information from you include the following:",
+        "mainPrivacyInfop6":"Ordering:  Before ordering products through our site, you will be required to provide certain personal information, including, but not limited to, your name, shipping and billing addresses, phone number, email address, and payment information. In addition, you may also be asked to provide your country of residence so we can comply with applicable laws and regulations. These kinds of personal information are used for billing purposes, to fulfill your orders, to communicate with you about your order and this site, and for internal or third-party marketing and promotional purposes. If we encounter a problem when processing your order, we will use the personal information to contact you.",
+        "mainPrivacyInfop7":"Email address:  Some areas of the site allow you to enter your email address for purposes including, but not limited to, registering for the Hellodoll newsletter, promotional emails and emails from approved partners. You may unsubscribe at any time from receiving these messages by clicking on the “Unsubscribe” link contained in any promotional email. (Please note that despite unsubscribing from such marketing communications, we may still contact you in relation to your order(s) or any issues relating to any business you conduct with us.)",
+        "mainPrivacyInfop8":"Cookies: We may use cookies, web beacons, pixel tags or other technologies to automatically collect certain information when you use our website, or interact with our emails on or from our website or other websites. Cookies are used to provide customers with tighter security, customized content, tracking of orders and shopping cart items that persist across browser restarts. Unfortunately, customers who turn off cookies in their browser settings may not be able to shop from this site. If you register with or order from us, we may use cookies to monitor and maintain information about how you use our website and what you buy. If you do not register with or buy from us, we may monitor and maintain information about your use of the website in order to improve your shopping experience and provide you with more relevant content and advertising. We determine if a user has abandoned their cart with a cookie, checking whether the existing user has already opted in for text marketing."
+    },
+    "returns":{
+        "returnsTitle":"Hellodoll-Returns",
+        "returnsHeaderH2":"Returns",
+        "mainReturnsInfop1":"If for any reason you are not satisfied with your purchase you can return the product. Please, contact me within 2 days of delivery, ship items back within 7 days of delivery or request a cancellation within 2 hours of purchase.",
+        "mainReturnsInfop2":"If your item arrives damaged as a result of shipping, please e-mail a photo of the item within 2 days of receipt.",
+        "mainReturnsInfop3":" Buyers are responsible for return shipping costs, and ítems must return in their original condition and packaging. Also note that if an item is lost or damaged in transit back to me, I may be unable to refund the cost.",
+        "mainReturnsInfop4":"No refunds will be made for custom orders unless error is on my part. Please send a photo within 2 business days of confirmed delivery notifying us of the specific error."
+    },
+    "saleTerms":{
+        "saleTermsTitle":"Hellodoll-Terms of Sale",
+        "mainSaleTermsInfo":"By placing an order with us, you are offering to purchase a product and/or service, representing that you are at least the age of majority in your country of residence or jurisdiction, representing that all information you provide to us in connection with such order is true and accurate, and representing that you are an authorized user of the payment method provided. If you are under the age of majority in the jurisdiction in which you reside or access this Website, your parent or guardian should use this Website on your behalf. You should not use the Website on your own or provide any personal information to Hellodoll. We do not knowingly collect information from children under the age of 13."
+    },
+    "shipping":{
+        "shippingTitle":"Hellodoll-Shipping",
+        "shippingHeaderH2":"Shipping + Delivery",
+        "mainShippingInfop1":"Orders are shipped from Argentina by air through Argentine Post Office. I use Certificated Packages which requires a signature. If nobody is home to sign for the package, you might have to make a phone call or trip to your local post office (USPS if you're in the U.S.A.)",
+        "mainShippingInfop2":"Please ensure the address on your Etsy account is correct, as that is where your item will be shipped to. If packages get lost or are not delivered due to incorrectly entered addresses, and packages return to me I will either issue a refund for the price of the item or re-ship it to the correct address at your expense.",
+        "mainShippingInfop3":"Your customs fees or import taxes are NOT included in the price of the item. Additional charges may be levied by your country based on individual import laws. I am not able to mark your package as a gift to avoid these fees- sorry to disappoint.",
+        "mainShippingInfop4":" We usually work with a stock of dolls ready to ship in 1 to 3 working days.In the case of special custom-made dolls (which is indicated in the listing item overview box in the upper right hand corner of the listing page), the time needed to design and make them is about one week. However, if you need it for a special occasion, please do not hesitate to mention it and We will do our best to accommodate production times.",
+        "mainShippingInfop5":"If you are purchasing a Hellodoll for a special occasion, please note that the customs process in your country may add time to the total shipping time.",
+        "mainShippingInfop6":"These are the estimated shipping times from Argentina to different regions (excluding handling time):",
+        "mainShippingInfop7":"North America: 7-21 business days (11-30 days) / Europe: 8-14 business days (10-21 days) / Australia, New Zealand and Oceania: 7-21 business days (11-30 days) / Asia Pacific: 8-14 business days (10-21 days) / North Africa and the Middle East: 8-14 business days (10-21 days)",
+        "mainShippingInfop89":" Shipping times can be less or more, it is pretty random. This is due to holiday seasons, customs, international procedures, and other factors. If you have a specific deadline, we would recommend that you purchase the expedited shipping option.",
+        "mainShippingInfop9":"Make sure to get in touch with us if you have any questions."
+    },
+    "shop":{
+        "shopTitle":"Hellodoll-Shop",
+        "mainShopHeaderH2":"Hellodoll Family",
+        "dropdown1":"Sort by latest",
+        "dropdown2":"Sort by popularity",
+        "dropdown3":"Sort by average rating",
+        "dropdown4":"Sort by price:low to hight",
+        "dropdown5":"Sort by price:hight to low" 
+    },
+    "babyAlpaca":{
+        "babyAlpacaTitle":"Hellodoll-Shop-Baby Alpaca",
+        "name":"Baby Alpaca",
+        "productTitle":"Cute little fluffy alpaca stuffed fabric doll",
+        "productDescriptionp1":"This soft mini stuffed llama doll will be an inseparable companion to carry around in a pocket. Their colors are so cheerful that I have no doubt they will brighten your day.",
+        "productDescriptionp2": "This colorful tiny alpaca doll, was created in a aguayo fabric of great durability and resistance. The face is hand-embroidery with thread and it has a soft coral color microfiber fabric coat, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 19,5 cm-7,67 inch tall without measuring the ears. (Since it's handmade it can vary a little bit).I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "bigRedBunny":{
+        "bigRedBunnyTitle":"Hellodoll-Shop-Big Red Bunny",
+        "name": "Big Red Bunny",
+        "productTitle":"Stuffed cloth bunny doll",
+        "productDescriptionp1":"This cheerful plush bunny rabbit will be the perfect adventure (and mischief) companion. It is so soft and fluffy that it is ideal for cuddling and squeezing.",
+        "productDescriptionp2":"This cute huggable woodland rabbit, was created in striped plush of great durability and resistance. The face is hand-embroidery with thread and it has a pom pom furry tail and big ears, and a red plush scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 35cm-13,77 inch tall without measuring the big ears. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "bigPinkBunny":{
+        "bigPinkBunnyTitle":"Hellodoll-Shop-Big Pink Bunny",
+        "name": "Big Pink Bunny",
+        "productTitle":"Cute cuddle bunny soft toy",
+        "productDescriptionp1":"This snuggly stuffed bunny girl doll will be a tireless playmate and sweet sleep protector at bedtime. It is so soft and delicate that it is ideal for a girly gift.",
+        "productDescriptionp2":"This cute plushie rabbit, was created in a floral cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has a pom pom tail and a pink microfiber fabric scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 31cm-12,20 inch tall without measuring the big ears. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "babyComforterBunny":{
+        "babyComforterBunnyTitle":"Hellodoll-Shop-Baby Comforter Bunny",
+        "name":"Baby Comforter Bunny",
+        "productTitle":"Small baby comforter stuffed bunny doll",
+        "productDescriptionp1":"The comforter cloth doll is that special and indispensable object for the baby at bedtime or when he needs comfort and that, in some way, represents the mother, giving him security, being an emotional support. This little stuffed bunny toy is the perfect emotional support animal! Cute and cuddly! If you are looking for a special gift for a newborn baby, you really can’t go wrong with this cuddle rabbit first doll.",
+        "productDescriptionp2":"This soft bunny doll, was created in a floral cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has a hand knitted wool scarf. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. He is 22x28 cm - 8.66x11.02 inch without measuring the ears (since it's handmade it can vary a little bit).I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "babyGreenBunny":{
+        "babyGreenBunnyTitle":"Hellodoll-Shop-Baby Green Bunny",
+        "name":"Baby Green Bunny",
+        "productTitle":"Cute little pocket bunny soft toy",
+        "productDescriptionp1":" This beautiful mini stuffed rabbit doll will be an inseparable companion to carry around in a pocket. Their colors are so cheerful that I have no doubt they will brighten your day.",
+        "productDescriptionp2":"This colorful tiny bunny doll, was created in a floral cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has a pom pom tail and a bright green microfiber fabric scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. He is 20 cm-7,87 inch tall without measuring the big ears (since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "babyRedBunny":{
+        "babyRedBunnyTitle":"Hellodoll-Shop-Baby Red Bunny",
+        "name":"Baby Red Bunny",
+        "productTitle":"Small bunny rag doll",
+        "productDescriptionp1":"This small bunny rag doll is the perfect emotional support animal for any age child (or bunny crazy adult). He has just the right size for little hands to enjoy and is soft and cuddly from head to toe.",
+        "productDescriptionp2":"This colorful tiny bunny doll, was created in a striped cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has a pom pom tail and a bright green microfiber fabric scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. He is 20 cm-7,87 inch tall without measuring the big ears (since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "bigPinkCat":{
+        "bigPinkCatTitle":"Hellodoll-Shop-Big Pink Cat",
+        "name":"Big Pink Cat",
+        "productTitle":"Soft cat doll stuffed animal",
+        "productDescriptionp1":"This cute stuff kitten rag doll will be a unique gift for your cat lovers ones. Is a one of a kind textile art doll. Your baby’s room will look lovely with these cuddly kitty toy.",
+        "productDescriptionp2":" This plushie kitty doll, was created in a super soft and colorful floral towel microfiber fabric of great durability and resistance. The face is hand-embroidery with thread and it has a fluffy long tail and a coral microfiber fabric scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 28 cm-11,02 inch tall without measuring the ears. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "babyComforterCat":{
+        "babyComforterCatTitle":"Hellodoll-Shop-Baby Comforter Cat",
+        "name":"Baby Comforter Cat",
+        "productTitle":"Cuddle comforter baby boy doll",
+        "productDescriptionp1":"The comforter cloth doll is that special and indispensable object for the baby at bedtime or when he needs comfort and that, in some way, represents the mother, giving him security, being an emotional support. This little stuffed kitten doll is the perfect emotional support animal! Cute and cuddly! If you are looking for a special gift for a newborn baby, you really can’t go wrong with this cuddle cat first doll.",
+        "productDescriptionp2":"This soft kitten doll, was created in a cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has a hand knitted wool scarf. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. He is 22x28 cm - 8.66x11.02 inch without measuring the ears (since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "babyBlueCat":{
+        "babyBlueCatTitle":"Hellodoll-Shop-Baby Blue Cat",
+        "name":"Baby Blue Cat",
+        "productTitle":"Mini white softie plushie cat doll",
+        "productDescriptionp1":"This cute mini stuffed kitten doll will be a unique gift for your cat lovers ones. Is a small one of a kind textile art doll, perfect for a trip in your pocket!",
+        "productDescriptionp2":"This softie tiny kitty doll, was created in a floral cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has a fluffy tail and a blue microfiber fabric scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 19,5 cm-7,67 inch tall without measuring the ears. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this cuddly doll is one of a kind creature, he has a unique feel and look."
+    },
+    "bigTurquoiseDoll":{
+        "bigTurquoiseDollTitle":"Hellodoll-Shop-Big Turquoise Doll",
+        "name":"Big Turquoise Doll",
+        "productTitle":"One of a kind colorfull rag doll",
+        "productDescriptionp1":"This cute textile art doll will be a unique gift for your girl. Is a fashion cloth doll, ideal to complete a Waldorf toy collection. Bonus points for also looking pretty on the shelf when not in use.",
+        "productDescriptionp2":"This cuddly and joyful fabric doll, was created in a cheerful cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has soft white hair, turquoise microfiber  bonnet with a pompom and a hand knitted coat. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 31 cm- 12,20 inch tall. (Since it's handmade it can vary a little bit).I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this fanciful doll is one of a kind creature, he has a unique feel and look."
+    },
+    "bigPinkDoll":{
+        "bigPinkDollTitle":"Hellodoll-Shop-Big Pink Doll",
+        "name":"Big Pink Doll",
+        "productTitle":"Ooak heirloom textile art doll with glasses",
+        "productDescriptionp1":"This fashion textile art doll will be a unique gift for your girl. Is a collectible cloth doll, ideal to complete a montessori toy collection. Bonus points for also looking pretty on the shelf when not in use.",
+        "productDescriptionp2":"This fancy fabric doll, was created in a cheerful microfiber fabric of great durability and resistance. The face is hand-embroidery with thread and it has soft hair, a Bonnet and a scarf hand knitted. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 29 cm- 11,41 inch tall. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this fanciful doll is one of a kind creature, he has a unique feel and look."
+    },
+    "miniPinkDoll":{
+        "miniPinkDollTitle":"Hellodoll-Shop-Mini Pink Doll",
+        "name":"Mini Pink Doll",
+        "productTitle":"Miniature heirloom collection cloth doll",
+        "productDescriptionp1":" This cute mini stuffed rag doll will be a unique gift for a baby shower, and will add a beautiful touch to the pretty feminine atmosphere of a baby girl nursery. Fits in the palm of your hand, just the right size for little hands to enjoy.",
+        "productDescriptionp2":"This cuddly tiny fabric doll, was created in a floral cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has soft hair, a Bonnet and a scarf hand knitted. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 29 cm- 11,41 inch tall. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this fanciful doll is one of a kind creature, he has a unique feel and look."
+    },
+    "bigElephant":{
+        "bigElephantTitle":"Hellodoll-Shop-Big Elephant",
+        "name":"Big Elephant",
+        "productTitle":"Textile cuddle elephant rag doll",
+        "productDescriptionp1":"In various cultures, elephants are a symbol of protection, they drive away bad energies and attract good luck, wisdom and life. This cuddle stuffed elephant toy, is a one of a kind textile art doll, perfect for your nursery decor to attract all the good vibes!",
+        "productDescriptionp2":"This cute fluffy elephant doll, was created with a starry cotton fabric of great durability and resistance. The face is hand-embroidery with thread and it has a long tail and a ruffled neck, with a ribbon, and a sweet bun in his big ears. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 29 cm- 11,41 inch tall. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this fanciful doll is one of a kind creature, he has a unique feel and look."
+    },
+    "bigKoala":{
+        "bigKoalaTitle":"Hellodoll-Shop-Big Koala",
+        "name":"Big Koala",
+        "productTitle":"Ooak huggable stuffed koala bear rag doll",
+        "productDescriptionp1": "This charming plush koala bear makes the perfectly huggable gift for your little one. It will be something your kids will enjoy and treasure for a long time. Bonus points for also looking pretty on the shelf when not in use, as a nursery decor.",
+        "productDescriptionp2":"This softie australian animal toy, was created in a colorful microfiber towel of great durability and resistance.The face is hand-embroidery with thread and it has furry ears and a turquoise microfiber soft scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 29 cm- 11,41 inch tall. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this fanciful doll is one of a kind creature, he has a unique feel and look."
+    },
+    "babyLion":{
+        "babyLionTitle":"Hellodoll-Shop-Baby Lion",
+        "name":"Baby Lion",
+        "productTitle":"Miniature stuffed lion toy",
+        "productDescriptionp1": "Meet the newest addition to our safari family! This cuddly mini stuffed lion doll, fits in the palm of your hand and is the perfect emotional support animal! Cute and cuddly! Is a perfect gift whether it’s intended for a child to play with, or an adult whose heart and soul you want to touch.",
+        "productDescriptionp2":"This baby plushie lion toy, was created with a colorful printed cotton fabric of great durability and resistance.The face is hand-embroidery with thread and it has a soft fur head, a long tail and a red microfiber fabric scarf, with a wood button. It is stuffed with non-allergenic polyester fiber, in a in 100% smoke free studio. It is 29 cm- 11,41 inch tall. (Since it's handmade it can vary a little bit). I thoroughly design and make all of my items with great care, dedication and special attention to details. Usually Hellodoll designs change as they come to life, so this fanciful doll is one of a kind creature, he has a unique feel and look."
+    }
+
+
+
+}

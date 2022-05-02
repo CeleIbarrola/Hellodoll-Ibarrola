@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Hellodoll-Shipping</title>
+    <title data-section="shipping" data-value="shippingTitle">Hellodoll-Shipping</title>
 </head>
 <body>
     <header id="irHeader">
@@ -28,77 +28,78 @@
                     <img src="../archivos/iconos/instagram.png" alt="Instagram icon">
                 </a>
             </nav>
-            <h1 class="headerTitle">Joyfull handmade rag dolls</h1>
+            <h1 class="headerTitle" data-section="header" data-value="title">Joyfull handmade rag dolls</h1>
             <nav class="navbar navbar-light fixed-top mobileMenu">
                 <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h2>
-                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/ourStory.html">Our Story</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/faqs.html">Faqs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/contact.html">Get in Contact</a>
-                        </li> 
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Shop
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li>
-                                <a class="dropdown-item" href="../pages/shop.html">Hellodoll Family</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="../pages/shopAnimals.html">Animals</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="../pages/shopBabyAnimals.html">Baby animals</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="../pages/shopDolls.html">Dolls</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="../pages/shopMiniDolls.html">Mini dolls</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="./pages/shopBabyComforter.html">Baby comforter</a>
-                            </li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h2 class="offcanvas-title" id="offcanvasNavbarLabel" data-section="header" data-value="menu">Menu</h2>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html" data-section="header" data-value="navHome">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/myStory.html" data-section="header" data-value="navAbout">My Story</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/blog.html" data-section="header" data-value="navBlog">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/faqs.html" data-section="header" data-value="navFaqs">Faqs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contact.html" data-section="header" data-value="navContact">Get in Contact</a>
+                                </li> 
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-section="header" data-value="navShop">
+                                    Shop
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li>
+                                            <a class="dropdown-item" href="../pages/shop.html" data-section="header" data-value="shopFamily">Hellodoll Family</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="../pages/shopAnimals.html" data-section="header" data-value="shopAnimals">Animals</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="../pages/shopBabyAnimals.html" data-section="header" data-value="shopBabyAnimals">Baby animals</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="../pages/shopDolls.html" data-section="header" data-value="shopDolls">Dolls</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="../pages/shopMiniDolls.html" data-section="header" data-value="shopMiniDolls">Mini dolls</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./pages/shopBabyComforter.html" data-section="header" data-value="shopBabyComforter">Baby comforter</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                   </div>
                 </div>
-              </nav>
-              </section>
-              <section class="headerMainContainer">
-                <picture class="headerLogo">
-                    <img src="../archivos/iconos/Logo.png" alt="Hellodoll Logo">
-                </picture>
-                <div class="rightMenu">
-                <div class="lenguajes">
-                    <a class="flag" href="">
+            </nav>
+        </section>
+        <section class="headerMainContainer">
+            <picture class="headerLogo">
+                <a href="../index.html">
+                    <img src="../archivos/iconos/Logo.png" alt="Hellodoll Logo"></a>
+            </picture>
+            <div class="rightMenu">
+                <div class="flags" id="flags">
+                    <picture class="flagsItem" data-language="en">
                         <img src="../archivos/idiomas/english.png" alt="English flag">
-                    </a>
-                    <a class="flag" href="">
+                    </picture>
+                    <picture class="flagsItem" data-language="es">
                         <img src="../archivos/idiomas/spanish.png" alt="Spanish flag">
-                    </a>
+                    </picture>
                 </div>
                 <ul class="navShop">
                     <li class="navIconAccount">
@@ -116,7 +117,7 @@
                                             <label for="search"></label>
                                             <input  type="text" name="search" placeholder="Search">
                                         </li>
-                                        <li class="searchText">Press enter to search</li>
+                                        <li class="searchText" data-section="header" data-value="search">Press enter to search</li>
                                     </ul>
                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
                                     </button>
@@ -131,94 +132,91 @@
                     </li>
                 </ul>
             </div>
-            </section>
-            <section class="headerBottomContainer">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        </section>
+        <section class="headerBottomContainer">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Shop
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-section="header" data-value="navShop">
+                                Shop
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                  <li>
-                                      <a class="dropdown-item" href="../pages/shop.html">Hellodoll Family</a>
-                                  </li>
-                                  <li>
-                                      <a class="dropdown-item" href="../pages/shopAnimals.html">Animals</a>
-                                  </li>
-                                  <li>
-                                      <a class="dropdown-item" href="../pages/shopBabyAnimals.html">Baby animals</a>
-                                  </li>
-                                  <li>
-                                      <a class="dropdown-item" href="../pages/shopDolls.html">Dolls</a>
-                                  </li>
-                                  <li>
-                                      <a class="dropdown-item" href="../pages/shopMiniDolls.html">Mini dolls</a>
-                                  </li>
-                                  <li>
-                                      <a class="dropdown-item" href="../pages/shopBabyComforter.html">Baby comforter</a>
-                                  </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../pages/shop.html" data-section="header" data-value="shopFamily">Hellodoll Family</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../pages/shopAnimals.html" data-section="header" data-value="shopAnimals">Animals</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../pages/shopBabyAnimals.html" data-section="header" data-value="shopBabyAnimals">Baby animals</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../pages/shopDolls.html" data-section="header" data-value="shopDolls">Dolls</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../pages/shopMiniDolls.html" data-section="header" data-value="shopMiniDolls">Mini dolls</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="../pages/shopBabyComforter.html" data-section="header" data-value="shopBabyComforter">Baby comforter</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Home</a>
+                                <a class="nav-link" href="../index.html" data-section="header" data-value="navHome">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/ourStory.html">Our Story</a>
+                                <a class="nav-link" href="../pages/myStory.html" data-section="header" data-value="navAbout">My Story</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/blog.html">Blog</a>
+                                <a class="nav-link" href="../pages/blog.html" data-section="header" data-value="navBlog">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/faqs.html">Faqs</a>
+                                <a class="nav-link" href="../pages/faqs.html" data-section="header" data-value="navFaqs">Faqs</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="../pages/contact.html">Get in Contact</a>
+                                <a class="nav-link" href="../pages/contact.html" data-section="header" data-value="navContact">Get in Contact</a>
                             </li> 
                         </ul>
-                      </div>
                     </div>
-                  </nav>
-            </section>
+                </div>
+            </nav>
+        </section>  
     </header>
     <main class="mainShipping">
         <section class="shippingHeader">
-            <h2>
+            <h2  data-section="shipping" data-value="shippingHeaderH2">
                 Shipping + Delivery
             </h2>
         </section>
         <section class="mainShippingInfo">
-            <p>
+            <p data-section="shipping" data-value="mainShippingInfop1">
                 Orders are shipped from Argentina by air through Argentine Post Office. I use Certificated Packages which requires a signature. If nobody is home to sign for the package, you might have to make a phone call or trip to your local post office (USPS if you're in the U.S.A.)
-            <p>
+            </p>
+            <p data-section="shipping" data-value="mainShippingInfop2">
                 Please ensure the address on your Etsy account is correct, as that is where your item will be shipped to. If packages get lost or are not delivered due to incorrectly entered addresses, and packages return to me I will either issue a refund for the price of the item or re-ship it to the correct address at your expense.
             </p>
-            <p>
+            <p data-section="shipping" data-value="mainShippingInfop3">
                 Your customs fees or import taxes are NOT included in the price of the item. Additional charges may be levied by your country based on individual import laws. I am not able to mark your package as a gift to avoid these fees- sorry to disappoint. 
             </p>
-            <p>
+            <p data-section="shipping" data-value="mainShippingInfop4">
                 We usually work with a stock of dolls ready to ship in 1 to 3 working days.
                 In the case of special custom-made dolls (which is indicated in the listing item overview box in the upper right hand corner of the listing page), the time needed to design and make them is about one week. However, if you need it for a special occasion, please do not hesitate to mention it and We will do our best to accommodate production times.
             </p>
-            <p>
+            <p data-section="shipping" data-value="mainShippingInfop5">
                 If you are purchasing a Hellodoll for a special occasion, please note that the customs process in your country may add time to the total shipping time.
             </p>
-            <p>
+            <p data-section="shipping" data-value="mainShippingInfop6">
                 These are the estimated shipping times from Argentina to different regions (excluding handling time):
             </p>
-            <p>
-                North America: 7-21 business days (11-30 days)
-                Europe: 8-14 business days (10-21 days)
-                Australia, New Zealand and Oceania: 7-21 business days (11-30 days)
-                Asia Pacific: 8-14 business days (10-21 days)
-                North Africa and the Middle East: 8-14 business days (10-21 days)
+            <p data-section="shipping" data-value="mainShippingInfop7">
+                North America: 7-21 business days (11-30 days) / Europe: 8-14 business days (10-21 days) / Australia, New Zealand and Oceania: 7-21 business days (11-30 days) / Asia Pacific: 8-14 business days (10-21 days) / North Africa and the Middle East: 8-14 business days (10-21 days)
             </p>
-            <p>
+            <p data-section="shipping" data-value="mainShippingInfop8">
                 Shipping times can be less or more, it is pretty random. This is due to holiday seasons, customs, international procedures, and other factors. If you have a specific deadline, we would recommend that you purchase the expedited shipping option.
             </p>
-            <p>
+            <p data-section="shipping" data-value="mainShippingInfop9">
                 Make sure to get in touch with us if you have any questions.
             </p>
         </section>
@@ -226,24 +224,24 @@
     <footer>
         <section class="topFooter">
             <div class="info">
-                <h4>
+                <h4 data-section="footer" data-value="footerInfo">
                     USEFULL INFO
                 </h4>
                 <ul>
                     <li>
-                        <a href="../pages/contact.html">contact</a>
+                        <a href="../pages/contact.html" data-section="footer" data-value="footerContact">contact</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="../pages/shipping.html">shipping</a>
+                        <a href="../pages/shipping.html" data-section="footer" data-value="footerShipping">shipping</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="../pages/returns.html">returns</a>
+                        <a href="../pages/returns.html" data-section="footer" data-value="footerReturns">returns</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="../pages/payments.html">payments</a>
+                        <a href="../pages/payments.html" data-section="footer" data-value="footerPayments">payments</a>
                     </li>
                 </ul>
             </div>
@@ -253,28 +251,29 @@
                 </a>
             </picture>
             <div class="terms">
-                <h4>
+                <h4 data-section="footer" data-value="footerTerms">
                     OUR TERMS
                 </h4>
                 <ul>
                     <li>
-                        <a href="../pages/saleTerms.html">terms of sale</a>
+                        <a href="../pages/saleTerms.html" data-section="footer" data-value="footerTermsOfSale">terms of sale</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="..//pages/useTerms.html">terms of use</a>
+                        <a href="../pages/useTerms.html" data-section="footer" data-value="footerTermsOfUse">terms of use</a>
                     </li>
                     <li>/</li>
                     <li>
-                        <a href="../pages/privacy.html">privacy</a>
+                        <a href="../pages/privacy.html" data-section="footer" data-value="footerPrivacy">privacy</a>
                     </li>
                 </ul>
             </div>
         </section>
         <section class="bottomFooter">
-            <p>2022 © Hellodoll - Web design by Celeste Ibarrola</p>
+            <p data-section="footer" data-value="bottomFooter">2022 © Hellodoll - Web design by Celeste Ibarrola - celesteibarrola@gmail.com</p>
         </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+    <script src="../js/scriptsSecondary.js"></script>
 </body>
 </html>

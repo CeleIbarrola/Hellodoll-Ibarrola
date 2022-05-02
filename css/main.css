@@ -1,12 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0pt;
-  font-family: 'Fredoka', sans-serif; }
-
-html {
-  font-size: 62.5%; }
-
 header {
   width: 100vw; }
   header .headerTopContainer {
@@ -61,12 +52,12 @@ header {
       align-items: flex-end;
       justify-content: center;
       margin-right: 7.5vw; }
-      header .headerMainContainer .rightMenu .lenguajes {
+      header .headerMainContainer .rightMenu .flags {
         height: 40px;
         margin-bottom: 25px; }
-        header .headerMainContainer .rightMenu .lenguajes a.flag {
+        header .headerMainContainer .rightMenu .flags .flagsItem {
           text-decoration: none; }
-          header .headerMainContainer .rightMenu .lenguajes a.flag img {
+          header .headerMainContainer .rightMenu .flags .flagsItem img {
             height: 40px;
             margin-left: 15px; }
       header .headerMainContainer .rightMenu .navShop {
@@ -175,12 +166,13 @@ header {
     header .headerMainContainer .headerLogo img {
       height: 150px;
       margin-left: 7.5vw; }
-    header .headerMainContainer .rightMenu .lenguajes {
+    header .headerMainContainer .rightMenu .flags {
       height: 25px;
       margin-bottom: 15px; }
-      header .headerMainContainer .rightMenu .lenguajes a.flag img {
+      header .headerMainContainer .rightMenu .flags .flagsItem img {
         height: 25px;
-        margin-left: 5px; }
+        margin-left: 5px;
+        cursor: pointer; }
     header .headerMainContainer .rightMenu .navShop {
       height: 50px; }
       header .headerMainContainer .rightMenu .navShop .navIconAccount img {
@@ -203,10 +195,10 @@ header {
       height: 100px; }
     header .headerMainContainer .rightMenu {
       margin-right: 20px; }
-      header .headerMainContainer .rightMenu .lenguajes {
+      header .headerMainContainer .rightMenu .flags {
         height: 22px;
         margin-bottom: 10px; }
-        header .headerMainContainer .rightMenu .lenguajes a.flag img {
+        header .headerMainContainer .rightMenu .flags .flagsItem img {
           height: 22px;
           margin-left: 7px; }
       header .headerMainContainer .rightMenu .navShop {
@@ -237,10 +229,10 @@ header {
         margin: 0; }
         header .headerTopContainer .socialMediaNav .socialMediaIcon img {
           width: 80%; }
-  header .headerMainContainer .rightMenu .lenguajes {
+  header .headerMainContainer .rightMenu .flags {
     height: 18px;
     margin-bottom: 10px; }
-    header .headerMainContainer .rightMenu .lenguajes a.flag img {
+    header .headerMainContainer .rightMenu .flags .flagsItem img {
       height: 18px;
       margin-left: 5px; }
   header .headerMainContainer .rightMenu .navShop {
@@ -274,34 +266,38 @@ footer {
     grid-template-columns: 2fr 1fr 2fr;
     justify-items: center;
     align-items: center; }
-    footer .topFooter .info, footer .topFooter .terms {
+    footer .topFooter .info {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       color: white;
       margin-left: 4vw; }
-      footer .topFooter .info h4, footer .topFooter .terms h4 {
+      footer .topFooter .info h4 {
         font-size: 2rem; }
-      footer .topFooter .info ul, footer .topFooter .terms ul {
+      footer .topFooter .info ul {
         display: inline-flex;
         font-size: 1.6rem;
         list-style: none;
         padding: 1.5vw; }
-        footer .topFooter .info ul li, footer .topFooter .terms ul li {
+        footer .topFooter .info ul li {
           padding: 2px;
-          text-align: justify; }
-          footer .topFooter .info ul li a, footer .topFooter .terms ul li a {
+          text-align: center; }
+          footer .topFooter .info ul li a {
             color: white;
             text-decoration: none; }
-            footer .topFooter .info ul li a:hover, footer .topFooter .terms ul li a:hover {
+            footer .topFooter .info ul li a:hover {
               cursor: pointer;
               text-decoration: underline; }
     footer .topFooter .footerLogo img {
       height: 12vw; }
     footer .topFooter .terms {
-      background-color: #D68B76;
-      text-decoration: underline; }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      margin-right: 4vw; }
       footer .topFooter .terms h4 {
         font-size: 2rem; }
       footer .topFooter .terms ul {
@@ -311,7 +307,7 @@ footer {
         padding: 1.5vw; }
         footer .topFooter .terms ul li {
           padding: 2px;
-          text-align: justify; }
+          text-align: center; }
           footer .topFooter .terms ul li a {
             color: white;
             text-decoration: none; }
@@ -345,7 +341,7 @@ footer {
     grid-template-areas: "info" "terms" "logo";
     justify-items: center;
     align-items: center; }
-    footer .topFooter .info, footer .topFooter .terms {
+    footer .topFooter .info {
       grid-area: info;
       margin: 0; }
     footer .topFooter .terms {
@@ -724,10 +720,12 @@ footer {
       .mainPage .mainContact .mainContactContent p {
         color: #b0b0af;
         font-size: 1.6rem; }
-        .mainPage .mainContact .mainContactContent p .infoMail {
-          color: #D68B76; }
-        .mainPage .mainContact .mainContactContent p .faqsLink {
-          color: #F5D767; }
+      .mainPage .mainContact .mainContactContent .infoMail {
+        font-size: 1.6rem;
+        color: #D68B76; }
+      .mainPage .mainContact .mainContactContent .faqsLink a {
+        font-size: 1.6rem;
+        color: #F5D767; }
       .mainPage .mainContact .mainContactContent .contactForm {
         display: grid;
         grid-template-columns: 18vw 18vw;
@@ -906,7 +904,8 @@ footer {
         margin-bottom: 2vw; }
       .mainFaqsContent .mainFaq .mainFaqText p {
         font-size: 2.1rem;
-        color: white; }
+        color: white;
+        text-align: justify; }
 
 @media only screen and (max-width: 1230px) {
   .mainFaqsContent .mainFaq .mainFaqText h3 {
@@ -945,31 +944,31 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
-  .mainPage .mainOurStory {
+  .mainPage .mainMyStory {
     width: 100vw;
     position: relative;
     display: inline-block; }
-    .mainPage .mainOurStory .OurStoryMobileImage {
+    .mainPage .mainMyStory .myStoryMobileImage {
       display: none; }
-    .mainPage .mainOurStory .OurStoryImage {
+    .mainPage .mainMyStory .myStoryImage {
       width: 100%; }
-    .mainPage .mainOurStory h2 {
+    .mainPage .mainMyStory h2 {
       width: 30vw;
       font-size: 6rem;
       color: #b0b0af;
       position: absolute;
       top: 3vw;
       left: 3vw; }
-      .mainPage .mainOurStory h2 span {
+      .mainPage .mainMyStory h2 span {
         color: #D68B76; }
-    .mainPage .mainOurStory h3 {
+    .mainPage .mainMyStory h3 {
       width: 25vw;
       font-size: 3.6rem;
       color: #F5D767;
       position: absolute;
       bottom: 3vw;
       left: 3vw; }
-  .mainPage .mainOurStoryText {
+  .mainPage .mainMyStoryText {
     padding-right: 7.5vw;
     padding-left: 7.5vw;
     display: flex;
@@ -978,55 +977,55 @@ footer {
     justify-content: center;
     margin-bottom: 5vw;
     text-align: justify; }
-    .mainPage .mainOurStoryText .welcome {
+    .mainPage .mainMyStoryText .welcome {
       text-align: center;
       font-size: 3rem;
       padding-top: 2vw;
       color: white; }
-    .mainPage .mainOurStoryText .mainText {
+    .mainPage .mainMyStoryText .mainText {
       padding-top: 2vw;
       color: white;
       font-size: 2.4rem; }
 
 @media only screen and (max-width: 1230px) {
-  .mainPage .mainOurStory h2 {
+  .mainPage .mainMyStory h2 {
     width: 30vw;
     font-size: 4rem; }
-  .mainPage .mainOurStory h3 {
+  .mainPage .mainMyStory h3 {
     width: 30vw;
     font-size: 2.5rem; }
-  .mainPage .mainOurStoryText .welcome {
+  .mainPage .mainMyStoryText .welcome {
     font-size: 2.5rem; }
-  .mainPage .mainOurStoryText .mainText {
+  .mainPage .mainMyStoryText .mainText {
     font-size: 2rem; } }
 
 @media only screen and (max-width: 850px) {
-  .mainPage .mainOurStory h2 {
+  .mainPage .mainMyStory h2 {
     width: 50vw;
     font-size: 3rem; }
-  .mainPage .mainOurStory h3 {
+  .mainPage .mainMyStory h3 {
     width: 40vw;
     font-size: 2rem; }
-  .mainPage .mainOurStoryText .welcome {
+  .mainPage .mainMyStoryText .welcome {
     font-size: 2rem; }
-  .mainPage .mainOurStoryText .mainText {
+  .mainPage .mainMyStoryText .mainText {
     font-size: 1.6rem; } }
 
 @media only screen and (max-width: 450px) {
-  .mainPage .mainOurStory .OurStoryMobileImage {
+  .mainPage .mainMyStory .myStoryMobileImage {
     display: block;
     padding-left: 3vw;
     padding-right: 3vw;
     width: 100vw; }
-    .mainPage .mainOurStory .OurStoryMobileImage img {
+    .mainPage .mainMyStory .myStoryMobileImage img {
       width: 100%; }
-  .mainPage .mainOurStory .OurStoryImage {
+  .mainPage .mainMyStory .myStoryImage {
     display: none; }
-  .mainPage .mainOurStory h2 {
+  .mainPage .mainMyStory h2 {
     width: 50vw;
     font-size: 2.1rem;
     padding-left: 2vw; }
-  .mainPage .mainOurStory h3 {
+  .mainPage .mainMyStory h3 {
     display: none; } }
 
 .mainShopPage {
@@ -1038,14 +1037,13 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding-left: 7.5vw; }
+    justify-content: center; }
     .mainShopPage .mainShopHeader h2 {
       color: #b0b0af;
       font-size: 4rem;
       margin-bottom: 1vw; }
     .mainShopPage .mainShopHeader .dropdown .mainShopHeaderBrowser {
-      width: 300px;
+      width: 450px;
       height: 3.5vw;
       color: white;
       font-size: 2.4rem;
@@ -1056,6 +1054,7 @@ footer {
       background-color: #b0b0af;
       border: none; }
     .mainShopPage .mainShopHeader .dropdown .dropdown-menu {
+      width: 450px;
       background-color: #b0b0af; }
       .mainShopPage .mainShopHeader .dropdown .dropdown-menu li .dropdown-item {
         color: white;
@@ -1137,7 +1136,9 @@ footer {
   .mainShopPage .mainShopHeader h2 {
     font-size: 3rem; }
   .mainShopPage .mainShopHeader .dropdown .mainShopHeaderBrowser {
-    width: 50vw; }
+    width: 70vw; }
+  .mainShopPage .mainShopHeader .dropdown .dropdown-menu {
+    width: 70vw; }
   .mainShopPage .mainShop .item .itemInfo .links .cartIcon {
     width: 5vw;
     margin-bottom: 0.7vw; }
@@ -1150,7 +1151,6 @@ footer {
   .mainShopPage .mainShopHeader {
     width: 100vw;
     height: 36vw;
-    padding-left: 0;
     justify-content: center;
     align-items: center; }
     .mainShopPage .mainShopHeader h2 {
@@ -1158,9 +1158,11 @@ footer {
       margin-bottom: 1vw;
       padding: 1vw; }
     .mainShopPage .mainShopHeader .dropdown .mainShopHeaderBrowser {
-      width: 70vw;
+      width: 90vw;
       height: 12.5vw;
       padding: 1vw; }
+    .mainShopPage .mainShopHeader .dropdown .dropdown-menu {
+      width: 90vw; }
   .mainShopPage .mainShop {
     margin-top: 5vw;
     margin-right: 7.5vw;
@@ -1305,7 +1307,7 @@ footer {
     grid-template-areas: "login"  "register"; }
     .mainAccount .loginAccount {
       width: 80vw;
-      padding: 0;
+      padding: 1vw;
       margin-bottom: 3vw; }
       .mainAccount .loginAccount h2 {
         font-size: 3rem;
@@ -1315,35 +1317,33 @@ footer {
       .mainAccount .loginAccount .usernameForm {
         margin-bottom: 2vw; }
         .mainAccount .loginAccount .usernameForm label {
-          align-self: flex-start;
-          padding-left: 10vw; }
+          align-self: flex-start; }
         .mainAccount .loginAccount .usernameForm input {
-          width: 60vw;
+          width: 78vw;
           height: 6vw;
           margin-right: 0; }
       .mainAccount .loginAccount .passwordForm {
         margin-bottom: 2vw; }
         .mainAccount .loginAccount .passwordForm label {
-          align-self: flex-start;
-          padding-left: 10vw; }
+          align-self: flex-start; }
         .mainAccount .loginAccount .passwordForm input {
-          width: 60vw;
+          width: 78vw;
           height: 6vw;
           margin-right: 0; }
       .mainAccount .loginAccount .checkbox {
         margin-bottom: 3vw;
         font-size: 1.6rem;
-        padding-left: 10vw;
-        padding-right: 10vw; }
+        padding-left: 1vw;
+        padding-right: 1vw; }
       .mainAccount .loginAccount .login input {
         width: 20vw;
         height: 7.5vw;
         font-size: 2rem;
-        margin-right: 10vw;
+        margin-right: 1vw;
         margin-bottom: 3vw; }
     .mainAccount .registerAccount {
       width: 80vw;
-      padding: 0;
+      padding: 1vw;
       margin-bottom: 3vw; }
       .mainAccount .registerAccount h2 {
         font-size: 3rem;
@@ -1353,26 +1353,24 @@ footer {
       .mainAccount .registerAccount .emailAdressForm {
         margin-bottom: 2vw; }
         .mainAccount .registerAccount .emailAdressForm label {
-          align-self: flex-start;
-          padding-left: 10vw; }
+          align-self: flex-start; }
         .mainAccount .registerAccount .emailAdressForm input {
-          width: 60vw;
+          width: 78vw;
           height: 6vw;
           margin-right: 0; }
       .mainAccount .registerAccount .passwordForm {
         margin-bottom: 2vw; }
         .mainAccount .registerAccount .passwordForm label {
-          align-self: flex-start;
-          padding-left: 10vw; }
+          align-self: flex-start; }
         .mainAccount .registerAccount .passwordForm input {
-          width: 60vw;
+          width: 78vw;
           height: 6vw;
           margin-right: 0; }
       .mainAccount .registerAccount .register input {
         width: 20vw;
         height: 7.5vw;
         font-size: 2rem;
-        margin-right: 10vw;
+        margin-right: 1vw;
         margin-bottom: 3vw; } }
 
 @media only screen and (max-width: 450px) {
@@ -1400,6 +1398,7 @@ footer {
     height: auto;
     background-color: white;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center; }
     .mainCart .cartHeader h3 {
@@ -1407,6 +1406,7 @@ footer {
       font-size: 4.8rem; }
   .mainCart .mainCartInfo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-left: 7.5vw;
@@ -1533,6 +1533,15 @@ footer {
     grid-template-rows: repeat 4, auto;
     gap: 3vw;
     margin-bottom: 3vw; } }
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0pt;
+  font-family: 'Fredoka', sans-serif; }
+
+html {
+  font-size: 62.5%; }
 
 .mainPage {
   background-color: #b0b0af;

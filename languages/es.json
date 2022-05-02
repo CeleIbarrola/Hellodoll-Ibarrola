@@ -1,0 +1,277 @@
+{
+    "header":{
+        "mainTitle":"Hellodoll-Alegres muñecos de tela hechos a mano",
+        "title":"Alegres muñecos de tela hechos a mano",
+        "menu":"Menú",
+        "navHome":"Inicio",
+        "navAbout":"Mi historia",
+        "navBlog":"Blog",
+        "navFaqs":"Preguntas frecuentes",
+        "navContact":"Contacto",
+        "navShop":"Tienda",
+        "shopFamily":"Familia Hellodoll",
+        "shopAnimals":"Animales",
+        "shopBabyAnimals":"Animales pequeños",
+        "shopMiniDolls":"Mini muñecas",
+        "shopDolls":"Muñecas",
+        "shopBabyComforter":"Apegos",
+        "search":"Pulsa intro para iniciar la búsqueda",
+        "searchPlaceholder":"Buscar"
+    },
+    "main":{
+        "aboutTitle":"¡Hola y bienvenidos al fantástico mundo de Hellodoll!!",
+        "aboutText1":"Encontrarán aquí una familia especial de muñecos de tela únicos, tanto para niños como para pequeños adultos.",
+        "aboutText2":"Hay mucho amor en cada pequeño amigo de tela, ¡que lo compartan con tus pequeños!!",
+        "mailingListContentH3":"Nos encanta hacer nuevos amigos",
+        "mailingListContentp":"¡Únete a nuestra lista de correo y consigue un 10% de descuento en tu próximo pedido! Puedes darte de baja en cualquier momento."
+    },
+    "footer":{
+        "footerInfo":"INFORMACIÓN ÚTIL",
+        "footerContact":"contacto",
+        "footerShipping":"envíos",
+        "footerReturns":"cambios",
+        "footerPayments":"pagos",
+        "footerTerms":"NUESTROS TÉRMINOS",
+        "footerTermsOfSale":"términos de venta",
+        "footerTermsOfUse":"términos de uso",
+        "footerPrivacy":"privacidad",
+        "bottomFooter":"2022 © Hellodoll - Diseño por Celeste Ibarrola - celesteibarrola@gmail.com"
+    },
+    "account":{
+        "accountTitle":"Hellodoll-Cuenta",
+        "login":"Acceder",
+        "username":"NOMBRE DE USUARIO O CORREO ELECTRÓNICO*",
+        "password":"CONTRASEÑA*",
+        "rememberMe":"RECUÉRDAME",
+        "lost":"¿OLVIDASTE LA CONTRASEÑA?",
+        "register":"Registrarse",
+        "emailAdress":"CORREO ELECTRÓNICO*"
+    },
+    "blog":{
+        "blogTitle":"Hellodoll-Blog",
+        "postTitleText1": "BLOG, EL MUÑECO DE APEGO",
+        "postTitleText2": "BLOG, MUÑECOS SIN GÉNERO",
+        "postTitleText3": "BLOG, NOVEDADES PARA ESTAS FIESTAS",
+        "blogComments":"Comentarios",
+        "search":"Search for post",
+        "dropdown-item1":"EL MUÑECO DE APEGO",
+        "dropdown-item2":"MUÑECOS SIN GÉNERO",
+        "dropdown-item3":"NOVEDADES PARA ESTAS FIESTAS",
+        "aboutMe1":"Sobre",
+        "aboutMe2":"Mi",
+        "mailingListContentH4":"Nos encanta hacer nuevos amigos",
+        "mailingListContentp1":"¡Únete a nuestra lista de correo y consigue un 10% de descuento en tu próximo pedido!",
+        "mailingListContentp2":"Puedes darte de baja en cualquier momento." 
+    },
+    "cart":{
+        "cartTitle":"Hellodoll-Mi Cuenta",
+        "cartHeaderH3":"Carrito de compras",
+        "mainCartInfo1":"No hay productos en el carrito.",
+        "mainCartInfo2":"Continúa buscando",
+        "mainCartInfolink":"aquí"
+    },
+    "contact":{
+        "contactTitle":"Hellodoll-Contacto",
+        "mainContactContentH3":"Contacto",
+        "mainContactContentp1":"¿Tienes alguna duda? ¿Quieres saber si tu pedido llegará a tiempo para un regalo?",
+        "mainContactContentp2":"¿No estás segura de qué muñeca elegir? ¿Tienes alguna sugerencia o propuesta para nosotros?",
+        "mainContactContentp3":"Estaremos encantados de leerte.",
+        "mainContactContentp4":"Rellena este formulario o escribe a",
+        "mainContactContentMail":"info@hellodoll.com",
+        "mainContactContentp5":"Si estás un poco ansiosa y no puede esperar a que te respondamos, consulta nuestra sección de",
+        "mainContactContentFaqs":"Preguntas frecuentes",
+        "mainContactContentp6":"puedes encontrar la respuesta allí."
+    },
+    "faqs":{
+        "faqsTitle":"Hellodoll-Preguntas Frecuentes",
+        "mainFaqsContentH2":"Preguntas Frecuentes",
+        "mainFaqTextH3-1":"¿Son los muñecos Hellodoll aptos para jugar?",
+        "mainFaqTextp-1":"Ten en cuenta que los mini muñecos Hellodoll y algunos de los muñecos grandes tienen detalles delicados y pequeños (botones, lazos, moñitos), por lo que sólo se recomienda para el juego suave de los niños de más de tres años, o como decoración de una habitación infantil. Sin embargo, algunos de los muñecos más grandes llevan lazos o moños como complementos realizados de un tamaño lo suficientemente grande para que no puedan ser inhalados o tragados. Es poco probable, pero bajo mucho esfuerzo o presión o tras mucho uso estos elementos podrían desprenderse.No obstante siempre es necesario recordar que el juego debe realizarse siempre bajo la supervisión de un adulto, y extremando la vigilancia cuando los niños son muy pequeños.",
+        "mainFaqTextH3-2":"¿Cómo puedo cuidar a mi nuevo amigo?",
+        "mainFaqTextp-2": "Los muñecos Hellodolls no son lavables (nunca los pongas en el lavarropas y secarropas y evita la inmersión en agua), pero se pueden limpiar con un detergente suave y agua tibia.Te recomiendo guardar las muñecas fuera de la luz solar directa ya que esto puede envejecer los colores con el tiempo.",
+        "mainFaqTextH3-3":"¿Cómo envías a tus Hellodolls?",
+        "mainFaqTextp-3":"Los pedidos se envían desde Argentina. Yo envío mis pedidos por aire a través del Correo Argentino. Utilizo paquetes certificados que requieren una firma. Si no hay nadie en casa para firmar el paquete, puede que tengas que hacer una llamada o ir a tu oficina de correos local (USPS si estás en los EE.UU.). Los gastos de aduana o impuestos de importación NO están incluidos en el precio del artículo. Es posible que tu país cobre cargos adicionales en función de las leyes de importación vigentes en cada caso. No puedo marcar tu paquete como un regalo para evitar estos cargos, siento decepcionarte. Por favor, asegúrate de que la dirección de tu cuenta Etsy es correcta, ya que es allí donde se enviará tu artículo. No me hago responsable de los paquetes que se pierdan o no se entreguen debido a direcciones incorrectas. Si esto ocurre y los paquetes vuelven a mí, emitiré un reembolso por el precio del artículo o lo reenviaré a la dirección correcta a tu cargo.",
+        "mainFaqTextH3-4":"El diseño que me gusta está listado en un animal diferente, ¿puedo cambiar el animal?",
+        "mainFaqTextp-4":"¡¡Por supuesto!! Sólo debes que  mandarme un mensajito para ver si las telas están en stock. Recuerda que suelo utilizar telas vintage o estampados a pedido y puede que lo que busques no esté disponible. De todas maneras siempre puedo darte alternativas de diseño para que juntas armemos el muñeco de tus sueños."
+    },
+    "myStory":{
+        "myStoryTitle":"Hellodoll-Mi Historia",
+        "mainMyStoryH2":"¡¡Quién está detrás de Hellodoll!!",
+        "mainMyStoryH3":"Mi nombre es Celeste, diseñadora y creadora de muñecos de tela hechos a mano.",
+        "welcome1":"Hola y bienvenidos a mi pequeña tienda Etsy, un alegre hogar de muñecos de trapo únicos para niños y pequeños adultos por igual.",
+        "mainText1":"Soy Celeste, una diseñadora textil que trabaja desde mi encantador estudio en Villa Allende, una hermosa ciudad en el centro de Argentina. Vivo con mi marido y mis dos niños traviesos. Empecé a coser a los 11 años, con la máquina Singer de mi abuela. Luego estudié arquitectura y trabajé 17 años en la industria de la construcción, pero seguí jugando con telas e hilos. Después de un año de profundo estrés laboral, en medio de una moderna y acelerada vida profesional, me di cuenta de que necesitaba conectarme con mi niña interior y volver a disfrutar y divertirme como en la infancia. Y nació Hellodoll!! Al principio era una terapia, una especie de espacio para meditar y liberar la creatividad, y casi sin darme cuenta, me dedicaba todo el día a hacer peluches y muñecos.",
+        "mainText2":"Diseño los patrones, y dejo volar mi imaginación experimentando con diferentes materiales y telas recicladas, jugando con las texturas y colores. Una tremenda cantidad de amor va en cada Hellodoll hecho a mano. Cada paso del proceso es analizado cuidadosamente: desde los diseños únicos y detallados hasta el refinamiento en la selección de colores de moda y la elección de las telas más nobles.",
+        "mainText3":"Normalmente los diseños cambian a medida que cobran vida, por lo que son criaturas únicas, cada una de ellas tiene una mirada y aspecto especial.Creo que la fantasía se disfruta a cualquier edad, por eso la colección de muñecos y peluches Hellodoll está especialmente diseñada para sorprender y deleitar tanto a los pequeños como a sus padres. Las encantadoras muñecas Hellodoll inspiran un juego imaginativo, y añaden un toque chic a la decoración de una sala de juegos o de una habitación infantil.",
+        "welcome2":"Espero que encuentres algo aquí que te haga sonreír :)"
+    },
+    "payment":{
+        "paymentsTitle":"Hellodoll-Pago",
+        "paymentsHeaderH2":"Información de pago",
+        "mainPaymentsInfoH3-1":"Formas de pago",
+        "mainPaymentsInfop-1":"Enviamos a todo el mundo y aceptamos pagos de clientes de todo el mundo.",
+        "mainPaymentsInfoH3-2":"Tipo de cambio",
+        "mainPaymentsInfop-2":"All our prices are listed in USD and our payments are processed accordingly. If you are based overseas, you can still order from us using Paypal or the debit or credit cards listed below.",
+        "mainPaymentsInfop-2-b":"Todos nuestros precios están expresados en USD y nuestros pagos se procesan en consecuencia. Si se encuentra en el extranjero, puede hacer su pedido utilizando Paypal o las tarjetas de débito o crédito que se indican a continuación.",
+        "mainPaymentsInfoH3-3":"Métodos de pago",
+        "mainPaymentsInfop-3":"Aceptamos pagos a través de Paypal o con tarjetas de débito y crédito Visa, MasterCard y American Express.",
+        "mainPaymentsInfop-3-b":"Hellodoll!! nunca capturará ni almacenará su información de pago."
+    },
+    "privacy":{
+        "privacyTitle":"Hellodoll-Privacidad",
+        "privacyHeaderH2":"Política de Privacidad",
+        "mainPrivacyInfop1":"Bienvenido a la política de privacidad del sitio web de Hellodoll . Nos comprometemos a proteger su privacidad. Para saber más, lea la política de privacidad que sigue, que se aplica al contenido y las aplicaciones de este sitio, así como a los demás servicios y productos de Hellodoll",
+        "mainPrivacyInfop2":"Le recomendamos que revise esta declaración de privacidad periódicamente, ya que Hellodoll se reserva el derecho de cambiar sus términos en cualquier momento y aplicar estos términos revisados a toda la información recopilada anteriormente. Al visitar y/o utilizar nuestro sitio web, usted acepta las prácticas descritas en esta política de privacidad. Cualquier acceso o uso del sitio web por su parte después de que los cambios entren en vigor constituirá su acuerdo con esta política de privacidad. Esta política de privacidad fue actualizada por última vez el 31/5/2021.",
+        "privacyHeaderH3-1":"¿Qué es la información personal?",
+        "mainPrivacyInfop3":"La información personal es información relativa a una persona física identificada o identificable. Una persona física identificable es aquella que puede ser identificada, directa o indirectamente, por referencia a un identificador como un nombre, un número de identificación, datos de localización, un identificador en línea, o a uno o más factores específicos de la identidad física, fisiológica, genética, mental, económica, cultural o social de esa persona física.",
+        "mainPrivacyInfop4":"No consideramos que la información personal incluya información que haya sido anonimizada o agregada de modo que ya no pueda utilizarse para identificar a una persona física concreta, ya sea en combinación con otra información o de otro modo.",
+        "privacyHeaderH3-2":"Qué información recogemos y cómo la utilizamos:",
+        "mainPrivacyInfop5":"Recogemos información personal de usted y de los dispositivos (incluidos los móviles) que utiliza cuando compra productos, se suscribe a la lista de correo electrónico o utiliza nuestros servicios. Parte de esta información personal, como la forma de identificarle, es necesaria para completar los pedidos o proporcionar la información solicitada. El resto de la información personal es voluntaria, pero puede ser necesaria para utilizar nuestros servicios.",
+        "privacyHeaderH3-3":"Algunos ejemplos de las formas en que podemos recopilar dicha información de usted son los siguientes:",
+        "mainPrivacyInfop6":"Pedidos:Antes de pedir productos a través de nuestro sitio, se le pedirá que proporcione cierta información personal, incluyendo, pero no limitado a, su nombre, direcciones de envío y facturación, número de teléfono, dirección de correo electrónico e información de pago. Además, es posible que también se le pida que indique su país de residencia para que podamos cumplir con las leyes y normativas aplicables. Este tipo de información personal se utiliza con fines de facturación, para cumplir con sus pedidos, para comunicarnos con usted sobre su pedido y este sitio, y para fines de marketing y promoción internos o de terceros. Si nos encontramos con un problema al procesar su pedido, utilizaremos la información personal para ponernos en contacto con usted.",
+        "mainPrivacyInfop7":"Dirección de correo electrónico:  Algunas áreas del sitio le permiten introducir su dirección de correo electrónico para fines que incluyen, pero no se limitan a, registrarse en el boletín de Hellodoll, correos electrónicos promocionales y correos electrónicos de socios aprobados. Puede darse de baja en cualquier momento de la recepción de estos mensajes haciendo clic en el enlace `Cancelar la suscripción´ que aparece en cualquier correo electrónico promocional. (Tenga en cuenta que, a pesar de darse de baja de dichas comunicaciones de marketing, podremos seguir poniéndonos en contacto con usted en relación con su(s) pedido(s) o con cualquier asunto relacionado con cualquier negocio que realice con nosotros).",
+        "mainPrivacyInfop8":"Cookies: Podemos utilizar cookies, balizas web, etiquetas de píxel u otras tecnologías para recopilar automáticamente cierta información cuando usted utiliza nuestro sitio web, o interactúa con nuestros correos electrónicos en o desde nuestro sitio web u otros sitios web. Las cookies se utilizan para ofrecer a los clientes una mayor seguridad, contenidos personalizados, seguimiento de los pedidos y de los artículos de la cesta de la compra que persisten tras el reinicio del navegador. Lamentablemente, los clientes que desactiven las cookies en la configuración de su navegador no podrán comprar en este sitio. Si se registra o hace un pedido, podemos utilizar cookies para controlar y mantener información sobre cómo utiliza nuestro sitio web y lo que compra. Si no se registra ni nos compra, podemos supervisar y mantener información sobre su uso del sitio web para mejorar su experiencia de compra y ofrecerle contenidos y publicidad más relevantes. Determinamos si un usuario ha abandonado su cesta con una cookie, comprobando si el usuario existente ya ha optado por el marketing de texto."
+    },
+    "returns":{
+        "returnsTitle":"Hellodoll-Devoluciones",
+        "returnsHeaderH2":"Política de devoluciones",
+        "mainReturnsInfop1":"Si por alguna razón no estás satisfecho con tu compra puedes devolver el producto. Por favor, póngase en contacto conmigo dentro de los 2 días siguientes a la entrega, envíe los artículos de vuelta dentro de los 7 días siguientes a la entrega o solicite una cancelación dentro de las 2 horas siguientes a la compra.",
+        "mainReturnsInfop2":"Si su artículo llega dañado como resultado del envío, envíe por correo electrónico una foto del artículo dentro de los 2 días siguientes a su recepción.",
+        "mainReturnsInfop3":" Los compradores son responsables de los gastos de envío de las devoluciones, y los artículos deben devolverse en su estado y embalaje originales. También tenga en cuenta que si un artículo se pierde o se daña en el tránsito de vuelta a mí, no puedo reembolsar el costo.",
+        "mainReturnsInfop4":"No se harán reembolsos por pedidos personalizados a menos que el error sea de mi parte. Por favor, envíe una foto dentro de los 2 días hábiles de la entrega confirmada notificando el error específico."
+    },
+    "saleTerms":{
+        "saleTermsTitle":"Hellodoll-Términos de venta",
+        "mainSaleTermsInfo":"Al realizar un pedido con nosotros, usted se ofrece a comprar un producto y/o servicio, declarando que es mayor de edad en su país de residencia o jurisdicción, declarando que toda la información que nos proporciona en relación con dicho pedido es verdadera y precisa, y declarando que es un usuario autorizado del método de pago proporcionado. Si usted es menor de edad en la jurisdicción en la que reside o accede a este sitio web, su padre, madre o tutor deberá utilizar este sitio web en su nombre. No debe utilizar el sitio web por su cuenta ni proporcionar ninguna información personal a Hellodoll. No recopilamos conscientemente información de niños menores de 13 años."
+    },
+    "shipping":{
+        "shippingTitle":"Hellodoll-Envío",
+        "shippingHeaderH2":"Envío y entrega",
+        "mainShippingInfop1":"Los pedidos se envían desde Argentina por vía aérea a través del Correo Argentino. Utilizo paquetes certificados que requieren una firma. Si no hay nadie en casa para firmar el paquete, es posible que tenga que hacer una llamada telefónica o un viaje a su oficina de correos local (USPS si está en los EE.UU.)",
+        "mainShippingInfop2":"Por favor, asegúrese de que la dirección en su cuenta de Etsy es correcta, ya que es donde se enviará su artículo. Si los paquetes se pierden o no se entregan debido a direcciones introducidas incorrectamente, y los paquetes vuelven a mí, emitiré un reembolso por el precio del artículo o lo volveré a enviar a la dirección correcta a su cargo.",
+        "mainShippingInfop3":"Los gastos de aduana o los impuestos de importación NO están incluidos en el precio del artículo. Los cargos adicionales pueden ser recaudados por su país en base a las leyes de importación individuales. No puedo marcar su paquete como un regalo para evitar estos cargos- siento decepcionar.",
+        "mainShippingInfop4":"Normalmente trabajamos con un stock de muñecas listas para enviar en 1 a 3 días laborables.En el caso de las muñecas especiales hechas a medida (que se indica en el cuadro de descripción del artículo del listado en la esquina superior derecha de la página del listado), el tiempo necesario para diseñarlas y hacerlas es de aproximadamente una semana. Sin embargo, si lo necesita para una ocasión especial, no dude en mencionarlo y haremos todo lo posible por ajustarnos a los tiempos de producción.",
+        "mainShippingInfop5":"Si va a comprar una Hellodoll para una ocasión especial, tenga en cuenta que el proceso de aduana en su país puede añadir tiempo al tiempo total de envío.",
+        "mainShippingInfop6":"Estos son los tiempos estimados de envío desde Argentina a diferentes regiones (excluyendo el tiempo de manipulación):",
+        "mainShippingInfop7":"América del Norte: 7-21 días hábiles (11-30 días) / Europa: 8-14 días hábiles (10-21 días) / Australia, Nueva Zelanda y Oceanía: 7-21 días hábiles (11-30 días) / Asia Pacífico: 8-14 días hábiles (10-21 días) / Norte de África y Oriente Medio: 8-14 días hábiles (10-21 días)",
+        "mainShippingInfop89":"Los tiempos de envío pueden ser menores o mayores, es bastante aleatorio. Esto se debe a las temporadas de vacaciones, las aduanas, los procedimientos internacionales y otros factores. Si tiene un plazo específico, le recomendamos que compre la opción de envío acelerado.",
+        "mainShippingInfop9":"No dude en ponerse en contacto con nosotros si tiene alguna duda."
+    },
+    "shop":{
+        "shopTitle":"Hellodoll-Tienda",
+        "mainShopHeaderH2":"Familia hellodoll",
+        "dropdown1":"Ordenar por el más reciente",
+        "dropdown2":"Ordenar por popularidad",
+        "dropdown3":"Ordenar por puntuación media",
+        "dropdown4":"Ordenar por precio: de menor a mayor",
+        "dropdown5":"Ordenar por precio: de mayor a menor" 
+    },
+    "babyAlpaca":{
+        "babyAlpacaTitle":"Hellodoll-Tienda-Llama bebé",
+        "name":"Llama bebé",
+        "productTitle":"Pequeña muñeca de tela de llama",
+        "productDescriptionp1":"Este suave mini muñeco de llama de peluche será un compañero inseparable para llevar en el bolsillo. Sus colores son tan alegres que no tengo dudas de que le alegrarán el día a tus pequeños.",
+        "productDescriptionp2":"Esta pequeña y colorida muñeca de alpaca, fue creada en un tejido de aguayo de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una capa de tela de micropolar color coral suave, con un botón de madera. Está rellena con fibra de poliéster no alérgénica, en un ambiente 100% libre de humo. Mide 19,5 cm-7,67 pulgadas de alto sin medir las orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de las muñecas Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y aspecto únicos."
+    },
+    "bigRedBunny":{
+        "bigRedBunnyTitle":"Hellodoll-Tienda-Conejo Rojo grande",
+        "name": "Conejo Rojo grande",
+        "productTitle":"Conejito de tela de peluche",
+        "productDescriptionp1":"Este alegre conejo de peluche será el compañero perfecto de aventuras (y travesuras). Es tan suave y esponjoso que es ideal para abrazar y estrujar.",
+        "productDescriptionp2":"Este lindo y apretujable conejo de bosque, fue creado en tela de plush rayada de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola peluda de pompones y grandes orejas, y una bufanda de felpa roja, con un botón de madera. Está relleno con fibra de poliéster no alergénica, en un ambiente 100% libre de humo. Mide 35 cm-13,77 pulgadas de alto sin medir las grandes orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Usualmente los diseños de las muñecas Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y apariencia únicas."
+    },
+    "bigPinkBunny":{
+        "bigPinkBunnyTitle":"Hellodoll-Tienda-Coneja Rosa Grande",
+        "name": "Coneja Rosa Grande",
+        "productTitle":"Bonito conejito de peluche",
+        "productDescriptionp1":"Esta muñeca de peluche será una incansable compañera de juegos y una dulce protectora del sueño a la hora de dormir. Es tan suave y delicada que es ideal para un regalo de niña.",
+        "productDescriptionp2":"Este lindo conejo afelpado, fue creado en una tela de algodón floreado de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola de pompón y una bufanda de tela de microfibra rosa, con un botón de madera. Está rellena con fibra de poliéster no alergénica, en un ambiente 100% libre de humo. Mide 31 cm-12,20 pulgadas de alto sin medir las grandes orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
+    },
+    "babyComforterBunny":{
+        "babyComforterBunnyTitle":"Hellodoll-Tienda-Conejo de Apego",
+        "name":"Conejo de Apego",
+        "productTitle":"Conejito de peluche de apego",
+        "productDescriptionp1":"El muñeco de tela de apego es ese objeto especial e indispensable para el bebé a la hora de dormir o cuando necesita consuelo y que, de alguna manera, representa a la madre, dándole seguridad, siendo un apoyo emocional. Este pequeño conejito de peluche es el perfecto animal de apoyo emocional! ¡Lindo y adorable! Si estás buscando un regalo especial para un bebé recién nacido, no puedes equivocarte con este primer muñeco de tela.",
+        "productDescriptionp2":"Este colorido muñeco conejito de apego, fue creado en una tela de microtoalla con estampas florales de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una bufanda de lana tejida a mano. Está rellena con fibra de poliéster no alergénica, en un ambiente 100% libre de humo. Mide 22x28 cm - 8.66x11.02 pulgadas sin medir las orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
+    },
+"babyGreenBunny":{
+    "babyGreenBunnyTitle":"Hellodoll-Tienda-Pequeño Conejito Verde",
+    "name":"Pequeño Conejito Verde",
+    "productTitle":"Lindo conejito de bolsillo de peluche",
+    "productDescriptionp1":"Este hermoso mini muñeco de conejo de peluche será un compañero inseparable para llevar en el bolsillo. Sus colores son tan alegres que no tengo dudas de que le alegrarán el día a tus pequeños.",
+    "productDescriptionp2":"Este colorido muñeco conejito, fue creado en una tela de algodón con estampas naturales de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola de pompón y una bufanda de tela de microfibra verde brillante, con un botón de madera. Está rellena con fibra de poliéster no alergénica, en un ambiente 100% libre de humo. Mide 20 cm-7,87 pulgadas de alto sin medir las grandes orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
+},
+"babyRedBunny":{
+    "babyRedBunnyTitle":"Hellodoll-Tienda-Pequeño Conejito Rojo",
+    "name":"Pequeño Conejito Rojo",
+    "productTitle":"Small bunny rag doll",
+    "productDescriptionp1":"Este pequeño muñeco de trapo es el animal de apoyo emocional perfecto para niños de cualquier edad (o adultos locos por los conejos). Tiene el tamaño justo para que lo disfruten las manos pequeñas y es suave y mimoso de pies a cabeza.",
+    "productDescriptionp2":"Este colorido muñequito de conejo, fue creado en una tela de algodón a rayas de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola con pompones y una bufanda de tela de microfibra verde brillante, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 20 cm-7,87 pulgadas sin medir las orejas grandes (como está hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"bigPinkCat":{
+    "bigPinkCatTitle":"Hellodoll-Tienda-Gatito Rosa Grande",
+    "name":"Gatito Rosa Grande",
+    "productTitle":"Suave gatito de peluche",
+    "productDescriptionp1":"Este lindo gatito de trapo será un regalo único para los amantes de los gatos. Es un muñeco de arte textil único. La habitación de tu bebé quedará preciosa con este adorable gatito.",
+    "productDescriptionp2":"Este muñeco de felpa, fue creado en una tela de microfibra de toalla floral súper suave y colorida de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola larga y esponjosa y un pañuelo de tela de microfibra coral, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 28 cm-11,02 pulgadas sin medir las orejas. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"babyComforterCat":{
+    "babyComforterCatTitle":"Hellodoll-Tienda-Gatito de Apego",
+    "name":"Gatito de Apego",
+    "productTitle":"Soft cat doll stuffed animal",
+    "productDescriptionp1":"El muñeco de tela de apego es ese objeto especial e indispensable para el bebé a la hora de dormir o cuando necesita consuelo y que, de alguna manera, representa a la madre, dándole seguridad, siendo un apoyo emocional. ¡Este pequeño muñeco de peluche de gatito es el perfecto animal de apoyo emocional! ¡Bonito y mimoso! Si estás buscando un regalo especial para un bebé recién nacido, no puedes equivocarte con este primer muñeco de gato de peluche.",
+    "productDescriptionp2":"Esta suave muñeca gatita, fue creada en un tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una bufanda de lana tejida a mano. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 22x28 cm - 8,66x11,02 pulgadas sin medir las orejas (al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"babyBlueCat":{
+    "babyBlueCatTitle":"Hellodoll-Tienda-Gatito Azul pequeño",
+    "name":"Gatito Azul pequeño",
+    "productTitle":"Mini gatito de peluche blanco",
+    "productDescriptionp1":"Este bonito mini muñeco de peluche será un regalo único para los amantes de los gatos. Es un pequeño muñeco de arte textil único, ¡perfecto para llevarlo en el bolsillo!",
+    "productDescriptionp2":"Este pequeño y suave muñeca gatito, fue creado en una tela de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola peludita y una bufanda de tela de microfibra azul, con un botón de madera. Está relleno con fibra de poliéster no alergénica, en un ambiente 100% libre de humo.Mide 19,5 cm-7,67 pulgadas de alto sin medir las orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
+},
+"bigTurquoiseDoll":{
+    "bigTurquoiseDollTitle":"Hellodoll-Shop-Muñeca Turquesa Grande",
+    "name":"Muñeca Turquesa Grande",
+    "productTitle":"Muñeca de trapo única y colorida",
+    "productDescriptionp1":"Esta bonita muñeca de arte textil será un regalo único para su niña. Es una muñeca de tela de moda, ideal para completar una colección de juguetes Waldorf. Puntos extra por lucir bonita en la estantería cuando no se usa.",
+    "productDescriptionp2":"Este adorable y alegre muñeco de tela, fue creado en un alegre tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un suave pelo blanco, gorro de microfibra turquesa con un pompón y un abrigo tejido a mano. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 31 cm- 12,20 pulgadas de alto. (Al estar hecho a mano puede variar un poco).Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"bigPinkDoll":{
+    "bigPinkDollTitle":"Hellodoll-Tienda-Muñeca Rosa Grande",
+    "name":"Muñeca Rosa Grande",
+    "productTitle":"Muñeca única de arte textil con gafas",
+    "productDescriptionp1":"Esta muñeca de arte textil de moda será un regalo único para su niña. Es una muñeca de tela coleccionable, ideal para completar una colección de juguetes montessori. Puntos extra por lucir bonita en la estantería cuando no se usa.",
+    "productDescriptionp2":"Esta muñeca de tela de fantasía, fue creada en un alegre tejido de microfibra de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un pelo suave, un gorro y una bufanda tejida a mano.  Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"miniPinkDoll":{
+    "miniPinkDollTitle":"Hellodoll-Tienda-Muñeca Rosa Pequeña",
+    "name":"Muñeca Rosa Pequeña",
+    "productTitle":"Miniature heirloom collection cloth doll",
+    "productDescriptionp1":"Esta simpática minimuñeca de trapo será un regalo único para un baby shower, y añadirá un bonito toque al ambiente femenino de la habitación de una niña. Cabe en la palma de la mano, con el tamaño justo para que lo disfruten las manitas.",
+    "productDescriptionp2":"Esta adorable muñeca de tela, fue creada en un tejido de algodón floral de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un pelo suave, un gorro y una bufanda tejida a mano. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecha a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"bigElephant":{
+    "bigElephantTitle":"Hellodoll-Shop-Elefante Grande",
+    "name":"Elefante Grande",
+    "productTitle":"Elefante grande de peluche",
+    "productDescriptionp1":"En varias culturas, los elefantes son un símbolo de protección, alejan las malas energías y atraen la buena suerte, la sabiduría y la vida. ¡Este elefante de peluche, es un muñeco de arte textil único, perfecto para la decoración de tu habitación infantil para atraer todas las buenas vibraciones!",
+    "productDescriptionp2":"Este simpático y esponjoso muñeco elefante, ha sido creado con un tejido de algodón estrellado de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una larga cola y un cuello con volantes, con un lazo, y un dulce moño en sus grandes orejas. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"bigKoala":{
+    "bigKoalaTitle":"Hellodoll-Shop-Koala Grande",
+    "name":"Koala Grande",
+    "productTitle":"Único muñeco de trapo de peluche del oso koala",
+    "productDescriptionp1":"Este encantador koala de felpa es el regalo perfecto para abrazar a tu pequeño. Será algo que sus hijos disfrutarán y atesorarán durante mucho tiempo. Además, cuando no lo usen, quedará muy bien en la estantería como decoración de la habitación infantil.",
+    "productDescriptionp2":"Este peluche de animal australiano, fue creado en una colorida toalla de microfibra de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene orejas peludas y un pañuelo de microfibra suave de color turquesa, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+},
+"babyLion":{
+    "babyLionTitle":"Hellodoll-Shop-Leoncito pequeño",
+    "name":"Leoncito pequeño",
+    "productTitle":"León de peluche en miniatura",
+    "productDescriptionp1":"Conoce al nuevo miembro de nuestra familia safari. Este mini muñeco de peluche de león, cabe en la palma de la mano y es el perfecto animal de apoyo emocional. Es muy bonito y adorable. Es un regalo perfecto tanto para que juegue un niño como para un adulto al que quieras tocarle el corazón y el alma.",
+    "productDescriptionp2":"Este peluche de león para bebé, fue creado con una colorida tela de algodón estampada de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una suave cabeza de pelo, una larga cola y un pañuelo de tela de microfibra roja, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+}
+
+
+
+
+}

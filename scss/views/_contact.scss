@@ -59,13 +59,17 @@ $yellow-color:#F5D767;
             }
             p{
                 color: $primary-color;
+                font-size: 1.6rem;     
+                }
+            .infoMail{
                 font-size: 1.6rem;
-                .infoMail{
-                    color:$red-color;
-                }
-                .faqsLink{
-                    color:$yellow-color;
-                }
+                color:$red-color;
+            }
+            .faqsLink{
+                a{
+                font-size: 1.6rem;
+                color:$yellow-color;
+                }  
             }
             .contactForm{
                 display: grid;

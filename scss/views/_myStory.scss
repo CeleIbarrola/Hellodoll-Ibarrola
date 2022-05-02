@@ -8,18 +8,17 @@ $yellow-color:#F5D767;
     align-items: center;
     justify-content: center;
 }
-
 .mainPage{
     background-color: $primary-color;
     @include flexColumnCenter;
-    .mainOurStory{
+    .mainMyStory{
         width: 100vw;
         position: relative;
         display: inline-block;
-        .OurStoryMobileImage{
+        .myStoryMobileImage{
             display: none;
         }
-        .OurStoryImage{
+        .myStoryImage{
             width: 100%;
         }
         h2{
@@ -42,7 +41,7 @@ $yellow-color:#F5D767;
             left: 3vw;
         }
     }
-    .mainOurStoryText{
+    .mainMyStoryText{
         padding-right: 7.5vw;
         padding-left: 7.5vw;
         @include flexColumnCenter;
@@ -63,7 +62,7 @@ $yellow-color:#F5D767;
 }
 @media only screen and (max-width:1230px){
     .mainPage{
-        .mainOurStory{
+        .mainMyStory{
             h2{
                 width: 30vw;
                 font-size: 4rem;
@@ -73,7 +72,7 @@ $yellow-color:#F5D767;
                 font-size: 2.5rem;
             }
         }
-        .mainOurStoryText{
+        .mainMyStoryText{
             .welcome {
                 font-size: 2.5rem;
             }
@@ -85,7 +84,7 @@ $yellow-color:#F5D767;
 }
 @media only screen and (max-width:850px){
     .mainPage{
-        .mainOurStory{
+        .mainMyStory{
             h2{
                 width: 50vw;
                 font-size: 3rem;
@@ -95,7 +94,7 @@ $yellow-color:#F5D767;
                 font-size: 2rem;
             }
         }
-        .mainOurStoryText{
+        .mainMyStoryText{
             .welcome {
                 font-size: 2rem;
             }
@@ -107,8 +106,8 @@ $yellow-color:#F5D767;
 }
 @media only screen and (max-width:450px){
     .mainPage{
-        .mainOurStory{
-            .OurStoryMobileImage{
+        .mainMyStory{
+            .myStoryMobileImage{
                 display: block;
                 padding-left: 3vw;
                 padding-right: 3vw;
@@ -117,7 +116,7 @@ $yellow-color:#F5D767;
                     width:100%;
                 }
             }
-            .OurStoryImage{
+            .myStoryImage{
                 display: none;
             }
             h2{

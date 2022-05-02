@@ -17,7 +17,7 @@ $yellow-color:#F5D767;
 }
 @mixin li{
     padding: 2px;
-    text-align: justify;
+    text-align: center;
 }
 @mixin a{
     color: white;
@@ -64,9 +64,9 @@ footer{
             }
         }
         .terms{
-            @extend .info;
-            background-color: $red-color;
-            text-decoration: underline;
+            @include flexColumnCenter;
+            color: white;
+            margin-right: 4vw;
             h4{
                 font-size: 2rem;
             }
