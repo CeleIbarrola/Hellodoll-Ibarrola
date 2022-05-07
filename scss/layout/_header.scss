@@ -89,6 +89,7 @@ header{
                 .flagsItem{
                     text-decoration: none;
                     img{
+                        cursor: pointer;
                         height: 40px;
                         margin-left: 15px;
                     }
@@ -138,9 +139,9 @@ header{
                                         background-color:$yellow-color;
                                         border: none;
                                         width: 25vw;
-                                        height: 3vw;
+                                        height: 4vw;
                                         display: block;
-                                        padding: 1vw;
+                                        padding: 2vw;
                                         &::placeholder{
                                             color: white;
                                             font-size: 2rem;
@@ -204,7 +205,7 @@ header{
             }
             .headerTitle{
                 grid-area: title;
-                justify-content: center;
+                text-align: center;
                 margin-right: 0;   
             }
             .mobileMenu{

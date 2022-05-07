@@ -58,6 +58,7 @@ header {
         header .headerMainContainer .rightMenu .flags .flagsItem {
           text-decoration: none; }
           header .headerMainContainer .rightMenu .flags .flagsItem img {
+            cursor: pointer;
             height: 40px;
             margin-left: 15px; }
       header .headerMainContainer .rightMenu .navShop {
@@ -95,9 +96,9 @@ header {
               background-color: #F5D767;
               border: none;
               width: 25vw;
-              height: 3vw;
+              height: 4vw;
               display: block;
-              padding: 1vw; }
+              padding: 2vw; }
               header .headerMainContainer .rightMenu .navShop .navIconSearch .offcanvas-header .offcanvas-body .searchBar .searchForm input::placeholder {
                 color: white;
                 font-size: 2rem; }
@@ -139,7 +140,7 @@ header {
       grid-area: socialMedia; }
     header .headerTopContainer .headerTitle {
       grid-area: title;
-      justify-content: center;
+      text-align: center;
       margin-right: 0; }
     header .headerTopContainer .mobileMenu {
       grid-area: mobileMenu;
@@ -881,7 +882,8 @@ footer {
   .mainFaqsContent h2 {
     color: white;
     font-size: 5rem;
-    margin-bottom: 3vw; }
+    margin-bottom: 3vw;
+    text-align: center; }
   .mainFaqsContent .mainFaq {
     margin-bottom: 5vw;
     display: flex;
@@ -1436,6 +1438,7 @@ footer {
     align-items: center;
     justify-content: center; }
     .mainPayments .paymentsHeader h2, .mainPayments .privacyHeader h2, .mainPayments .returnsHeader h2, .mainPayments .saleTermsHeader h2, .mainPayments .shippingHeader h2, .mainPayments .useTermsHeader h2, .mainPrivacy .paymentsHeader h2, .mainPrivacy .privacyHeader h2, .mainPrivacy .returnsHeader h2, .mainPrivacy .saleTermsHeader h2, .mainPrivacy .shippingHeader h2, .mainPrivacy .useTermsHeader h2, .mainReturns .paymentsHeader h2, .mainReturns .privacyHeader h2, .mainReturns .returnsHeader h2, .mainReturns .saleTermsHeader h2, .mainReturns .shippingHeader h2, .mainReturns .useTermsHeader h2, .mainSaleTerms .paymentsHeader h2, .mainSaleTerms .privacyHeader h2, .mainSaleTerms .returnsHeader h2, .mainSaleTerms .saleTermsHeader h2, .mainSaleTerms .shippingHeader h2, .mainSaleTerms .useTermsHeader h2, .mainShipping .paymentsHeader h2, .mainShipping .privacyHeader h2, .mainShipping .returnsHeader h2, .mainShipping .saleTermsHeader h2, .mainShipping .shippingHeader h2, .mainShipping .useTermsHeader h2, .mainUseTerms .paymentsHeader h2, .mainUseTerms .privacyHeader h2, .mainUseTerms .returnsHeader h2, .mainUseTerms .saleTermsHeader h2, .mainUseTerms .shippingHeader h2, .mainUseTerms .useTermsHeader h2 {
+      text-align: center;
       color: #b0b0af;
       font-size: 4.8rem; }
   .mainPayments .mainPaymentsInfo, .mainPayments .mainPrivacyInfo, .mainPayments .mainReturnsInfo, .mainPayments .mainSaleTermsInfo, .mainPayments .mainShippingInfo, .mainPayments .useTermsInfo, .mainPrivacy .mainPaymentsInfo, .mainPrivacy .mainPrivacyInfo, .mainPrivacy .mainReturnsInfo, .mainPrivacy .mainSaleTermsInfo, .mainPrivacy .mainShippingInfo, .mainPrivacy .useTermsInfo, .mainReturns .mainPaymentsInfo, .mainReturns .mainPrivacyInfo, .mainReturns .mainReturnsInfo, .mainReturns .mainSaleTermsInfo, .mainReturns .mainShippingInfo, .mainReturns .useTermsInfo, .mainSaleTerms .mainPaymentsInfo, .mainSaleTerms .mainPrivacyInfo, .mainSaleTerms .mainReturnsInfo, .mainSaleTerms .mainSaleTermsInfo, .mainSaleTerms .mainShippingInfo, .mainSaleTerms .useTermsInfo, .mainShipping .mainPaymentsInfo, .mainShipping .mainPrivacyInfo, .mainShipping .mainReturnsInfo, .mainShipping .mainSaleTermsInfo, .mainShipping .mainShippingInfo, .mainShipping .useTermsInfo, .mainUseTerms .mainPaymentsInfo, .mainUseTerms .mainPrivacyInfo, .mainUseTerms .mainReturnsInfo, .mainUseTerms .mainSaleTermsInfo, .mainUseTerms .mainShippingInfo, .mainUseTerms .useTermsInfo {

@@ -141,7 +141,30 @@
     },
     "saleTerms":{
         "saleTermsTitle":"Hellodoll-Términos de venta",
+        "saleTermsHeaderH2":"Términos de venta",
         "mainSaleTermsInfo":"Al realizar un pedido con nosotros, usted se ofrece a comprar un producto y/o servicio, declarando que es mayor de edad en su país de residencia o jurisdicción, declarando que toda la información que nos proporciona en relación con dicho pedido es verdadera y precisa, y declarando que es un usuario autorizado del método de pago proporcionado. Si usted es menor de edad en la jurisdicción en la que reside o accede a este sitio web, su padre, madre o tutor deberá utilizar este sitio web en su nombre. No debe utilizar el sitio web por su cuenta ni proporcionar ninguna información personal a Hellodoll. No recopilamos conscientemente información de niños menores de 13 años."
+    },
+    "useTerms":{
+        "useTermsTitle":"Hellodoll-Términos de Uso",
+        "useTermsHeaderH2":"Términos de Uso",
+        "mainUseTermsInfop1":"Bienvenido a nuestro sitio web. Esta página (junto con los documentos a los que se hace referencia en ella) le indica las condiciones en las que puede hacer uso de nuestro sitio web www.hellodoll.store ('nuestro sitio'), ya sea como invitado o como usuario registrado. Le rogamos que lea atentamente estas condiciones de uso antes de empezar a utilizar el sitio",
+        "mainUseTermsInfop2":"Al utilizar nuestro sitio, usted indica que acepta estas condiciones de uso y que se compromete a cumplirlas. Si no está de acuerdo con estas condiciones de uso, absténgase de utilizar nuestro sitio.",
+        "mainUseTermsInfoH3-1":"Información sobre nosotros",
+        "mainUseTermsInfop3":"Nuestro sitio es operado por Hellodoll comercializando como HELLODOLL ('Nosotros'), una compañía registrada en Argentina, con número de compañía 9506663 y domicilio social: Caravaca de la Cruz 123.Villa Allende,Córdoba, Argentina.",
+        "mainUseTermsInfoH3-2":"Acceso a nuestro sitio web",
+        "mainUseTermsInfop4":"El acceso a nuestro sitio se permite de forma temporal, y nos reservamos el derecho de retirar o modificar el servicio que ofrecemos en nuestro sitio sin previo aviso (véase más abajo). No seremos responsables si por alguna razón nuestro sitio no está disponible en cualquier momento o durante cualquier período.",
+        "mainUseTermsInfop5":"De vez en cuando, podemos restringir el acceso a algunas partes de nuestro sitio, o a todo nuestro sitio, a los usuarios que se hayan registrado con nosotros.",
+        "mainUseTermsInfop6":"Usted es responsable de hacer todos los arreglos necesarios para tener acceso a nuestro sitio.",
+        "mainUseTermsInfop7":"Usted también es responsable de garantizar que todas las personas que accedan a nuestro sitio a través de su conexión a Internet conozcan estas condiciones y las cumplan.",
+        "mainUseTermsInfoH3-3":"Derechos de propiedad intelectual",
+        "mainUseTermsInfop8":"Somos propietarios o licenciatarios de todos los derechos de propiedad intelectual de nuestro sitio web y del material publicado en él.  Este material incluye, entre otros, el diseño, la presentación, el aspecto, la apariencia y los gráficos. Estas obras están protegidas por las leyes y tratados de derechos de autor de todo el mundo.",
+        "mainUseTermsInfop9":"Todos los textos e imágenes son propiedad de Hellodoll, a menos que se indique lo contrario.",
+        "mainUseTermsInfop10":"Puede imprimir una copia, y puede descargar extractos, de cualquier página de nuestro sitio para su referencia personal y puede llamar la atención de otras personas de su organización sobre el material publicado en nuestro sitio.",
+        "mainUseTermsInfop11":"No debe modificar las copias en papel o digitales de ningún material que haya impreso o descargado de ninguna manera, y no debe utilizar ninguna ilustración, fotografía, secuencia de vídeo o audio ni ningún gráfico por separado de cualquier texto que lo acompañe.",
+        "mainUseTermsInfop12":"Siempre debe reconocerse nuestra condición (y la de los colaboradores identificados) de autores del material de nuestro sitio.",
+        "mainUseTermsInfop13":"No debe utilizar ninguna parte de los materiales de nuestro sitio para fines comerciales sin obtener una licencia para ello de nosotros o de nuestros licenciantes.",
+        "mainUseTermsInfop14":"Nos complace compartir el contenido con fines no comerciales, a condición de que se añada un nombre, un crédito y un enlace a este sitio web.",
+        "mainUseTermsInfop15":"Si imprime, copia o descarga cualquier parte de nuestro sitio web infringiendo estas condiciones de uso, su derecho a utilizar nuestro sitio cesará inmediatamente y deberá, a nuestra elección, devolver o destruir cualquier copia de los materiales que haya realizado."
     },
     "shipping":{
         "shippingTitle":"Hellodoll-Envío",
@@ -153,18 +176,30 @@
         "mainShippingInfop5":"Si va a comprar una Hellodoll para una ocasión especial, tenga en cuenta que el proceso de aduana en su país puede añadir tiempo al tiempo total de envío.",
         "mainShippingInfop6":"Estos son los tiempos estimados de envío desde Argentina a diferentes regiones (excluyendo el tiempo de manipulación):",
         "mainShippingInfop7":"América del Norte: 7-21 días hábiles (11-30 días) / Europa: 8-14 días hábiles (10-21 días) / Australia, Nueva Zelanda y Oceanía: 7-21 días hábiles (11-30 días) / Asia Pacífico: 8-14 días hábiles (10-21 días) / Norte de África y Oriente Medio: 8-14 días hábiles (10-21 días)",
-        "mainShippingInfop89":"Los tiempos de envío pueden ser menores o mayores, es bastante aleatorio. Esto se debe a las temporadas de vacaciones, las aduanas, los procedimientos internacionales y otros factores. Si tiene un plazo específico, le recomendamos que compre la opción de envío acelerado.",
+        "mainShippingInfop8":"Los tiempos de envío pueden ser menores o mayores, es bastante aleatorio. Esto se debe a las temporadas de vacaciones, las aduanas, los procedimientos internacionales y otros factores. Si tiene un plazo específico, le recomendamos que compre la opción de envío acelerado.",
         "mainShippingInfop9":"No dude en ponerse en contacto con nosotros si tiene alguna duda."
     },
     "shop":{
         "shopTitle":"Hellodoll-Tienda",
+        "shopTitle2":"Hellodoll-Tiénda página 2",
         "mainShopHeaderH2":"Familia hellodoll",
+        "shopAnimalsTitle":"Hellodoll-Tienda-Animales",
+        "shopAnimalsHeader":"Animales",
+        "shopBabyAnimalsTitle":"Hellodoll-Tienda-Animales pequeños",
+        "shopBabyAnimalsHeader":"Animales pequeños",
+        "shopBabyComforterTitle":"Hellodoll-Tienda-Apegos",
+        "shopBabyComforterHeader":"Apegos",
+        "shopMiniDollsTitle":"Hellodoll-Tienda-Mini muñecas",
+        "shopMiniDollsHeader":"Mini muñecas",
+        "shopDollsTitle":"Hellodoll-Tienda-Muñecas",
+        "shopDollsHeader":"Muñecas",
         "dropdown1":"Ordenar por el más reciente",
         "dropdown2":"Ordenar por popularidad",
         "dropdown3":"Ordenar por puntuación media",
         "dropdown4":"Ordenar por precio: de menor a mayor",
         "dropdown5":"Ordenar por precio: de mayor a menor" 
     },
+   
     "babyAlpaca":{
         "babyAlpacaTitle":"Hellodoll-Tienda-Llama bebé",
         "name":"Llama bebé",
@@ -193,85 +228,171 @@
         "productDescriptionp1":"El muñeco de tela de apego es ese objeto especial e indispensable para el bebé a la hora de dormir o cuando necesita consuelo y que, de alguna manera, representa a la madre, dándole seguridad, siendo un apoyo emocional. Este pequeño conejito de peluche es el perfecto animal de apoyo emocional! ¡Lindo y adorable! Si estás buscando un regalo especial para un bebé recién nacido, no puedes equivocarte con este primer muñeco de tela.",
         "productDescriptionp2":"Este colorido muñeco conejito de apego, fue creado en una tela de microtoalla con estampas florales de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una bufanda de lana tejida a mano. Está rellena con fibra de poliéster no alergénica, en un ambiente 100% libre de humo. Mide 22x28 cm - 8.66x11.02 pulgadas sin medir las orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
     },
-"babyGreenBunny":{
-    "babyGreenBunnyTitle":"Hellodoll-Tienda-Pequeño Conejito Verde",
-    "name":"Pequeño Conejito Verde",
-    "productTitle":"Lindo conejito de bolsillo de peluche",
-    "productDescriptionp1":"Este hermoso mini muñeco de conejo de peluche será un compañero inseparable para llevar en el bolsillo. Sus colores son tan alegres que no tengo dudas de que le alegrarán el día a tus pequeños.",
-    "productDescriptionp2":"Este colorido muñeco conejito, fue creado en una tela de algodón con estampas naturales de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola de pompón y una bufanda de tela de microfibra verde brillante, con un botón de madera. Está rellena con fibra de poliéster no alergénica, en un ambiente 100% libre de humo. Mide 20 cm-7,87 pulgadas de alto sin medir las grandes orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
-},
-"babyRedBunny":{
-    "babyRedBunnyTitle":"Hellodoll-Tienda-Pequeño Conejito Rojo",
-    "name":"Pequeño Conejito Rojo",
-    "productTitle":"Small bunny rag doll",
-    "productDescriptionp1":"Este pequeño muñeco de trapo es el animal de apoyo emocional perfecto para niños de cualquier edad (o adultos locos por los conejos). Tiene el tamaño justo para que lo disfruten las manos pequeñas y es suave y mimoso de pies a cabeza.",
-    "productDescriptionp2":"Este colorido muñequito de conejo, fue creado en una tela de algodón a rayas de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola con pompones y una bufanda de tela de microfibra verde brillante, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 20 cm-7,87 pulgadas sin medir las orejas grandes (como está hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"bigPinkCat":{
-    "bigPinkCatTitle":"Hellodoll-Tienda-Gatito Rosa Grande",
-    "name":"Gatito Rosa Grande",
-    "productTitle":"Suave gatito de peluche",
-    "productDescriptionp1":"Este lindo gatito de trapo será un regalo único para los amantes de los gatos. Es un muñeco de arte textil único. La habitación de tu bebé quedará preciosa con este adorable gatito.",
-    "productDescriptionp2":"Este muñeco de felpa, fue creado en una tela de microfibra de toalla floral súper suave y colorida de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola larga y esponjosa y un pañuelo de tela de microfibra coral, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 28 cm-11,02 pulgadas sin medir las orejas. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"babyComforterCat":{
-    "babyComforterCatTitle":"Hellodoll-Tienda-Gatito de Apego",
-    "name":"Gatito de Apego",
-    "productTitle":"Soft cat doll stuffed animal",
-    "productDescriptionp1":"El muñeco de tela de apego es ese objeto especial e indispensable para el bebé a la hora de dormir o cuando necesita consuelo y que, de alguna manera, representa a la madre, dándole seguridad, siendo un apoyo emocional. ¡Este pequeño muñeco de peluche de gatito es el perfecto animal de apoyo emocional! ¡Bonito y mimoso! Si estás buscando un regalo especial para un bebé recién nacido, no puedes equivocarte con este primer muñeco de gato de peluche.",
-    "productDescriptionp2":"Esta suave muñeca gatita, fue creada en un tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una bufanda de lana tejida a mano. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 22x28 cm - 8,66x11,02 pulgadas sin medir las orejas (al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"babyBlueCat":{
-    "babyBlueCatTitle":"Hellodoll-Tienda-Gatito Azul pequeño",
-    "name":"Gatito Azul pequeño",
-    "productTitle":"Mini gatito de peluche blanco",
-    "productDescriptionp1":"Este bonito mini muñeco de peluche será un regalo único para los amantes de los gatos. Es un pequeño muñeco de arte textil único, ¡perfecto para llevarlo en el bolsillo!",
-    "productDescriptionp2":"Este pequeño y suave muñeca gatito, fue creado en una tela de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola peludita y una bufanda de tela de microfibra azul, con un botón de madera. Está relleno con fibra de poliéster no alergénica, en un ambiente 100% libre de humo.Mide 19,5 cm-7,67 pulgadas de alto sin medir las orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
-},
-"bigTurquoiseDoll":{
-    "bigTurquoiseDollTitle":"Hellodoll-Shop-Muñeca Turquesa Grande",
-    "name":"Muñeca Turquesa Grande",
-    "productTitle":"Muñeca de trapo única y colorida",
-    "productDescriptionp1":"Esta bonita muñeca de arte textil será un regalo único para su niña. Es una muñeca de tela de moda, ideal para completar una colección de juguetes Waldorf. Puntos extra por lucir bonita en la estantería cuando no se usa.",
-    "productDescriptionp2":"Este adorable y alegre muñeco de tela, fue creado en un alegre tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un suave pelo blanco, gorro de microfibra turquesa con un pompón y un abrigo tejido a mano. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 31 cm- 12,20 pulgadas de alto. (Al estar hecho a mano puede variar un poco).Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"bigPinkDoll":{
-    "bigPinkDollTitle":"Hellodoll-Tienda-Muñeca Rosa Grande",
-    "name":"Muñeca Rosa Grande",
-    "productTitle":"Muñeca única de arte textil con gafas",
-    "productDescriptionp1":"Esta muñeca de arte textil de moda será un regalo único para su niña. Es una muñeca de tela coleccionable, ideal para completar una colección de juguetes montessori. Puntos extra por lucir bonita en la estantería cuando no se usa.",
-    "productDescriptionp2":"Esta muñeca de tela de fantasía, fue creada en un alegre tejido de microfibra de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un pelo suave, un gorro y una bufanda tejida a mano.  Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"miniPinkDoll":{
-    "miniPinkDollTitle":"Hellodoll-Tienda-Muñeca Rosa Pequeña",
-    "name":"Muñeca Rosa Pequeña",
-    "productTitle":"Miniature heirloom collection cloth doll",
-    "productDescriptionp1":"Esta simpática minimuñeca de trapo será un regalo único para un baby shower, y añadirá un bonito toque al ambiente femenino de la habitación de una niña. Cabe en la palma de la mano, con el tamaño justo para que lo disfruten las manitas.",
-    "productDescriptionp2":"Esta adorable muñeca de tela, fue creada en un tejido de algodón floral de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un pelo suave, un gorro y una bufanda tejida a mano. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecha a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"bigElephant":{
-    "bigElephantTitle":"Hellodoll-Shop-Elefante Grande",
-    "name":"Elefante Grande",
-    "productTitle":"Elefante grande de peluche",
-    "productDescriptionp1":"En varias culturas, los elefantes son un símbolo de protección, alejan las malas energías y atraen la buena suerte, la sabiduría y la vida. ¡Este elefante de peluche, es un muñeco de arte textil único, perfecto para la decoración de tu habitación infantil para atraer todas las buenas vibraciones!",
-    "productDescriptionp2":"Este simpático y esponjoso muñeco elefante, ha sido creado con un tejido de algodón estrellado de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una larga cola y un cuello con volantes, con un lazo, y un dulce moño en sus grandes orejas. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"bigKoala":{
-    "bigKoalaTitle":"Hellodoll-Shop-Koala Grande",
-    "name":"Koala Grande",
-    "productTitle":"Único muñeco de trapo de peluche del oso koala",
-    "productDescriptionp1":"Este encantador koala de felpa es el regalo perfecto para abrazar a tu pequeño. Será algo que sus hijos disfrutarán y atesorarán durante mucho tiempo. Además, cuando no lo usen, quedará muy bien en la estantería como decoración de la habitación infantil.",
-    "productDescriptionp2":"Este peluche de animal australiano, fue creado en una colorida toalla de microfibra de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene orejas peludas y un pañuelo de microfibra suave de color turquesa, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
-},
-"babyLion":{
-    "babyLionTitle":"Hellodoll-Shop-Leoncito pequeño",
-    "name":"Leoncito pequeño",
-    "productTitle":"León de peluche en miniatura",
-    "productDescriptionp1":"Conoce al nuevo miembro de nuestra familia safari. Este mini muñeco de peluche de león, cabe en la palma de la mano y es el perfecto animal de apoyo emocional. Es muy bonito y adorable. Es un regalo perfecto tanto para que juegue un niño como para un adulto al que quieras tocarle el corazón y el alma.",
-    "productDescriptionp2":"Este peluche de león para bebé, fue creado con una colorida tela de algodón estampada de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una suave cabeza de pelo, una larga cola y un pañuelo de tela de microfibra roja, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
-}
+    "babyGreenBunny":{
+        "babyGreenBunnyTitle":"Hellodoll-Tienda-Pequeño Conejito Verde",
+        "name":"Pequeño Conejito Verde",
+        "productTitle":"Lindo conejito de bolsillo de peluche",
+        "productDescriptionp1":"Este hermoso mini muñeco de conejo de peluche será un compañero inseparable para llevar en el bolsillo. Sus colores son tan alegres que no tengo dudas de que le alegrarán el día a tus pequeños.",
+        "productDescriptionp2":"Este colorido muñeco conejito, fue creado en una tela de algodón con estampas naturales de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola de pompón y una bufanda de tela de microfibra verde brillante, con un botón de madera. Está rellena con fibra de poliéster no alergénica, en un ambiente 100% libre de humo. Mide 20 cm-7,87 pulgadas de alto sin medir las grandes orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
+    },
+    "babyRedBunny":{
+        "babyRedBunnyTitle":"Hellodoll-Tienda-Pequeño Conejito Rojo",
+        "name":"Pequeño Conejito Rojo",
+        "productTitle":"Pequeño conejito de peluche",
+        "productDescriptionp1":"Este pequeño muñeco de trapo es el animal de apoyo emocional perfecto para niños de cualquier edad (o adultos locos por los conejos). Tiene el tamaño justo para que lo disfruten las manos pequeñas y es suave y mimoso de pies a cabeza.",
+        "productDescriptionp2":"Este colorido muñequito de conejo, fue creado en una tela de algodón a rayas de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola con pompones y una bufanda de tela de microfibra verde brillante, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 20 cm-7,87 pulgadas sin medir las orejas grandes (como está hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "bigPinkCat":{
+        "bigPinkCatTitle":"Hellodoll-Tienda-Gatito Rosa Grande",
+        "name":"Gatito Rosa Grande",
+        "productTitle":"Suave gatito de peluche",
+        "productDescriptionp1":"Este lindo gatito de trapo será un regalo único para los amantes de los gatos. Es un muñeco de arte textil único. La habitación de tu bebé quedará preciosa con este adorable gatito.",
+        "productDescriptionp2":"Este muñeco de felpa, fue creado en una tela de microfibra de toalla floral súper suave y colorida de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola larga y esponjosa y un pañuelo de tela de microfibra coral, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 28 cm-11,02 pulgadas sin medir las orejas. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyComforterCat":{
+        "babyComforterCatTitle":"Hellodoll-Tienda-Gatito de Apego",
+        "name":"Gatito de Apego",
+        "productTitle":"Gatito de peluche de apego",
+        "productDescriptionp1":"El muñeco de tela de apego es ese objeto especial e indispensable para el bebé a la hora de dormir o cuando necesita consuelo y que, de alguna manera, representa a la madre, dándole seguridad, siendo un apoyo emocional. ¡Este pequeño muñeco de peluche de gatito es el perfecto animal de apoyo emocional! ¡Bonito y mimoso! Si estás buscando un regalo especial para un bebé recién nacido, no puedes equivocarte con este primer muñeco de gato de peluche.",
+        "productDescriptionp2":"Esta suave muñeca gatita, fue creada en un tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una bufanda de lana tejida a mano. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 22x28 cm - 8,66x11,02 pulgadas sin medir las orejas (al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyBlueCat":{
+        "babyBlueCatTitle":"Hellodoll-Tienda-Gatito Azul pequeño",
+        "name":"Gatito Azul pequeño",
+        "productTitle":"Mini gatito de peluche blanco",
+        "productDescriptionp1":"Este bonito mini muñeco de peluche será un regalo único para los amantes de los gatos. Es un pequeño muñeco de arte textil único, ¡perfecto para llevarlo en el bolsillo!",
+        "productDescriptionp2":"Este pequeño y suave muñeca gatito, fue creado en una tela de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola peludita y una bufanda de tela de microfibra azul, con un botón de madera. Está relleno con fibra de poliéster no alergénica, en un ambiente 100% libre de humo.Mide 19,5 cm-7,67 pulgadas de alto sin medir las orejas. (Como está hecho a mano puede variar un poco). Diseño y fabrico todos mis artículos con gran cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de los muñecos Hellodoll cambian cuando cobran vida, así que esta adorable muñeca es una criatura singular, tiene una expresión y un aspecto únicos."
+    },
+    "bigTurquoiseDoll":{
+        "bigTurquoiseDollTitle":"Hellodoll-Shop-Muñeca Turquesa Grande",
+        "name":"Muñeca Turquesa Grande",
+        "productTitle":"Muñeca de trapo única y colorida",
+        "productDescriptionp1":"Esta bonita muñeca de arte textil será un regalo único para su niña. Es una muñeca de tela de moda, ideal para completar una colección de juguetes Waldorf. Puntos extra por lucir bonita en la estantería cuando no se usa.",
+        "productDescriptionp2":"Este adorable y alegre muñeco de tela, fue creado en un alegre tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un suave pelo blanco, gorro de microfibra turquesa con un pompón y un abrigo tejido a mano. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 31 cm- 12,20 pulgadas de alto. (Al estar hecho a mano puede variar un poco).Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "bigPinkDoll":{
+        "bigPinkDollTitle":"Hellodoll-Tienda-Muñeca Rosa Grande",
+        "name":"Muñeca Rosa Grande",
+        "productTitle":"Muñeca única de arte textil con gafas",
+        "productDescriptionp1":"Esta muñeca de arte textil de moda será un regalo único para su niña. Es una muñeca de tela coleccionable, ideal para completar una colección de juguetes montessori. Puntos extra por lucir bonita en la estantería cuando no se usa.",
+        "productDescriptionp2":"Esta muñeca de tela de fantasía, fue creada en un alegre tejido de microfibra de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un pelo suave, un gorro y una bufanda tejida a mano.  Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "miniPinkDoll":{
+        "miniPinkDollTitle":"Hellodoll-Tienda-Muñeca Rosa Pequeña",
+        "name":"Muñeca Rosa Pequeña",
+        "productTitle":"Miniature heirloom collection cloth doll",
+        "productDescriptionp1":"Esta simpática minimuñeca de trapo será un regalo único para un baby shower, y añadirá un bonito toque al ambiente femenino de la habitación de una niña. Cabe en la palma de la mano, con el tamaño justo para que lo disfruten las manitas.",
+        "productDescriptionp2":"Esta adorable muñeca de tela, fue creada en un tejido de algodón floral de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un pelo suave, un gorro y una bufanda tejida a mano. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecha a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "bigElephant":{
+        "bigElephantTitle":"Hellodoll-Shop-Elefante Grande",
+        "name":"Elefante Grande",
+        "productTitle":"Elefante grande de peluche",
+        "productDescriptionp1":"En varias culturas, los elefantes son un símbolo de protección, alejan las malas energías y atraen la buena suerte, la sabiduría y la vida. ¡Este elefante de peluche, es un muñeco de arte textil único, perfecto para la decoración de tu habitación infantil para atraer todas las buenas vibraciones!",
+        "productDescriptionp2":"Este simpático y esponjoso muñeco elefante, ha sido creado con un tejido de algodón estrellado de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una larga cola y un cuello con volantes, con un lazo, y un dulce moño en sus grandes orejas. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "bigKoala":{
+        "bigKoalaTitle":"Hellodoll-Shop-Koala Grande",
+        "name":"Koala Grande",
+        "productTitle":"Único muñeco de trapo de peluche del oso koala",
+        "productDescriptionp1":"Este encantador koala de felpa es el regalo perfecto para abrazar a tu pequeño. Será algo que sus hijos disfrutarán y atesorarán durante mucho tiempo. Además, cuando no lo usen, quedará muy bien en la estantería como decoración de la habitación infantil.",
+        "productDescriptionp2":"Este peluche de animal australiano, fue creado en una colorida toalla de microfibra de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene orejas peludas y un pañuelo de microfibra suave de color turquesa, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco).. Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyLion":{
+        "babyLionTitle":"Hellodoll-Shop-Leoncito pequeño",
+        "name":"Leoncito pequeño",
+        "productTitle":"León de peluche en miniatura",
+        "productDescriptionp1":"Conoce al nuevo miembro de nuestra familia safari. Este mini muñeco de peluche de león, cabe en la palma de la mano y es el perfecto animal de apoyo emocional. Es muy bonito y adorable. Es un regalo perfecto tanto para que juegue un niño como para un adulto al que quieras tocarle el corazón y el alma.",
+        "productDescriptionp2":"Este peluche de león para bebé, fue creado con una colorida tela de algodón estampada de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una suave cabeza de pelo, una larga cola y un pañuelo de tela de microfibra roja, con un botón de madera. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29 cm- 11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "miniRedDoll":{
+        "miniRedDollTitle":"Hellodoll-Tienda-Muñequita pequeña Roja",
+        "name":"Muñequita pequeña Roja",
+        "productTitle":"Muñeca de tela coleccionable en miniatura",
+        "productDescriptionp1":" Esta bonita mini muñeca de trapo de peluche será un regalo único para la habitación de una niña o la decoración de un cuarto infantil. Es una pequeña muñeca única, con mucho estilo y única que será apreciada por su pequeña durante años.",
+        "productDescriptionp2":" Esta mimosa muñequita de tela, fue creado en un colorido tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un suave pelo blanco y una bufanda y gorro de microfibra lisa de color rojo. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "miniFucsiaDoll":{
+        "miniFucsiaDollTitle":"Hellodoll-Tienda-Pequeña Muñequita Fucsia",
+        "name":"Pequeña Muñequita Fucsia",
+        "productTitle":"Muñeca de tela coleccionable en miniatura",
+        "productDescriptionp1":"Esta bonita mini muñeca de trapo de peluche será un regalo único para la habitación de una niña o la decoración de un cuarto infantil. Es una pequeña muñeca única, con mucho estilo y única que será apreciada por su pequeña durante años.",
+        "productDescriptionp2":"Este adorable muñeca de tela ha sido creado en un colorido tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un suave pelo blanco y una bufanda y un gorro de microfibra lisos de color rojo. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "miniBlueDoll":{
+        "miniBlueDollTitle":"Hellodoll-Tienda-Muñequito Azul Pequeño",
+        "name":"Muñequito Azul Pequeño",
+        "productTitle":"Muñequita de tela de género neutro",
+        "productDescriptionp1":"Hay muchas muñecas para niñas en el mercado, pero es más difícil encontrarlas para niños. Esta pequeña muñeca de trapo puede ser lo que quieras, niño o niña, y está disponible para jugar independientemente del sexo. Si buscas un regalo especial hecho a mano para un niño o niña especial, ¡aquí lo tienes!",
+        "productDescriptionp2":"Esta pequeña muñeca artística de tela, fue creada en un tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene un suave pelo blanco y un bonete rojo de microfibra lisa y una bufanda tejida a mano. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyLightBlueElephant":{
+        "babyLightBlueElephantTitle":"Hellodoll-Tienda-Elefante pequeño celeste",
+        "name":"Elefante pequeño celeste",
+        "productTitle":"Pequeño muñeco de peluche de elefante",
+        "productDescriptionp1":"En varias culturas, los elefantes son un símbolo de protección, alejan las malas energías y atraen la buena suerte, la vida y la sabiduría. ¡¡¡Este mini muñeco de peluche de elefante, es un pequeño muñeco de arte textil único, perfecto para llevar en el bolsillo y atraer todas las buenas vibraciones!!!",
+        "productDescriptionp2":"Este pequeño muñeco elefante de peluche, fue creado con una tela de algodón a lunares de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una larga cola y un cuello con volantes, con una cinta. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyYellowElephant":{
+        "babyYellowElephantTitle":"Hellodoll-Tienda-Elefante pequeño amarillo",
+        "name":"Elefante pequeño amarillo",
+        "productTitle":"Pequeño muñeco de peluche de elefante",
+        "productDescriptionp1":"En varias culturas, los elefantes son un símbolo de protección, alejan las malas energías y atraen la buena suerte, la vida y la sabiduría. ¡¡¡Este mini muñeco de peluche de elefante, es un pequeño muñeco de arte textil único, perfecto para llevar en el bolsillo y atraer todas las buenas vibraciones!!!",
+        "productDescriptionp2":"Este pequeño muñeco de peluche de elefante, fue creado con una tela de algodón de estrellas de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una larga cola y una bufanda amarilla tejida a mano. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyTurquoiseKoala":{
+        "babyTurquoiseKoalaTitle":"Hellodoll-Tienda-Pequeño Koala Turquesa",
+        "name":"Pequeño Koala Turquesa",
+        "productTitle":"Muñeco de trapo de peluche del oso koala",
+        "productDescriptionp1":"Este muñeco de trapo de animales salvajes australianos es suave y amable, se convertirá en un dulce guardián de los sueños para tu pequeño. Así podrás transformar la habitación de tu bebé en un bosque lleno de amigos animales.",
+        "productDescriptionp2":"Este peluche de animal australiano, fue creado en una colorida toalla de microfibra de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene orejas peludas y un pañuelo de microfibra suave de color turquesa, con un botón de madera. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "bigPinkLamb":{
+        "bigPinkLambTitle":"Hellodoll-Tienda-Ovejita Rosa Grande",
+        "name":"Ovejita Rosa Grande",
+        "productTitle":"Bonito muñeco de peluche de cordero de trapo",
+        "productDescriptionp1":" Este peluche de tela de oveja será el compañero de aventuras (y travesuras) perfecto para tus hijos. También es ideal si quieres un regalo de baby shower único y original.",
+        "productDescriptionp2":"Este suave cordero, fue creado en una colorida toalla de microfibra floral de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola esponjosa y una bufanda de felpa rosa y un pequeño lazo en la oreja. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29cm-11,41 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyPurpleLamb":{
+        "babyPurpleLambTitle":"Hellodoll-Tienda-Pequeña Ovejita Violeta",
+        "name":"Pequeña Ovejita Violeta",
+        "productTitle":"Cordero de peluche en miniatura",
+        "productDescriptionp1":"Conoce a la nueva incorporación a nuestra familia de animales de granja. Este simpático mini muñeco de peluche de cordero, es un pequeño y suave muñeco de arte textil, ideal para llevarlo en el bolsillo. También es perfecto para añadir un toque chic a la decoración de un cuarto de juegos o de una habitación infantil.",
+        "productDescriptionp2":"Este juguete de oveja de peluche para bebé, fue creado con una tela de toalla de microfibra impresa en colores de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cabeza de pelo suave, una cola esponjosa y un pañuelo de tela de microfibra púrpura, con un botón de madera.  Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "bigLightBlueLion":{
+        "bigLightBlueLionTitle":"Hellodoll-Tienda-León Grande Celeste",
+        "name":"León Grande Celeste",
+        "productTitle":"Muñeco de trapo con forma de león de peluche",
+        "productDescriptionp1":"Este lindo muñeco del Rey león, es un suave muñeco de arte textil, perfecto para una decoración de la guardería con temática de animales de safari o como un regalo para el recién nacido en un baby shower.",
+        "productDescriptionp2":" Este juguete de tela de león, fue creado con un tejido de algodón microcordero rayado de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cabeza de pelo suave, una cola esponjosa y un pañuelo de tela de microfibra púrpura, con un botón de madera.  Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 28 cm-11,02 pulgadas de alto. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este fantasioso muñeco es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "PiggyComforterDoll":{
+        "bigLightBlueLionTitle":"Hellodoll-Tienda-Muñeco Cerdito de Apego",
+        "name":"Muñeco Cerdito de Apego",
+        "productTitle":"Muñeco de apego cerdito",
+        "productDescriptionp1":"El muñeco de trapo de apego es ese objeto especial e indispensable para el bebé a la hora de dormir o cuando necesita consuelo y que, de alguna manera, representa a la madre, dándole seguridad, siendo un apoyo emocional. ¡Esta mantita de peluche es el perfecto animal de apoyo emocional! ¡Bonito y mimoso! Si buscas un regalo especial para un bebé recién nacido, no puedes equivocarte con este muñeco de peluche.",
+        "productDescriptionp2":"Este suave muñeco cerdito, fue creado en un tejido de algodón de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una bufanda de lana tejida a mano. Está relleno de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 22x28 cm - 8,66x11,02 pulgadas sin medir las orejas (al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "babyAquaPiggy":{
+        "babyAquaPiggyTitle":"Hellodoll-Tienda-Pequeño Cerdito verde agua",
+        "name":"Pequeño Cerdito verde agua",
+        "productTitle":"Muñeca de trapo de cerdo de peluche en miniatura",
+        "productDescriptionp1":"Conoce a la nueva incorporación a nuestra familia de animales de granja. Este simpático mini cerdito de peluche es un pequeño y suave muñeco de arte textil. Este encantador cerdito de peluche es el regalo perfecto para abrazar a tu pequeño.",
+        "productDescriptionp2":"Este juguete de peluche para bebé, fue creado con una tela de toalla de microfibra impresa en colores de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola rizada y un pañuelo de tela de microfibra color aguamarina. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 19,5 cm-7,67 pulgadas de alto (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+    },
+    "bigAquaPiggy":{
+        "bigAquaPiggyTitle":"Hellodoll-Tienda-Cerdito Grande verde agua",
+        "name":"Cerdito Grande verde agua",
+        "productTitle":"Bonito muñeco de trapo de cerdo rosa",
+        "productDescriptionp1":"Este peluche será el compañero de aventuras (y de travesuras) perfecto para tus hijos. Es tan suave y mullido que es ideal para abrazarlo y apretarlo.",
+        "productDescriptionp2":"Este simpático cerdito, fue creado en una colorida toalla de microfibra floral de gran durabilidad y resistencia. La cara está bordada a mano con hilo y tiene una cola rizada y una bufanda de felpa de color aguamarina, con un botón de madera. Está rellena de fibra de poliéster no alergénica, en un estudio 100% libre de humos. Mide 29cm-11,41 pulgadas sin medir las orejas grandes. (Al estar hecho a mano puede variar un poco). Diseño y hago todos mis artículos con mucho cuidado, dedicación y especial atención a los detalles. Normalmente los diseños de Hellodoll cambian a medida que cobran vida, por lo que este muñeco de peluche es una criatura única, tiene un tacto y un aspecto únicos."
+    }
+    }
 
 
 
 
-}
+
+
