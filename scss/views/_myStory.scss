@@ -1,4 +1,4 @@
-$primary-color:#b0b0af;
+$primary-color:#7b7a7a;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
@@ -38,7 +38,7 @@ $yellow-color:#F5D767;
             color: $yellow-color;
             position: absolute;
             bottom: 3vw;
-            left: 3vw;
+            left: 3vw; 
         }
     }
     .mainMyStoryText{
@@ -57,6 +57,7 @@ $yellow-color:#F5D767;
             padding-top: 2vw;
             color: white;
             font-size: 2.4rem;
+            letter-spacing: 1px;
         }
     }
 }

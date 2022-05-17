@@ -10,7 +10,7 @@
 @import "views/info";
 @import "views/products";
 
-$primary-color:#b0b0af;
+$primary-color:#7b7a7a;
 $red-color:#D68B76;
 $green-color:#89B1AB;
 $yellow-color:#F5D767;
@@ -73,6 +73,7 @@ $font-sizes:(1:4.8rem,2:4rem,3:3.6rem,4:2.5rem,5:1.8rem,6:1.6rem);
     margin: 0px;
     padding: 0pt;
     font-family:'Fredoka', sans-serif;
+    letter-spacing: 1px;
 }
 html{
     font-size: 62.5%;
